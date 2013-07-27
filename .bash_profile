@@ -8,5 +8,6 @@ test -f ~/.bashrc && source ~/.bashrc
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias e="subl ."
+alias s="python manage.py runserver_plus"
 
 alias beta="workon betawithus && cd ~/development/betawithus"
