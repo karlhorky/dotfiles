@@ -5,9 +5,12 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
+export EDITOR="subl"
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 alias e="subl ."
+alias st="stree"
 alias s="python manage.py runserver_plus"
 
 alias beta="workon betawithus && cd ~/development/betawithus"
