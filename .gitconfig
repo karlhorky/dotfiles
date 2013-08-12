@@ -1,3 +1,7 @@
+[user]
+	name = Karl Horky
+	email = karl.horky@gmail.com
+
 [alias]
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -7,8 +11,7 @@
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
 	# Commit all changes
 	ci = commit
-	# Switch to a branch, creating it if necessary
-	go = checkout -B
+	co = checkout
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
@@ -16,7 +19,7 @@
 
 [core]
 	# Use custom `.gitignore`
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/karlhorky/.gitignore
 
 [color]
 	# Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -47,9 +50,11 @@
 [push]
 	default = matching
 
+
+
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
