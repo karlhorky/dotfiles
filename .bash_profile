@@ -13,4 +13,4 @@ alias e="subl ."
 alias st="stree"
 alias s="foreman start -f Procfile_dev"
 
-alias beta="workon betawithus && cd ~/development/betawithus"
+alias swu="workon betawithus && cd ~/development/betawithus"
