@@ -11,6 +11,6 @@ export EDITOR="subl"
 
 alias e="subl ."
 alias st="stree"
-alias s="python manage.py runserver_plus"
+alias s="foreman start -f Procfile_dev"
 
 alias beta="workon betawithus && cd ~/development/betawithus"
