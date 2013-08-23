@@ -12,6 +12,7 @@
 	# Commit all changes
 	ci = commit
 	co = checkout
+	cb = !sh -c 'git checkout -b "$0" && git config branch."$0".remote origin && git config branch."$0".merge refs/heads/"$0"'
 	br = branch
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
