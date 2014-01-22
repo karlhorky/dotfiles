@@ -1,0 +1,19 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"Better CoffeeScript",
+		"Emmet",
+		"PHP-Twig",
+		"Sass",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-phplint",
+		"SVN",
+		"Theme - Spacegray",
+		"Tomorrow Color Schemes",
+		"TrailingSpaces",
+		"VCS Gutter"
+	]
+}
