@@ -1,9 +1,12 @@
 [
-{  "keys": ["shift+super+w"], "command": "close_all" },
-{  "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
-{  "keys": ["shift+super+r"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
-{  "keys": ["ctrl+shift+."], "command": "erb" },
-{  "keys": ["super+alt+6"], "command": "set_layout", "args":
+{ "keys": ["shift+super+w"], "command": "close_all" },
+{ "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
+{ "keys": ["shift+super+r"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+{ "keys": ["ctrl+shift+."], "command": "erb" },
+{ "keys": ["ctrl+super+."], "command": "goto_definition" },
+{ "keys": ["ctrl+super+a"], "command": "alignment" },
+{ "keys": ["ctrl+super+shift+a"], "command": "sublimelinter_show_all_errors" },
+{ "keys": ["super+alt+6"], "command": "set_layout", "args":
   {
       "cols": [0.0, 0.5, 1.0],
       "rows": [0.0, 0.25, 0.5, 0.75, 1.0],
