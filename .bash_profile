@@ -1,14 +1,17 @@
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 # Ensure user-installed binaries take precedence
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
-# Load .bashrc if it exists
-test -f ~/.bashrc && source ~/.bashrc
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
+export SVN_EDITOR='vim'
+export EDITOR='vim'
+# export SVN_EDITOR='subl -w'
+# export EDITOR='subl -w'
 
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-export EDITOR="subl"
+# Load .bashrc if it exists
+test -f ~/.bashrc && source ~/.bashrc
 
 # Name your file <username>.sublime-project
 function project_aware_subl {
@@ -16,8 +19,15 @@ function project_aware_subl {
     subl ${*:-${project_file:-.}}
 }
 
-alias e="project_aware_subl"
-alias st="stree"
-alias s="foreman start -f Procfile_dev"
+function svndiff () {
+  svn diff ${1+"$@"} | colordiff | less -R
+}
 
-alias swu="workon betawithus && cd ~/development/betawithus"
+alias e='project_aware_subl'
+alias st='stree'
+alias s='foreman start -f Procfile_dev'
+
+alias swu='workon betawithus && cd ~/development/betawithus'
+
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
