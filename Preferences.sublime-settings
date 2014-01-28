@@ -1,12 +1,12 @@
-// Settings in here override those in "Default/Preferences.sublime-settings",
-// and are overridden in turn by file type specific settings.
 {
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"enable_tab_scrolling": false,
+	"fold_buttons": false,
 	"font_size": 13.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeCodeIntel"
+	  "SublimeCodeIntel"
 	],
 	"save_on_focus_lost": true,
 	"show_tab_close_buttons": false,
@@ -19,5 +19,6 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true,
 	"word_wrap": true
 }
