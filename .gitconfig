@@ -1,27 +1,27 @@
 # vim: st=2:ts=2:et
 
 [core]
-  excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore_global
 
 [user]
   name = Karl Horky
   email = karl.horky@gmail.com
 
+[push]
+	default = simple
+
 [alias]
   # View abbreviated SHA, description, and history graph of the latest 20 commits
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
-  # View the current working tree status using the short format
-  st = status
   # Show the diff between the latest commit and the current state
   d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
   # Commit all changes
   ci = commit
   co = checkout
-  cb = !sh -c 'git checkout -b "$0" && git config branch."$0".remote origin && git config branch."$0".merge refs/heads/"$0"'
+  st = status
   br = branch
   # Show verbose output about tags, branches or remotes
   tags = tag -l
-  branches = branch -a
   remotes = remote -v
 
 [color]
