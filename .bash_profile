@@ -24,9 +24,9 @@ function svndiff () {
 
 alias e='project_aware_subl'
 alias st='stree'
-alias s='foreman start -f Procfile_dev'
+alias s='fab run'
 
-alias swu='workon betawithus && cd ~/development/betawithus'
+alias swu='workon sendwithus && cd ~/development/sendwithus'
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
