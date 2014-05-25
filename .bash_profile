@@ -6,9 +6,6 @@ export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku
 
 export EDITOR='vim'
 
-# Load RVM into a shell session *as a function*
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
@@ -27,6 +24,3 @@ alias st='stree'
 alias s='fab run'
 
 alias swu='workon sendwithus && cd ~/development/sendwithus'
-
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
