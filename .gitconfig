@@ -23,8 +23,7 @@
   # Show verbose output about tags, branches or remotes
   tags = tag -l
   remotes = remote -v
-  deletemerged = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-  dm = deletemerged
+  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
