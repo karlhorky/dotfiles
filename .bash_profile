@@ -4,6 +4,11 @@ export ARCHFLAGS="-arch x86_64"
 # Ensure user-installed binaries take precedence
 export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
 
+for file in ~/.{extra}; do
+  [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
 export EDITOR='vim'
 
 # Load .bashrc if it exists
@@ -21,6 +26,6 @@ function svndiff () {
 
 alias e='project_aware_subl'
 alias st='stree'
-alias s='fab run'
 
+alias s='fab run'
 alias swu='workon sendwithus && cd ~/development/sendwithus'
