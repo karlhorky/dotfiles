@@ -4,6 +4,7 @@ export ARCHFLAGS="-arch x86_64"
 # Ensure user-installed binaries take precedence
 export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
 
+# Load ~/.extra: can be used for other settings you don’t want to commit.
 for file in ~/.{extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
