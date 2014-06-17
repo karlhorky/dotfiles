@@ -22,6 +22,9 @@ elif [ -f /etc/bash_completion ]; then
   source /etc/bash_completion;
 fi;
 
+# Alias Github's hub to git https://github.com/github/hub
+eval "$(hub alias -s)"
+
 # Name your file <username>.sublime-project
 function project_aware_subl {
     project_file=$(ls -a $USER.sublime-project 2>/dev/null | head -n 1)
