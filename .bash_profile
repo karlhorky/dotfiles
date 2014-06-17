@@ -15,6 +15,13 @@ export EDITOR='vim'
 # Load .bashrc if it exists
 test -f ~/.bashrc && source ~/.bashrc
 
+# Add tab completion for many Bash commands
+if which brew > /dev/null && [ -f "$(brew --prefix)/etc/bash_completion" ]; then
+  source "$(brew --prefix)/etc/bash_completion";
+elif [ -f /etc/bash_completion ]; then
+  source /etc/bash_completion;
+fi;
+
 # Name your file <username>.sublime-project
 function project_aware_subl {
     project_file=$(ls -a $USER.sublime-project 2>/dev/null | head -n 1)
