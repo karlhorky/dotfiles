@@ -3,10 +3,6 @@
 [core]
   excludesfile = ~/.gitignore_global
 
-[user]
-  name = Karl Horky
-  email = karl.horky@gmail.com
-
 [push]
 	default = simple
 
