@@ -5,7 +5,7 @@ export ARCHFLAGS="-arch x86_64"
 export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
 
 # Load ~/.extra: can be used for other settings you don’t want to commit.
-for file in ~/.{bash_prompt,extra}; do
+for file in ~/.{bash_prompt,extra,python}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
