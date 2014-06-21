@@ -39,4 +39,4 @@ alias e='project_aware_subl'
 alias st='stree'
 
 alias s='fab run'
-alias swu='workon sendwithus && cd ~/development/sendwithus'
+alias swu='workon sendwithus && cd ~/projects/sendwithus'
