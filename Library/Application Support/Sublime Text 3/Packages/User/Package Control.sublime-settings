@@ -4,16 +4,15 @@
 		"Alignment",
 		"Better CoffeeScript",
 		"Emmet",
+		"Git",
+		"GitGutter",
 		"PHP-Twig",
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-phplint",
-		"SVN",
-		"Theme - Spacegray",
-		"Tomorrow Color Schemes",
 		"TrailingSpaces",
-		"VCS Gutter"
+		"Vintageous"
 	]
 }
