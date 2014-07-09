@@ -2,7 +2,7 @@
 export ARCHFLAGS="-arch x86_64"
 
 # Ensure user-installed binaries take precedence
-export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:$PATH
+export PATH=~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/heroku/bin:$PATH
 
 # Load ~/.extra: can be used for other settings you don’t want to commit.
 for file in ~/.{bash_prompt,extra,python}; do
@@ -34,6 +34,10 @@ function project_aware_subl {
 function svndiff () {
   svn diff ${1+"$@"} | colordiff | less -R
 }
+
+# Load chruby if it exists
+test -f /usr/local/share/chruby/chruby.sh && source /usr/local/share/chruby/chruby.sh
+test -f /usr/local/share/chruby/auto.sh && source /usr/local/share/chruby/auto.sh
 
 alias e='project_aware_subl'
 alias st='stree'
