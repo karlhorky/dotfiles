@@ -36,5 +36,5 @@ set shortmess=atI
 " Show the current mode
 set showmode
 
-" Set a highlighted column at 50 characters (git commit messages)
-let &colorcolumn="50"
+" Set a highlighted column at 50 characters (git commit title) and 80 characters (git commit body)
+let &colorcolumn="50,80"
