@@ -3,9 +3,6 @@
 [core]
   excludesfile = ~/.gitignore_global
 
-[push]
-	default = simple
-
 [alias]
   # View abbreviated SHA, description, and history graph of the latest 20 commits
   l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -49,7 +46,7 @@
   merge = refs/heads/master
 
 [push]
-  default = matching
+  default = simple
 
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
