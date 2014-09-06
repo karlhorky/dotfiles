@@ -12,6 +12,7 @@ install bash-completion
 
 # Install other useful binaries
 install git
+install hub
 install node
 
 # Remove outdated versions from the cellar
