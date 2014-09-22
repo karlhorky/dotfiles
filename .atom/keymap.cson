@@ -19,3 +19,5 @@
 
 '.platform-darwin':
   'ctrl-cmd-r': 'tree-view:reveal-active-file'
+  'ctrl-1': 'window:focus-pane-on-left'
+  'ctrl-2': 'window:focus-pane-on-right'
