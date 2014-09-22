@@ -1,0 +1,19 @@
+'editor':
+  'fontSize': 13
+  'fontFamily': 'Monaco'
+  'invisibles': {}
+  'showInvisibles': true
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'atom-dark-syntax'
+  ]
+  'destroyEmptyPanes': false
+'exception-reporting':
+  'userId': 'cd163e7e-4a2a-7f81-0393-4342c6ba2991'
+'release-notes':
+  'viewedVersion': '0.64.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'fca4e882a0696341440f0ff65a2f396ce9a0d1a2'
