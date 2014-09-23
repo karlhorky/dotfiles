@@ -1,0 +1,34 @@
+{
+  "name": "auto-detect-indentation",
+  "main": "./lib/auto-detect-indentation",
+  "version": "0.2.2",
+  "description": "Automatically detect indentation of opened files.",
+  "author": {
+    "name": "Jason Tokoph",
+    "email": "jason@tokoph.net"
+  },
+  "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtokoph/auto-detect-indentation"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "emissary": "1.x"
+  },
+  "readme": "# Auto Detect Indentation for atom\n\nAutomatically detect indentation of opened files. It looks at each opened file and sets file specific tab settings (hard/soft tabs, tab length) based on the content of the file instead of always using the editor defaults.\n\nYou might have atom configured to use 4 spaces for tabs but open a rails project which defaults to 2 spaces. Without this package, you would have to change your tabstop settings globally or risk having inconsistent lead spacing in your files.\n\n\n## TODO\n\n* Use some sort of calculation (frequency, average, gcd) to figure out the most frequent tab setting in a file (currently gets smallest tab in first 100 lines)\n* Waiting on event to listen for when a newly opened file has been parsed so we can depend on `editor.isBufferRowCommented`\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jtokoph/auto-detect-indentation/issues"
+  },
+  "homepage": "https://github.com/jtokoph/auto-detect-indentation",
+  "_id": "auto-detect-indentation@0.2.2",
+  "dist": {
+    "shasum": "b48fa7d680cb0d6d07c4cd1b33d6d87f17dd397b"
+  },
+  "_resolved": "/private/var/folders/kw/vr4y9gjs2fdbn5mnbt0d15yr0000gr/T/d-114822-74951-31ebt8/package.tgz",
+  "_from": "/private/var/folders/kw/vr4y9gjs2fdbn5mnbt0d15yr0000gr/T/d-114822-74951-31ebt8/package.tgz"
+}
