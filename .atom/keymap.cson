@@ -22,3 +22,6 @@
   'cmd-k b': 'tree-view:toggle'
   'ctrl-1': 'window:focus-pane-on-left'
   'ctrl-2': 'window:focus-pane-on-right'
+
+'.editor.vim-mode.command-mode':
+  'escape': 'core:cancel'
