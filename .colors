@@ -1,0 +1,1 @@
+test -f $HOME/LS_COLORS && eval $( dircolors -b $HOME/LS_COLORS )
