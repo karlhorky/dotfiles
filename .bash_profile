@@ -29,7 +29,7 @@ eval "$(hub alias -s)"
 
 # Name your file <username>.sublime-project
 function project_aware_subl {
-    project_file=$(ls -a $USER.sublime-project 2>/dev/null | head -n 1)
+    project_file=$(\ls -a $USER.sublime-project 2>/dev/null | head -n 1)
     subl ${*:-${project_file:-.}}
 }
 
