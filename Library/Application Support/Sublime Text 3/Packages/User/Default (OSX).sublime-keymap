@@ -6,6 +6,8 @@
 { "keys": ["ctrl+super+."], "command": "goto_definition" },
 { "keys": ["ctrl+super+a"], "command": "alignment" },
 { "keys": ["ctrl+super+shift+a"], "command": "sublimelinter_show_all_errors" },
+{ "keys": ["super+alt+="], "command": "resize_pane", "args": {"direction": "out" }},
+{ "keys": ["super+alt+-"], "command": "resize_pane", "args": {"direction": "in" }},
 { "keys": ["super+alt+6"], "command": "set_layout", "args":
   {
       "cols": [0.0, 0.5, 1.0],
