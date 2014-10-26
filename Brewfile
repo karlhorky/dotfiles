@@ -1,23 +1,19 @@
-# Install command-line tools using Homebrew
-# Usage: `brew bundle Brewfile`
-
-# Make sure we’re using the latest Homebrew
-update
-
-# Upgrade any already-installed formulae
-upgrade
+# Update Homebrew and dependencies using Brewdler
+# Usage:
+#   $ gem install brewdler   # Install Brewdler
+#   $ bundler update         # Make sure we’re using the latest Homebrew
+#   $ bundler upgrade        # Upgrade any already-installed formulae
+#   $ brewdle install        # Install Homebrew dependencies with Brewdler
+#   $ bundler cleanup        # Remove outdated versions from the cellar
 
 # Install GNU core utilities (those that come with OS X are outdated)
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-install coreutils
+brew 'coreutils'
 
 # Install Bash completion
-install bash-completion
+brew 'bash-completion'
 
 # Install other useful binaries
-install git
-install hub
-install node
-
-# Remove outdated versions from the cellar
-cleanup
+brew 'git'
+brew 'hub'
+brew 'node'
