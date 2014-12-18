@@ -4,6 +4,11 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 0
 
+# Increase window resize speed for Cocoa applications
+# Affects showing and hiding sheets, resizing preference windows, zooming windows
+# float 0 doesn't work
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+
 # Finder: disable window animations and Get Info animations
 defaults write com.apple.finder DisableAllAnimations -bool true
 
