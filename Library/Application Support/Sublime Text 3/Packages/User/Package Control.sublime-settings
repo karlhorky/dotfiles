@@ -1,18 +1,32 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"Better CoffeeScript",
+		"dired",
+		"EditorConfig",
 		"Emmet",
 		"Git",
 		"GitGutter",
+		"Handlebars",
+		"Open Search Result",
+		"Package Control",
 		"Pane Resizer",
 		"PHP-Twig",
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-phplint",
+		"SublimeLinter-jshint",
+		"Tag",
 		"TrailingSpaces",
 		"Vintageous"
 	]
