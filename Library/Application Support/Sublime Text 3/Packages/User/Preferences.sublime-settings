@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
 	"fold_buttons": false,
 	"font_size": 13.0,
 	"highlight_line": true,
