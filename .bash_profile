@@ -6,8 +6,8 @@ export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bi
 
 export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
 
-# Load ~/.extra: can be used for other settings you don’t want to commit.
-for file in ~/.{bash_prompt,extra,python,colors}; do
+# Load ~/.local for other settings you don’t want to commit.
+for file in ~/.{bash_prompt,colors,local}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
