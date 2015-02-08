@@ -16,7 +16,7 @@ cd dotfiles
 
 ### Update
 
-To update, run the `dotfiles_refresh` script from any location:
+To update existing settings files, run the `dotfiles_refresh` script from any location:
 
 ```bash
 dotfiles_refresh
