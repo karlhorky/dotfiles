@@ -14,6 +14,14 @@ cd dotfiles
 ./fresh_install/fresh_install.sh
 ```
 
+To set up your git user, create a file in your home directory with your git credentials. This will be read by the main `.gitconfig` file:
+
+**.gitconfig.user**
+```
+[user]
+  name = Karl Horky
+  email = kh@example.com
+```
 
 ### Update
 
