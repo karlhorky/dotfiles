@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-info "Symlinking settings files..."
-
 main() {
+  info "Symlinking settings files..."
+
   local settings_path="$DOTFILES/settings/"
 
   local file=""

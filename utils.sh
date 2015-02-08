@@ -66,11 +66,9 @@ ask_for_sudo() {
 # Test whether a command exists
 # $1 - cmd to test
 cmd_exists() {
-    if [ $(type -P $1) ]; then
-      return 0
-    fi
-
-    return 1
+  [ -x "$(command -v "$1")" ] \
+    && printf 0 \
+    || printf 1
 }
 
 # Test whether a Homebrew formula is already installed
