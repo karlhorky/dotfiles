@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd "$(dirname $(readlink "${BASH_SOURCE}"))"
+git pull origin master
+source ~/.bash_profile

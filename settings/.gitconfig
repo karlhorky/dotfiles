@@ -1,7 +1,7 @@
 # vim: st=2:ts=2:et
 
 [core]
-  excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore
 
 [alias]
   # View abbreviated SHA, description, and history graph of the latest 20 commits

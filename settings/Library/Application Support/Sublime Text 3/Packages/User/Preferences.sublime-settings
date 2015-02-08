@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fold_buttons": false,
@@ -7,7 +7,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-	  "SublimeCodeIntel"
+		"SublimeCodeIntel"
 	],
 	"save_on_focus_lost": true,
 	"show_tab_close_buttons": false,
