@@ -10,6 +10,7 @@
 		"SublimeCodeIntel"
 	],
 	"save_on_focus_lost": true,
+	"scroll_past_end": true,
 	"show_tab_close_buttons": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
