@@ -4,6 +4,9 @@ export ARCHFLAGS="-arch x86_64"
 # Ensure GNU core utilities and user-installed binaries take precedence
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:$PATH
 
+# Show Selenium where Firefox is 
+export PATH=/Applications/Firefox.app/Contents/MacOS:$PATH
+
 export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
 
 # Load ~/.local for other settings you don’t want to commit.
