@@ -5,7 +5,7 @@ export ARCHFLAGS="-arch x86_64"
 export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:$PATH
 
 # Show Selenium where Firefox is 
-export PATH=/Applications/Firefox\ 33.0.app/Contents/MacOS:$PATH
+test -f /Applications/Firefox\ 33.0.app/Contents/MacOS/firefox && export PATH=/Applications/Firefox\ 33.0.app/Contents/MacOS:$PATH
 
 export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
 
