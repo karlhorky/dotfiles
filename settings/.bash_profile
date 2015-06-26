@@ -2,9 +2,9 @@
 export ARCHFLAGS="-arch x86_64"
 
 # Ensure GNU core utilities and user-installed binaries take precedence
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:$PATH
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:~/.composer/vendor/bin:$PATH
 
-# Show Selenium where Firefox is 
+# Show Selenium where Firefox is
 test -f /Applications/Firefox\ 33.0.app/Contents/MacOS/firefox && export PATH=/Applications/Firefox\ 33.0.app/Contents/MacOS:$PATH
 
 export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:$MANPATH
