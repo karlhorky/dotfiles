@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Babel",
 		"Better CoffeeScript",
 		"Block Cursor Everywhere",
 		"dired",
@@ -12,19 +13,24 @@
 		"Emmet",
 		"Git",
 		"GitGutter",
+		"GitHub Flavored Markdown Preview",
 		"Handlebars",
 		"LESS",
 		"Open Search Result",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pane Resizer",
 		"PHP-Twig",
 		"Sass",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
 		"Tag",
 		"TrailingSpaces",
+		"TypeScript",
 		"Vintageous"
 	]
 }
