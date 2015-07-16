@@ -33,6 +33,17 @@ function subl {
   "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ${*:-${project_file:-.}}
 }
 
+cmd_exists() {
+  [ -x "$(command -v "$1")" ] \
+    && printf 0 \
+    || printf 1
+}
+
 # Always use color output for `ls`
 alias ls="command ls --color"
 alias ll="ls -laF --color"
+
+# Init shell variables for boot2docker if installed and running
+if [[ $(cmd_exists "boot2docker") -eq 0 ]] && [ "$(boot2docker status)" == "running" ]; then
+  $(boot2docker shellinit 2>/dev/null)
+fi
