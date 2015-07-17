@@ -23,5 +23,5 @@
   'ctrl-1': 'window:focus-previous-pane'
   'ctrl-2': 'window:focus-next-pane'
 
-'.editor.vim-mode.command-mode':
+'.atom-text-editor.vim-mode.command-mode':
   'escape': 'core:cancel'
