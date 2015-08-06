@@ -8,14 +8,15 @@
  * http://www.lesscss.org
  */
 
+
 atom-text-editor::shadow {
   .invisible-character {
     color: #1d1f21;
   }
-}
 
-atom-text-editor::shadow {
   .gutter {
+    background: transparent;
+
     .line-numbers {
       width: 2px;
       min-width: 2px;
@@ -23,6 +24,8 @@ atom-text-editor::shadow {
 
       .line-number {
         width: 100px;
+        padding-left: 0;
+        border-left: 0;
       }
     }
   }
