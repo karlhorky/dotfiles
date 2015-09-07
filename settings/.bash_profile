@@ -28,9 +28,9 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 
 # Load a user's project when `subl` called without arguments
-# Name your project file <username>.sublime-project
+# Name your project file <project directory name>-<username>.sublime-project
 function subl {
-  project_file=$(\ls -a $USER.sublime-project 2>/dev/null | head -n 1)
+  project_file=$(\ls -a $(basename `pwd`)-$USER.sublime-project 2>/dev/null | head -n 1)
   "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ${*:-${project_file:-.}}
 }
 
