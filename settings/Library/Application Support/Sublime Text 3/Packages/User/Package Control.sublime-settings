@@ -27,7 +27,7 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-jshint",
-		"SublimeLinter-rubocop",
+		"SublimeLinter-json",
 		"Tag",
 		"TrailingSpaces",
 		"TypeScript",
