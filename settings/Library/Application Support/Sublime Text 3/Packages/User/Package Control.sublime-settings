@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -9,29 +10,31 @@
 		"Better CoffeeScript",
 		"Block Cursor Everywhere",
 		"dired",
+		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Emmet",
 		"Git",
 		"GitGutter",
 		"GitHub Flavored Markdown Preview",
 		"Handlebars",
+		"JavaScriptNext - ES6 Syntax",
 		"LESS",
-		"MarkdownEditing",
+		"OmniMarkupPreviewer",
 		"Open Search Result",
 		"Package Control",
 		"PackageResourceViewer",
 		"Pane Resizer",
 		"PHP-Twig",
-		"Sass",
+		"SCSS",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
-		"SublimeLinter-contrib-scss-lint",
-		"SublimeLinter-jshint",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-sass-lint",
 		"SublimeLinter-json",
 		"Tag",
+		"tern_for_sublime",
 		"TrailingSpaces",
-		"TypeScript",
 		"Vintageous"
 	]
 }
