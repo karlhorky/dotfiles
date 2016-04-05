@@ -1,8 +1,11 @@
 # Set architecture flags
 export ARCHFLAGS="-arch x86_64"
 
+# Set Go path
+export GOPATH=$HOME/go
+
 # Ensure GNU core utilities and user-installed binaries take precedence
-export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:~/.composer/vendor/bin:$PATH
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/usr/local/sbin:~/.composer/vendor/bin:$GOPATH/bin:$PATH
 
 # Show Selenium where Firefox is
 test -f /Applications/Firefox\ 33.0.app/Contents/MacOS/firefox && export PATH=/Applications/Firefox\ 33.0.app/Contents/MacOS:$PATH
