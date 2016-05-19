@@ -12,12 +12,31 @@
                 "args": [],
                 "excludes": []
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": [
+                    "**/.eslintrc.js",
+                    "**/node_modules/**"
+                ]
+            },
             "jshint": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
             },
+            "json": {
+                "@disable": false,
+                "args": [],
+                "excludes": [],
+                "strict": true
+            },
             "rubocop": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "sass": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
