@@ -1,7 +1,7 @@
 # vim: st=2:ts=2:et
 
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 
 [alias]
   # View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -18,19 +18,26 @@
   remotes = remote -v
   # Delete merged branches
   dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  # Fetch a ref to a specific pull request branch
+  # Eg. `git fetch 24` will fetch the branch for PR #24 under a remote tracking branch of pr/24
+  # It can be then checked out with `git checkout pr/24`
+  fetchpr = "!f() { git fetch origin refs/pull/$1/head:pr/$1; } ; f"
 
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
   ui = auto
+
 [color "branch"]
   current = yellow reverse
   local = yellow
   remote = green
+
 [color "diff"]
   meta = yellow bold
   frag = magenta bold
   old = red bold
   new = green
+
 [color "status"]
   added = yellow
   changed = green
