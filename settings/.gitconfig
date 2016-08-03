@@ -24,7 +24,8 @@
   # https://gist.github.com/karlhorky/0c454c0c6f894c27911ed5de58d65416
   fetch-pr = "!f() { git fetch origin refs/pull/$1/head:pr/$1; } ; f"
   # Delete all local pull request branches created with `fetch-pr`
-  cleanup-prs = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
+  # Eg. `git delete-prs`
+  delete-prs = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
 
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
