@@ -46,6 +46,10 @@ cmd_exists() {
 # Always use color output for `ls`
 alias ls="command ls --color"
 alias ll="ls -laF --color"
+alias brewup="brew update && brew outdated && brew upgrade && brew cleanup && brew doctor"
+alias brewclean="brew cleanup"
+alias npmclean="npm cache clean"
+alias cleanup="brewclean && npmclean"
 
 # Init shell variables for boot2docker if installed and running
 if [[ $(cmd_exists "boot2docker") -eq 0 ]] && [ "$(boot2docker status)" == "running" ]; then
