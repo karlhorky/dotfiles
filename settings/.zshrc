@@ -85,4 +85,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set window title to same as tab title (for Hyper.app terminal tabs).
-export ZSH_THEME_TERM_TITLE_IDLE="%15<..<%~%<<"
+export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
