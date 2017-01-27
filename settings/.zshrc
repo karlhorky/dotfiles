@@ -86,3 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Set window title to same as tab title (for Hyper.app terminal tabs).
 export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
+
+# Setting for the new UTF-8 terminal support in Lion
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
