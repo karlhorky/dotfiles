@@ -90,3 +90,6 @@ export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
 # Setting for the new UTF-8 terminal support in Lion
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+
+# Add path to Yarn global binaries
+export PATH="$PATH:`yarn global bin`"
