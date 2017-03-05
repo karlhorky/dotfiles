@@ -60,6 +60,7 @@ module.exports = {
   plugins: [
     'hyper-no-close',
     'hypercwd',
+    'hyperlinks',
     'hyperterm-atom-dark',
     //'hyperterm-title'
   ],
