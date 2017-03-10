@@ -93,3 +93,6 @@ export LC_ALL=en_US.UTF-8
 
 # Add path to Yarn global binaries
 export PATH="$PATH:`yarn global bin`"
+
+# Set up environment for amazeeio/cachalot
+eval \$(cachalot env)
