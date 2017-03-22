@@ -22,6 +22,8 @@
   'cmd-k b': 'tree-view:toggle'
   'ctrl-1': 'window:focus-previous-pane'
   'ctrl-2': 'window:focus-next-pane'
+
+'body':
   'shift-cmd-W': 'tabs:close-all-tabs'
 
 '.atom-text-editor.vim-mode.command-mode':
