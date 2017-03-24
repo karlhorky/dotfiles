@@ -4,6 +4,10 @@
   'invisibles': {}
   'showInvisibles': true
 'core':
+  customFileTypes:
+    "source.js": [
+      "jsx"
+    ]
   'themes': [
     'atom-dark-ui'
     'atom-dark-syntax'
