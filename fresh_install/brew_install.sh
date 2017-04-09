@@ -24,9 +24,9 @@ main() {
       || execute "brew install $formula" "brew install $formula"
   done
   
-  execute "brew cask install google-chrome"
-  execute "brew cask install steelseries-exactmouse-tool"
-  execute "brew cask install magicprefs"
+  execute "brew cask install google-chrome" "brew cask install google-chrome"
+  execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
+  execute "brew cask install magicprefs" "brew cask install magicprefs"
 
   success "Homebrew formulae installed!"
 }
