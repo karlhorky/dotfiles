@@ -11,26 +11,11 @@ main() {
   local i=""
   local formula=""
   local -a formulae=(
-    "coreutils"
-    "moreutils"
-    "findutils"
-    "gnu-sed --with-default-names"
-    "bash"
-    "bash-completion"
-    "homebrew/dupes/grep"
-    "homebrew/dupes/openssh"
-
     "vim --override-system-vi"
     "git"
     "hub"
-
     "node"
-    "caskroom/cask/brew-cask"
   )
-
-  execute "brew update" "brew update"
-  execute "brew upgrade" "brew upgrade"
-  execute "brew cleanup" "brew cleanup"
 
   for i in ${!formulae[*]}; do
     formula="${formulae[$i]}"
@@ -38,6 +23,10 @@ main() {
       && success "$formula" \
       || execute "brew install $formula" "brew install $formula"
   done
+  
+  execute "brew cask install google-chrome"
+  execute "brew cask install steelseries-exactmouse-tool"
+  execute "brew cask install magicprefs"
 
   success "Homebrew formulae installed!"
 }
