@@ -15,6 +15,7 @@ main() {
     "git"
     "hub"
     "node"
+    "yarn"
   )
 
   for i in ${!formulae[*]}; do
