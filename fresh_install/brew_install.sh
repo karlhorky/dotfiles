@@ -11,7 +11,7 @@ main() {
   local i=""
   local formula=""
   local -a formulae=(
-    "vim --override-system-vi"
+    "vim"
     "git"
     "hub"
     "node"
