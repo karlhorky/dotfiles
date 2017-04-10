@@ -30,6 +30,7 @@ main() {
   execute "brew cask install slack" "brew cask install slack"
   execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
+  execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   execute "brew cask install flycut" "brew cask install flycut"
 
   # Install Atom and packages
