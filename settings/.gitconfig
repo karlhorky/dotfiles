@@ -56,3 +56,6 @@
 
 [include]
   path = ~/.gitconfig.user
+
+[commit]
+  gpgsign = true
