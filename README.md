@@ -8,7 +8,7 @@ System settings for OS X and bootstrapper for new systems.
 
 To set up a new Mac, clone and run the `fresh_install` script:
 
-```bash
+```sh
 git clone git@github.com:karlhorky/dotfiles.git
 cd dotfiles
 ./fresh_install/fresh_install.sh
@@ -18,6 +18,6 @@ cd dotfiles
 
 To update existing settings files, run the `dotfiles_refresh` script from any location:
 
-```bash
+```sh
 dotfiles_refresh
 ```
