@@ -59,6 +59,10 @@ main() {
   execute "apm install save-session" "apm install save-session"
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
 
+  # Install beta versions of casks
+  execute "brew tap caskroom/versions" "brew tap caskroom/versions"
+  execute "brew cask install gpgtools-beta" "brew cask install gpgtools-beta"
+
   # Install Mac App Store software
   execute "brew install mas" "brew install mas"
   execute "mas install 1176895641" "mas install 1176895641" # Spark - Love your email again
