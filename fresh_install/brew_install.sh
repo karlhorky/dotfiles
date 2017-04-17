@@ -57,6 +57,7 @@ main() {
   execute "apm install n-panes" "apm install n-panes"
   execute "apm install prettier-atom" "apm install prettier-atom"
   execute "apm install save-session" "apm install save-session"
+  execute "apm install sort-lines" "apm install sort-lines"
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
 
   # Install beta versions of casks
