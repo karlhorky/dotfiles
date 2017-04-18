@@ -24,13 +24,13 @@ main() {
       && success "$formula" \
       || execute "brew install $formula" "brew install $formula"
   done
-  
+
   # Install vim packages
   mkdir -p ~/.vim/autoload ~/.vim/bundle && \
   curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim  # pathogen.vim: runtime path manager for easy plugin installation https://github.com/tpope/vim-pathogen
   cd ~/.vim/bundle
   git clone git://github.com/tpope/vim-sleuth.git  # sleuth.vim: automatically detect buffer indentation settings and configure based on that https://github.com/tpope/vim-sleuth
-  
+
   execute "brew cask install google-chrome" "brew cask install google-chrome"
   execute "brew cask install hyper" "brew cask install hyper"
   execute "brew cask install slack" "brew cask install slack"
@@ -63,6 +63,10 @@ main() {
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
   execute "brew cask install gpgtools-beta" "brew cask install gpgtools-beta"
+
+  # Install VeraCrypt and OSXFuse dependency
+  execute "brew cask install osxfuse" "brew cask install osxfuse"
+  execute "brew cask install veracrypt" "brew cask install veracrypt"
 
   # Install Mac App Store software
   execute "brew install mas" "brew install mas"
