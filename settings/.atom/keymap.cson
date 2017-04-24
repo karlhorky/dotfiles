@@ -19,6 +19,8 @@
 
 '.platform-darwin':
   'ctrl-cmd-r': 'tree-view:reveal-active-file'
+  'ctrl-1': 'window:focus-previous-pane'
+  'ctrl-2': 'window:focus-next-pane'
 
 'body':
   'shift-cmd-W': 'tabs:close-all-tabs'
