@@ -37,10 +37,12 @@ main() {
   execute "brew cask install discord" "brew cask install discord"
   execute "brew cask install caprine" "brew cask install caprine"
   execute "brew cask install keybase" "brew cask install keybase"
-  execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   execute "brew cask install flycut" "brew cask install flycut"
+
+  execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
+  execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
 
   # Install Atom and packages
   execute "brew cask install atom" "brew cask install atom"
