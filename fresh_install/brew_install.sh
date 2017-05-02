@@ -32,6 +32,7 @@ main() {
   git clone git://github.com/tpope/vim-sleuth.git  # sleuth.vim: automatically detect buffer indentation settings and configure based on that https://github.com/tpope/vim-sleuth
 
   execute "brew cask install google-chrome" "brew cask install google-chrome"
+  execute "brew cask install firefox" "brew cask install firefox"
   execute "brew cask install hyper" "brew cask install hyper"
   execute "brew cask install slack" "brew cask install slack"
   execute "brew cask install discord" "brew cask install discord"
