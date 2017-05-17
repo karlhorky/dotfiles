@@ -56,6 +56,7 @@ main() {
   execute "apm install language-groovy" "apm install language-groovy"
   execute "apm install language-reason" "apm install language-reason"
   execute "apm install linter" "apm install linter"
+  execute "apm install linter-eslint" "apm install linter-eslint"
   execute "apm install linter-flow" "apm install linter-flow"
   execute "apm install linter-ui-default" "apm install linter-ui-default"
   execute "apm install n-panes" "apm install n-panes"
