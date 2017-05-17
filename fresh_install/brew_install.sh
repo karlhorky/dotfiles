@@ -48,6 +48,7 @@ main() {
   # Install Atom and packages
   execute "brew cask install atom" "brew cask install atom"
   execute "apm install atom-alignment" "apm install atom-alignment"
+  execute "apm install atom-no-tab-close-button" "apm install atom-no-tab-close-button"
   execute "apm install busy-signal" "apm install busy-signal"
   execute "apm install easy-motion-redux" "apm install easy-motion-redux"
   execute "apm install editorconfig" "apm install editorconfig"
