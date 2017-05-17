@@ -1,24 +1,33 @@
 "*":
-  'editor':
-    'fontSize': 13
-    'fontFamily': 'Monaco'
-    'invisibles': {}
-    'showInvisibles': true
-  'core':
+  autosave:
+    enabled: true
+  core:
     customFileTypes:
       "source.js": [
         "jsx"
       ]
-    'themes': [
-      'atom-dark-ui'
-      'atom-dark-syntax'
-    ]
-    'destroyEmptyPanes': false
-  'exception-reporting':
-    'userId': 'cd163e7e-4a2a-7f81-0393-4342c6ba2991'
-  'release-notes':
-    'viewedVersion': '0.64.0'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': 'fca4e882a0696341440f0ff65a2f396ce9a0d1a2'
+      themes: [
+        "atom-dark-ui"
+        "atom-dark-syntax"
+      ]
+      destroyEmptyPanes: false
+      telemetryConsent: "limited"
+      titleBar: "hidden"
+  editor:
+    softWrap: true
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "cd163e7e-4a2a-7f81-0393-4342c6ba2991"
+  "linter-ui-default":
+    panelHeight: 69
+  "one-dark-ui":
+    tabSizing: "Minimum"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    useEslint: true
+  "save-session":
+    dataSaveFolder: "/Users/k/.atom/packages/save-session/projects"
+  welcome:
+    showOnStartup: false
