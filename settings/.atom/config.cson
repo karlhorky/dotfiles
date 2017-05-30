@@ -29,5 +29,7 @@
     useEslint: true
   "save-session":
     dataSaveFolder: "/Users/k/.atom/packages/save-session/projects"
+  "vim-mode-plus":
+    clearMultipleCursorsOnEscapeInsertMode: true
   welcome:
     showOnStartup: false
