@@ -38,6 +38,7 @@ main() {
   execute "brew cask install discord" "brew cask install discord"
   execute "brew cask install caprine" "brew cask install caprine"
   execute "brew cask install whatsapp" "brew cask install whatsapp"
+  execute "brew cask install skype" "brew cask install skype"
   execute "brew cask install keybase" "brew cask install keybase"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
