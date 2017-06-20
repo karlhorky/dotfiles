@@ -95,4 +95,4 @@ export LC_ALL=en_US.UTF-8
 export PATH="$PATH:`yarn global bin`"
 
 # Set up environment for amazeeio/cachalot
-eval \$(amazeeio-cachalot env)
+#eval \$(amazeeio-cachalot env)
