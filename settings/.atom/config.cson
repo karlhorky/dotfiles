@@ -6,26 +6,27 @@
       "source.js": [
         "jsx"
       ]
-      themes: [
-        "atom-dark-ui"
-        "atom-dark-syntax"
-      ]
-      destroyEmptyPanes: false
-      telemetryConsent: "limited"
-      titleBar: "hidden"
+    destroyEmptyPanes: false
+    telemetryConsent: "limited"
+    titleBar: "hidden"
   editor:
-    softWrap: true
     invisibles: {}
     showInvisibles: true
+    softWrap: true
   "exception-reporting":
     userId: "cd163e7e-4a2a-7f81-0393-4342c6ba2991"
   "linter-ui-default":
-    panelHeight: 69
+    panelHeight: 70
+    showPanel: false
   "one-dark-ui":
     tabSizing: "Minimum"
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true
+      excludedGlobs: [
+        "node_modules"
+        "flow-typed"
+      ]
     useEslint: true
   "save-session":
     dataSaveFolder: "/Users/k/.atom/packages/save-session/projects"
