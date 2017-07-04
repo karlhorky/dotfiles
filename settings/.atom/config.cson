@@ -26,6 +26,7 @@
       excludedGlobs: [
         "node_modules"
         "flow-typed"
+        "package.json"
       ]
     useEslint: true
   "save-session":
