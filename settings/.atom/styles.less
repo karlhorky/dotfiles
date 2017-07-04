@@ -8,7 +8,6 @@
  * http://www.lesscss.org
  */
 
-
 atom-text-editor::shadow {
   .invisible-character {
     color: #1d1f21;
@@ -22,5 +21,22 @@ atom-text-editor::shadow {
         color: #666;
       }
     }
+  }
+}
+
+// Make errors smaller and visible just on hover
+// Ref: https://github.com/atom/atom/issues/8152#issuecomment-312841848
+atom-notification.error {
+  width: 30px !important;
+  height: 42px;
+  .close:before {
+    display: none;
+  }
+}
+atom-notification.error:hover {
+  width: 32em !important;
+  height: auto;
+  .close:before {
+    display: inline-block;
   }
 }
