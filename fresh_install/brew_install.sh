@@ -44,6 +44,8 @@ main() {
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   execute "brew cask install flycut" "brew cask install flycut"
   execute "brew cask install keepingyouawake" "brew cask install keepingyouawake"
+  execute "brew cask install ngrok" "brew cask install ngrok"
+  execute "brew cask install arq" "brew cask install arq"
 
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
   execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
