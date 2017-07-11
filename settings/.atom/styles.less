@@ -29,14 +29,28 @@ atom-text-editor::shadow {
 atom-notification.error {
   width: 30px !important;
   height: 42px;
+
   .close:before {
     display: none;
   }
+
+  &:hover {
+    width: 32em !important;
+    height: auto;
+
+    .close:before {
+      display: inline-block;
+    }
+  }
 }
-atom-notification.error:hover {
-  width: 32em !important;
-  height: auto;
-  .close:before {
-    display: inline-block;
+
+// Disable code folding gutter
+// Ref: https://discuss.atom.io/t/how-do-you-turn-off-folding/12371/15
+atom-text-editor.editor .gutter .line-number {
+  &.bookmarked {
+    background-color: fade(@background-color-info, 20%);
+  }
+  .icon-right {
+    display: none;
   }
 }
