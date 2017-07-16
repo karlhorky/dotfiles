@@ -50,6 +50,10 @@ main() {
   execute "brew cask install ngrok" "brew cask install ngrok"
   # Install Arq Backup
   execute "brew cask install arq" "brew cask install arq"
+  # Install QLStephen plain text file Quick Look plugin
+  execute "brew cask install qlstephen" "brew cask install qlstephen"
+  # Install WebP Quick Look plugin
+  execute "brew cask install webpquicklook" "brew cask install webpquicklook"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
