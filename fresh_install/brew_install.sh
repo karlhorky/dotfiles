@@ -72,6 +72,9 @@ main() {
   execute "apm install typescript" "apm install typescript"
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
 
+  # Install Sublime Text as alternative / backup to Atom
+  execute "brew cask install sublime-text" "brew cask install sublime-text"
+
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
   execute "brew cask install gpgtools-beta" "brew cask install gpgtools-beta"
