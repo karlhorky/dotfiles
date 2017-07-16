@@ -42,11 +42,16 @@ main() {
   execute "brew cask install keybase" "brew cask install keybase"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
+  # Install Flycut clipboard manager
   execute "brew cask install flycut" "brew cask install flycut"
+  # Install KeepingYouAwake - Prevent your Mac from sleeping
   execute "brew cask install keepingyouawake" "brew cask install keepingyouawake"
+  # Install ngrok: Secure introspectable tunnels to localhost
   execute "brew cask install ngrok" "brew cask install ngrok"
+  # Install Arq Backup
   execute "brew cask install arq" "brew cask install arq"
 
+  # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
   execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
 
@@ -72,7 +77,7 @@ main() {
   execute "apm install typescript" "apm install typescript"
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
 
-  # Install Sublime Text as alternative / backup to Atom
+  # Install Sublime Text editor as alternative / backup to Atom
   execute "brew cask install sublime-text" "brew cask install sublime-text"
 
   # Install beta versions of casks
