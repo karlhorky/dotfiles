@@ -64,6 +64,7 @@ main() {
   execute "apm install atom-alignment" "apm install atom-alignment"
   execute "apm install atom-no-tab-close-button" "apm install atom-no-tab-close-button"
   execute "apm install busy-signal" "apm install busy-signal"
+  execute "apm install language-docker" "apm install language-docker"
   execute "apm install easy-motion-redux" "apm install easy-motion-redux"
   execute "apm install editorconfig" "apm install editorconfig"
   execute "apm install highlight-line" "apm install highlight-line"
