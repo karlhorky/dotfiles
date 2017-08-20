@@ -77,7 +77,8 @@ main() {
   execute "apm install linter-flow" "apm install linter-flow"
   execute "apm install linter-ui-default" "apm install linter-ui-default"
   execute "apm install prettier-atom" "apm install prettier-atom"
-  execute "apm install save-session" "apm install save-session"
+  # This is broken as of Atom 1.19.0 https://github.com/mpeterson2/save-session/issues/163
+  # execute "apm install save-session" "apm install save-session"
   execute "apm install sort-lines" "apm install sort-lines"
   execute "apm install typescript" "apm install typescript"
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
