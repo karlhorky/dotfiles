@@ -42,6 +42,8 @@ main() {
   execute "brew cask install keybase" "brew cask install keybase"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
+  # Install Disk Inventory X (disk space usage utility)
+  execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
   # Install Flycut clipboard manager
   execute "brew cask install flycut" "brew cask install flycut"
   # Install KeepingYouAwake - Prevent your Mac from sleeping
