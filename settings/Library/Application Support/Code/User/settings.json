@@ -1,0 +1,16 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.visible": false,
+  "vim.disableAnnoyingNeovimMessage": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "solid",
+  "editor.rulers": [80],
+  "editor.renderIndentGuides": false,
+  "prettier.eslintIntegration": true,
+  "editor.formatOnType": true,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "editor.folding": false
+}
