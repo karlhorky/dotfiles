@@ -90,7 +90,9 @@ main() {
 
   # Install Visual Studio Code and packages
   execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
-  execute "code --install-extension Prettier"
+  execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
+  execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
+  execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
 
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
