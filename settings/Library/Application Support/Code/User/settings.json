@@ -12,5 +12,6 @@
   "javascript.format.enable": false,
   "editor.formatOnSave": true,
   "files.autoSave": "onWindowChange",
-  "editor.folding": false
+  "editor.folding": false,
+  "explorer.openEditors.visible": 0
 }

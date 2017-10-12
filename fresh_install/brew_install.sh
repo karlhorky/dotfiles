@@ -88,8 +88,9 @@ main() {
   # Install Sublime Text editor as alternative / backup to Atom
   execute "brew cask install sublime-text" "brew cask install sublime-text"
 
-  # Install Visual Studio Code as alternative / backup to Atom
+  # Install Visual Studio Code and packages
   execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
+  execute "code --install-extension Prettier"
 
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
