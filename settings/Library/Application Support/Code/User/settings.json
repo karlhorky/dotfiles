@@ -13,5 +13,10 @@
   "editor.formatOnSave": true,
   "files.autoSave": "onWindowChange",
   "editor.folding": false,
-  "explorer.openEditors.visible": 0
+  "explorer.openEditors.visible": 0,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#303030",
+    "statusBar.noFolderBackground": "#222225",
+    "statusBar.debuggingBackground": "#511f1f"
+  }
 }
