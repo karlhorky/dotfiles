@@ -1,0 +1,33 @@
+[
+  // Place your key bindings in this file to overwrite the defaults
+  {
+    "key": "alt+cmd+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
