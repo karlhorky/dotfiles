@@ -29,6 +29,12 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+# Disable auto capitalize
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+
+# Disable auto period insert
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
