@@ -63,5 +63,9 @@
   {
     "key": "cmd+1",
     "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+cmd+r",
+    "command": "workbench.files.action.showActiveFileInExplorer"
   }
 ]
