@@ -93,7 +93,6 @@ main() {
   execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
   execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
   execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
-  execute "code --install-extension ms-vscode.csharp" "code --install-extension ms-vscode.csharp"
   execute "code --install-extension octref.vetur" "code --install-extension octref.vetur"
   execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
 
