@@ -18,5 +18,7 @@
     "statusBar.noFolderBackground": "#222225",
     "statusBar.debuggingBackground": "#511f1f"
   },
-  "vim.useSystemClipboard": true
+  "vim.useSystemClipboard": true,
+  "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true
 }
