@@ -1,7 +1,6 @@
 {
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": false,
-  "vim.disableAnnoyingNeovimMessage": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
