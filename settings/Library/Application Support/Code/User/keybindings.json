@@ -75,5 +75,15 @@
   {
     "key": "cmd+k w",
     "command": "-workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "cmd+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+c",
+    "command": "-editor.action.clipboardCopyAction",
+    "when": "editorTextFocus"
   }
 ]
