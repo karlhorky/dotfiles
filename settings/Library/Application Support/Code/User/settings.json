@@ -4,7 +4,6 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.rulers": [80],
   "editor.renderIndentGuides": false,
   "prettier.eslintIntegration": true,
   "editor.formatOnType": true,
@@ -19,6 +18,13 @@
     "statusBar.debuggingBackground": "#511f1f"
   },
   "vim.useSystemClipboard": true,
-  "editor.renderWhitespace": "all",
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autofix": true
+    }
+  ],
 }
