@@ -27,5 +27,6 @@
       "autofix": true
     }
   ],
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "workbench.editor.tabCloseButton": "off"
 }
