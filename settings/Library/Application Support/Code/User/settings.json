@@ -28,5 +28,6 @@
     }
   ],
   "editor.tabSize": 2,
-  "workbench.editor.tabCloseButton": "off"
+  "workbench.editor.tabCloseButton": "off",
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow"
 }
