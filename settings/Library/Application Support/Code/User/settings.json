@@ -31,5 +31,5 @@
   "workbench.editor.tabCloseButton": "off",
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow"
+  "flow.useNPMPackagedFlow": true,
 }
