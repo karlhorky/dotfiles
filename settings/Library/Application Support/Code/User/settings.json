@@ -9,7 +9,7 @@
   "editor.formatOnType": true,
   "javascript.format.enable": false,
   "editor.formatOnSave": true,
-  "files.autoSave": "onWindowChange",
+  "files.autoSave": "onFocusChange",
   "editor.folding": false,
   "explorer.openEditors.visible": 0,
   "workbench.colorCustomizations": {
