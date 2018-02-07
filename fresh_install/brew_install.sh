@@ -56,6 +56,8 @@ main() {
   execute "brew cask install qlstephen" "brew cask install qlstephen"
   # Install WebP Quick Look plugin
   execute "brew cask install webpquicklook" "brew cask install webpquicklook"
+  # Install iterm2 Terminal Emulator
+  execute "brew cask install iterm2" "brew cask install iterm2"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
