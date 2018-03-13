@@ -105,5 +105,10 @@
     "key": "cmd+right",
     "command": "-cursorEnd",
     "when": "editorTextFocus"
-  }
+  },
+  {
+    "key": "escape",
+    "command": "closeFindWidget",
+    "when": "editorFocus && findWidgetVisible",
+  },
 ]
