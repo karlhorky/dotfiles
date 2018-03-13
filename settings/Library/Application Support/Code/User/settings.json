@@ -18,6 +18,45 @@
     "statusBar.debuggingBackground": "#511f1f"
   },
   "vim.useSystemClipboard": true,
+  // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "down"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "up"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    }
+  ],
   "files.trimTrailingWhitespace": true,
   "eslint.validate": [
     "javascript",
