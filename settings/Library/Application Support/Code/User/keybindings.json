@@ -111,4 +111,12 @@
     "command": "closeFindWidget",
     "when": "editorFocus && findWidgetVisible",
   },
+  {
+    "key": "alt+cmd+-",
+    "command": "workbench.action.decreaseViewSize"
+  },
+  {
+    "key": "alt+cmd+=",
+    "command": "workbench.action.increaseViewSize"
+  },
 ]
