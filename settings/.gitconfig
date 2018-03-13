@@ -1,61 +1,14 @@
-# vim: st=2:ts=2:et
-
-[core]
-  excludesfile = ~/.gitignore
-
-[alias]
-  # View abbreviated SHA, description, and history graph of the latest 20 commits
-  l = log --pretty=oneline -n 20 --graph --abbrev-commit
-  # Show the diff between the latest commit and the current state
-  d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-  # Commit all changes
-  ci = commit -v
-  co = checkout
-  st = status
-  br = branch
-  # Show verbose output about tags, branches or remotes
-  tags = tag -l
-  remotes = remote -v
-  # Delete merged branches
-  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-  # Fetch a ref to a specific GitHub pull request branch
-  # Eg. `git fetch-pr 24` will fetch the branch for PR #24 under a remote tracking branch of pr/24
-  # It can be then checked out with `git checkout pr/24`
-  # https://gist.github.com/karlhorky/0c454c0c6f894c27911ed5de58d65416
-  fetch-pr = "!f() { git fetch origin refs/pull/$1/head:pr/$1; } ; f"
-  # Delete all local pull request branches created with `fetch-pr`
-  # Eg. `git delete-prs`
-  delete-prs = "!git for-each-ref refs/heads/pr/* --format='%(refname)' | while read ref ; do branch=${ref#refs/heads/} ; git branch -D $branch ; done"
-
-[color]
-  # Use colors in Git commands that are capable of colored output when outputting to the terminal
-  ui = auto
-
-[color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
-
-[color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green
-
-[color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
-
-[merge]
-  # Include summaries of merged commits in newly created merge commit messages
-  log = true
-
 [push]
   default = simple
-
-[include]
-  path = ~/.gitconfig.user
-
+[core]
+	editor = /usr/local/bin/vim
+	pager = diff-so-fancy | less --tabs=2 -RFX
+[interactive]
+	diffFilter = diff-so-fancy --patch-mode | less --tabs=2 -RFX
+[user]
+	name = Karl Horky
+	email = karl.horky@gmail.com
 [commit]
-  gpgsign = true
+	gpgsign = true
+[diff-so-fancy]
+	first-run = false
