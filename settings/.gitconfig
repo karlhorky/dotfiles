@@ -1,5 +1,5 @@
 [push]
-  default = simple
+	default = simple
 [core]
 	editor = /usr/local/bin/vim
 	pager = diff-so-fancy | less --tabs=2 -RFX
