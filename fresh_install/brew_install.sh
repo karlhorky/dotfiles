@@ -110,6 +110,7 @@ main() {
   execute "brew install mas" "brew install mas"
   execute "mas install 1176895641" "mas install 1176895641" # Spark - Love your email again
   execute "mas install 409789998" "mas install 409789998" # Twitter (official client)
+  execute "mas install 1006184923" "mas install 1006184923" # Kiwi for Gmail Lite
 
   success "Homebrew formulae installed!"
 }
