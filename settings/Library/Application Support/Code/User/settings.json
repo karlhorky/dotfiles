@@ -72,4 +72,5 @@
   "eslint.alwaysShowStatus": true,
   "flow.useNPMPackagedFlow": true,
   "workbench.editor.tabSizing": "shrink",
+  "window.newWindowDimensions": "maximized",
 }
