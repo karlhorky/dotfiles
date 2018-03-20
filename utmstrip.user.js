@@ -8,6 +8,8 @@
 // @include       http*://*
 // ==/UserScript==
 
+// From https://gist.github.com/paulirish/626834
+
 // You can install this user script by downloading this script,
 // going to about: extensions, turning on developer mode and dragging and dropping
 // this file onto the window. That'll install it.
