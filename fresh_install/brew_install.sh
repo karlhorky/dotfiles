@@ -63,7 +63,18 @@ main() {
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
   execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
 
-  # Install Atom and packages
+  # Install VS Code and packages
+  execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
+  execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
+  execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
+  execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
+  execute "code --install-extension octref.vetur" "code --install-extension octref.vetur"
+  execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
+
+  # Install Oni
+  execute "brew cask install oni" "brew cask install oni"
+
+  # Install Atom and packages as backup to VS Code
   execute "brew cask install atom" "brew cask install atom"
   execute "apm install atom-alignment" "apm install atom-alignment"
   execute "apm install atom-no-tab-close-button" "apm install atom-no-tab-close-button"
@@ -89,14 +100,6 @@ main() {
 
   # Install Sublime Text editor as alternative / backup to Atom
   execute "brew cask install sublime-text" "brew cask install sublime-text"
-
-  # Install Visual Studio Code and packages
-  execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
-  execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
-  execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
-  execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
-  execute "code --install-extension octref.vetur" "code --install-extension octref.vetur"
-  execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
 
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
