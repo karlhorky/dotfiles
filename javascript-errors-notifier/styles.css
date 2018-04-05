@@ -1,0 +1,71 @@
+body {
+	background: #CA0E0E;
+	font-size: smaller;
+	color: white;
+	padding-bottom: 20px;
+}
+
+pre {
+	white-space: nowrap;
+	width: 100%;
+	padding: 2px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: none;
+}
+
+input[type=checkbox]:hover {
+	cursor: pointer;
+}
+
+.size {
+	width: 20px;
+}
+
+.buttonsBlock a {
+	padding: 0 3px;
+}
+
+.buttonsBlock a:hover {
+	text-decoration: none;
+	border-bottom: solid 1px;
+}
+
+.buttonsBlock {
+	position: fixed;
+	right: 0;
+	bottom: 2px;
+	background: #CA0E0E;
+	padding: 5px 0 0 5px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #CA0E0E;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #a31919;
+}
+
+::-webkit-scrollbar-corner {
+	background: #CA0E0E;
+}
+
+label {
+	display: block;
+}

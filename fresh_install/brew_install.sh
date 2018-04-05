@@ -31,7 +31,13 @@ main() {
   cd ~/.vim/bundle
   git clone git://github.com/tpope/vim-sleuth.git  # sleuth.vim: automatically detect buffer indentation settings and configure based on that https://github.com/tpope/vim-sleuth
 
+  # Google Chrome Browser and extensions
   execute "brew cask install google-chrome" "brew cask install google-chrome"
+  # Only install untrusted extensions with limited permissions (not "Read and change all your data on the websites that you visit")
+  # For extensions you want that need lots of permissions, review the code and save it to this repo,
+  # such as utmstrip.user.js and javascript-errors-notifier/
+  # TODO: Make list of used extensions here
+
   execute "brew cask install firefox" "brew cask install firefox"
   execute "brew cask install hyper" "brew cask install hyper"
   execute "brew cask install slack" "brew cask install slack"
