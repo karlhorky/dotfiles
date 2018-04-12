@@ -76,6 +76,7 @@ main() {
   execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
   execute "code --install-extension octref.vetur" "code --install-extension octref.vetur"
   execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
+  execute "code --install-extension sysoev.vscode-open-in-github" "code --install-extension sysoev.vscode-open-in-github"
 
   # Install Oni
   execute "brew cask install oni" "brew cask install oni"
