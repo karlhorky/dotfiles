@@ -49,6 +49,10 @@ module.exports = {
     ],
 
     shell: '/bin/zsh',
+
+    // For hyper-confirm plugin
+    // Maybe not needed forever https://github.com/zachflower/hyper-confirm/issues/3
+    confirmQuit: true,
   },
 
   // a list of plugins to fetch and install from npm
