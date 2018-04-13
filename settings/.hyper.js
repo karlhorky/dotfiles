@@ -59,6 +59,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-no-close',
+    'hyper-confirm',
     'hypercwd',
     'hyperlinks',
     'hyperterm-atom-dark',
