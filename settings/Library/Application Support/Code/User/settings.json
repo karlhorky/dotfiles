@@ -6,7 +6,7 @@
   "editor.cursorBlinking": "solid",
   "editor.renderIndentGuides": false,
   "prettier.eslintIntegration": true,
-  "editor.formatOnType": true,
+  "editor.formatOnType": false,
   "javascript.format.enable": false,
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
@@ -73,4 +73,6 @@
   "flow.useNPMPackagedFlow": true,
   "workbench.editor.tabSizing": "shrink",
   "window.newWindowDimensions": "maximized",
+  "workbench.editor.showIcons": false,
+  "explorer.confirmDragAndDrop": false,
 }
