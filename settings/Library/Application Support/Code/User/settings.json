@@ -18,6 +18,28 @@
     "statusBar.debuggingBackground": "#511f1f"
   },
   "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "up"
+      ],
+      "after": [
+        "<C-o>",
+        "g",
+        "k"
+      ]
+    },
+    {
+      "before": [
+        "down"
+      ],
+      "after": [
+        "<C-o>",
+        "g",
+        "j"
+      ]
+    },
+  ],
   // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
   "vim.otherModesKeyBindingsNonRecursive": [
     {
