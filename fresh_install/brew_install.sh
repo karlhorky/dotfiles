@@ -25,6 +25,10 @@ main() {
       || execute "brew install $formula" "brew install $formula"
   done
 
+  # Install diff-highlight module and set it as default pager
+  make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
+  ln -sf "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight" /usr/local/bin/diff-highlight
+
   # Install vim packages
   mkdir -p ~/.vim/autoload ~/.vim/bundle && \
   curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim  # pathogen.vim: runtime path manager for easy plugin installation https://github.com/tpope/vim-pathogen

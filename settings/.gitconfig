@@ -4,7 +4,9 @@
 	editor = /usr/local/bin/vim
 	pager = diff-so-fancy | less --tabs=2 -RFX
 [interactive]
+	# disabled until github.com/so-fancy/diff-so-fancy/pull/172 is resolved :(
 	# diffFilter = diff-so-fancy --patch-mode | less --tabs=2 -RFX
+	diffFilter = diff-highlight
 [user]
 	name = Karl Horky
 	email = karl.horky@gmail.com
