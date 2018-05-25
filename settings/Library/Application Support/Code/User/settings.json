@@ -97,4 +97,5 @@
   "window.newWindowDimensions": "maximized",
   "workbench.editor.showIcons": false,
   "explorer.confirmDragAndDrop": false,
+  "editor.glyphMargin": false,
 }
