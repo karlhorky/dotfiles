@@ -98,4 +98,5 @@
   "workbench.editor.showIcons": false,
   "explorer.confirmDragAndDrop": false,
   "editor.glyphMargin": false,
+  "window.clickThroughInactive": false,
 }
