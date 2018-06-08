@@ -90,6 +90,12 @@ export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
 # Add path to Yarn global binaries
 if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
 
 # Add all untracked files and enter patch mode
 # Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
