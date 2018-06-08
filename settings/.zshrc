@@ -90,6 +90,9 @@ export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
 # Add path to Yarn global binaries
 if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 
+# OPAM configuration
+. /Users/k/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
 [[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
