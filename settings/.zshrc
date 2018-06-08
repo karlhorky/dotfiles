@@ -96,3 +96,7 @@ if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 
 # Set up environment for amazeeio/cachalot
 #eval \$(amazeeio-cachalot env)
+
+# Add all untracked files and enter patch mode
+# Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
+alias ganpa='git add --intent-to-add . && git add --patch'
