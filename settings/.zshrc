@@ -90,8 +90,6 @@ export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
 # Add path to Yarn global binaries
 if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 
-# Set up environment for amazeeio/cachalot
-#eval \$(amazeeio-cachalot env)
 
 # Add all untracked files and enter patch mode
 # Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
