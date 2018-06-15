@@ -78,9 +78,12 @@ main() {
   execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
   execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
   execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
-  execute "code --install-extension octref.vetur" "code --install-extension octref.vetur"
   execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
   execute "code --install-extension sysoev.vscode-open-in-github" "code --install-extension sysoev.vscode-open-in-github"
+  execute "code --install-extension flowtype.flow-for-vscode" "code --install-extension flowtype.flow-for-vscode"
+  execute "code --install-extension asvetliakov.snapshot-tools" "code --install-extension asvetliakov.snapshot-tools"
+  execute "code --install-extension mechatroner.rainbow-csv" "code --install-extension mechatroner.rainbow-csv"
+  execute "code --install-extension ms-vsliveshare.vsliveshare" "code --install-extension ms-vsliveshare.vsliveshare"
 
   # Install Oni
   execute "brew cask install oni" "brew cask install oni"
