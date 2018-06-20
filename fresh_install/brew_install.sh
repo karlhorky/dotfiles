@@ -16,6 +16,7 @@ main() {
     "hub"
     "node"
     "yarn"
+    "zsh"
   )
 
   for i in ${!formulae[*]}; do
