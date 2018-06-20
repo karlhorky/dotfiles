@@ -17,6 +17,7 @@ main() {
     "node"
     "yarn"
     "zsh"
+    "zsh-completions"
   )
 
   for i in ${!formulae[*]}; do
