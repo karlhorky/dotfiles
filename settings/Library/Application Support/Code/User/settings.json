@@ -99,5 +99,6 @@
   "explorer.confirmDragAndDrop": false,
   "editor.glyphMargin": false,
   "window.clickThroughInactive": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
 }
