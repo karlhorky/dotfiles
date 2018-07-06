@@ -99,4 +99,5 @@
   "explorer.confirmDragAndDrop": false,
   "editor.glyphMargin": false,
   "window.clickThroughInactive": false,
+  "workbench.editor.closeEmptyGroups": false,
 }
