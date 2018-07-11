@@ -92,7 +92,7 @@
   "workbench.editor.tabCloseButton": "off",
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "flow.useNPMPackagedFlow": true,
+  // "flow.useNPMPackagedFlow": true,
   "workbench.editor.tabSizing": "shrink",
   "window.newWindowDimensions": "maximized",
   "workbench.editor.showIcons": false,
