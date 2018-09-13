@@ -18,7 +18,7 @@ ask_for_sudo
 
 source "fresh_install/symlink_settings.sh"
 source "fresh_install/write_user_files.sh"
-source "fresh_install/osx.sh"
+source "fresh_install/macos.sh"
 source "fresh_install/command_line_tools.sh"
 source "fresh_install/install_homebrew.sh"
 source "fresh_install/fix_permissions.sh"
