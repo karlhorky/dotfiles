@@ -49,6 +49,9 @@ sudo defaults write com.apple.finder QLEnableTextSelection -bool true
 sudo defaults write com.apple.Safari UniversalSearchEnabled -bool false
 sudo defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 
+# Set the text on the login screen in case computer lost
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If lost please contact Karl at <email address>"
+
 # Change indexing order and disable some search results
 # Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
 # 	MENU_DEFINITION            Dictionary definitions
