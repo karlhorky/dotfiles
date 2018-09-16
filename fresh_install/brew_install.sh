@@ -70,6 +70,8 @@ main() {
   execute "brew cask install webpquicklook" "brew cask install webpquicklook"
   # Install iterm2 Terminal Emulator
   execute "brew cask install iterm2" "brew cask install iterm2"
+  # Install Adobe Acrobat Reader DC
+  execute "brew cask install adobe-acrobat-reader" "brew cask install adobe-acrobat-reader"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
