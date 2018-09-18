@@ -103,3 +103,7 @@ if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 # Add all untracked files and enter patch mode
 # Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
 alias ganpa='git add --intent-to-add . && git add --patch'
+
+# Enable word skipping with alt + arrows
+bindkey '\e\e[D' backward-word # Skip one word backwards (alt-left arrow)
+bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
