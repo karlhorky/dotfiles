@@ -107,3 +107,8 @@ alias ganpa='git add --intent-to-add . && git add --patch'
 # Skip words with alt + arrows
 bindkey '\e\e[D' backward-word # Skip one word backwards (alt-left arrow)
 bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
+
+# Move cursor to start and end of line with command + arrows
+# doesn't work, don't know why
+#bindkey '\e\e[E' beginning-of-line
+#bindkey '\e\e[F' end-of-line
