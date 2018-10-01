@@ -101,4 +101,5 @@
   "window.clickThroughInactive": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
+  "javascript.validate.enable": false,
 }
