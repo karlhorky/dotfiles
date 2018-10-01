@@ -104,4 +104,6 @@
   "javascript.validate.enable": false,
   "vim.mouseSelectionGoesIntoVisualMode": false,
   "editor.formatOnSaveTimeout": 5000,
+  // "prettier.tslintIntegration": true,
+  "prettier.singleQuote": true,
 }
