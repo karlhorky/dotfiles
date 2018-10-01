@@ -103,4 +103,5 @@
   "workbench.editor.closeEmptyGroups": false,
   "javascript.validate.enable": false,
   "vim.mouseSelectionGoesIntoVisualMode": false,
+  "editor.formatOnSaveTimeout": 5000,
 }
