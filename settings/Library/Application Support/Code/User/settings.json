@@ -106,4 +106,7 @@
   "editor.formatOnSaveTimeout": 5000,
   // "prettier.tslintIntegration": true,
   "prettier.singleQuote": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  }
 }
