@@ -109,7 +109,7 @@
   {
     "key": "escape",
     "command": "closeFindWidget",
-    "when": "editorFocus && findWidgetVisible",
+    "when": "editorFocus && findWidgetVisible"
   },
   {
     "key": "alt+cmd+-",
@@ -136,4 +136,24 @@
     "key": "alt+cmd+3",
     "command": "workbench.action.editorLayoutThreeColumns"
   },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  }
 ]
