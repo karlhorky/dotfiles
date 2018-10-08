@@ -21,64 +21,39 @@
   // "vim.debug.loggingLevel": "debug",
   // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
   "vim.insertModeKeyBindings": [
+    // Super hacky fix to arrow key bindings below not working
+    // https://github.com/VSCodeVim/Vim/issues/2924
+    // TODO: Remove! This makes the percent symbol very slow.
     {
-      "before": [
-        "up"
-      ],
-      "after": [
-        "<C-o>",
-        "g",
-        "k"
-      ]
+      "before": ["%"],
+      "after": ["%"]
     },
     {
-      "before": [
-        "down"
-      ],
-      "after": [
-        "<C-o>",
-        "g",
-        "j"
-      ]
+      "before": ["down"],
+      "after": ["<C-o>", "g", "j"]
     },
+    {
+      "before": ["up"],
+      "after": ["<C-o>", "g", "k"]
+    }
   ],
   // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "j"
-      ],
-      "after": [
-        "g",
-        "j"
-      ]
+      "before": ["j"],
+      "after": ["g", "j"]
     },
     {
-      "before": [
-        "k"
-      ],
-      "after": [
-        "g",
-        "k"
-      ]
+      "before": ["k"],
+      "after": ["g", "k"]
     },
     {
-      "before": [
-        "down"
-      ],
-      "after": [
-        "g",
-        "j"
-      ]
+      "before": ["down"],
+      "after": ["g", "j"]
     },
     {
-      "before": [
-        "up"
-      ],
-      "after": [
-        "g",
-        "k"
-      ]
+      "before": ["up"],
+      "after": ["g", "k"]
     }
   ],
   "files.trimTrailingWhitespace": true,
