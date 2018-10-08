@@ -18,6 +18,7 @@
     "statusBar.debuggingBackground": "#511f1f"
   },
   "vim.useSystemClipboard": true,
+  // "vim.debug.loggingLevel": "debug",
   "vim.insertModeKeyBindings": [
     {
       "before": [
