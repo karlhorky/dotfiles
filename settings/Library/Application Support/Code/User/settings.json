@@ -57,17 +57,17 @@
     }
   ],
   "files.trimTrailingWhitespace": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "language": "vue",
-      "autofix": true
-    }
-  ],
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact",
+  //   {
+  //     "language": "vue",
+  //     "autofix": true
+  //   }
+  // ],
   "editor.tabSize": 2,
   "workbench.editor.tabCloseButton": "off",
-  "eslint.autoFixOnSave": true,
+  // "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
   "flow.useNPMPackagedFlow": true,
   "workbench.editor.tabSizing": "shrink",
