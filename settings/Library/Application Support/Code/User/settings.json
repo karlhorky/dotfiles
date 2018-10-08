@@ -85,5 +85,6 @@
   "prettier.singleQuote": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
-  }
+  },
+  "search.quickOpen.includeHistory": false
 }
