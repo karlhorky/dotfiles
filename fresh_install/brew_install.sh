@@ -75,8 +75,8 @@ main() {
   execute "brew cask install iterm2" "brew cask install iterm2"
   # Install Adobe Acrobat Reader DC
   execute "brew cask install adobe-acrobat-reader" "brew cask install adobe-acrobat-reader"
-  # Install Now Desktop
-  execute "brew cask install now" "brew cask install now"
+  # Install Kap screen capture app
+  execute "brew cask install kap" "brew cask install kap"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
