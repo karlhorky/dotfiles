@@ -94,8 +94,6 @@ main() {
   execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
   # Install VS Code extension Open In GitHub
   execute "code --install-extension sysoev.vscode-open-in-github" "code --install-extension sysoev.vscode-open-in-github"
-  # Install VS Code extension Flow
-  execute "code --install-extension flowtype.flow-for-vscode" "code --install-extension flowtype.flow-for-vscode"
   # Install VS Code extension snapshot-tools
   execute "code --install-extension asvetliakov.snapshot-tools" "code --install-extension asvetliakov.snapshot-tools"
   # Install VS Code extension Rainbow CSV
