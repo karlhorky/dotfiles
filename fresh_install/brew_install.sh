@@ -84,15 +84,29 @@ main() {
 
   # Install VS Code and packages
   execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
+  # Install VS Code extension Docker
   execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
+  # Install VS Code extension Prettier
   execute "code --install-extension esbenp.prettier-vscode" "code --install-extension esbenp.prettier-vscode"
+  # Install VS Code extension WordCounter
   execute "code --install-extension kirozen.wordcounter" "code --install-extension kirozen.wordcounter"
+  # Install VS Code extension Vim
   execute "code --install-extension vscodevim.vim" "code --install-extension vscodevim.vim"
+  # Install VS Code extension Open In GitHub
   execute "code --install-extension sysoev.vscode-open-in-github" "code --install-extension sysoev.vscode-open-in-github"
+  # Install VS Code extension Flow
   execute "code --install-extension flowtype.flow-for-vscode" "code --install-extension flowtype.flow-for-vscode"
+  # Install VS Code extension snapshot-tools
   execute "code --install-extension asvetliakov.snapshot-tools" "code --install-extension asvetliakov.snapshot-tools"
+  # Install VS Code extension Rainbow CSV
   execute "code --install-extension mechatroner.rainbow-csv" "code --install-extension mechatroner.rainbow-csv"
+  # Install VS Code extension VS Live Share
   execute "code --install-extension ms-vsliveshare.vsliveshare" "code --install-extension ms-vsliveshare.vsliveshare"
+  # Install VS Code extension Bracket Pair Colorizer 2
+  execute "code --install-extension CoenraadS.bracket-pair-colorizer-2" "code --install-extension CoenraadS.bracket-pair-colorizer-2"
+
+  # Install VS Code Insiders Build
+  execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
 
   # Install Oni
   execute "brew cask install oni" "brew cask install oni"
