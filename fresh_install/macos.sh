@@ -84,5 +84,8 @@ sudo defaults write com.apple.spotlight orderedItems -array \
 	'{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
 	'{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
 
+# Save screenshots to the Downloads folder
+sudo defaults write com.apple.screencapture location -string "${HOME}/Downloads"
+
 success "OS X System settings configured\n"
 
