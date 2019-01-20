@@ -87,5 +87,8 @@ sudo defaults write com.apple.spotlight orderedItems -array \
 # Save screenshots to the Downloads folder
 sudo defaults write com.apple.screencapture location -string "${HOME}/Downloads"
 
+# Disable shadow in screenshots
+defaults write com.apple.screencapture disable-shadow -bool true
+
 success "OS X System settings configured\n"
 
