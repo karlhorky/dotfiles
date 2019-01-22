@@ -157,13 +157,13 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "down",
-    "command": "cursorDown",
-    "when": "textInputFocus"
-  },
-  {
     "key": "up",
     "command": "cursorUp",
-    "when": "textInputFocus"
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "down",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   }
 ]
