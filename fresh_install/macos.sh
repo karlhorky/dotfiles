@@ -90,5 +90,8 @@ sudo defaults write com.apple.screencapture location -string "${HOME}/Downloads"
 # Disable shadow in screenshots
 defaults write com.apple.screencapture disable-shadow -bool true
 
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
 success "OS X System settings configured\n"
 

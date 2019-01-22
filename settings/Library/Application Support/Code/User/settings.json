@@ -23,10 +23,10 @@
   // "vim.insertModeKeyBindings": [
   //   // Super hacky fix to arrow key bindings below not working
   //   // https://github.com/VSCodeVim/Vim/issues/2924
-  //   // TODO: Remove! This makes the percent symbol very slow.
+  //   // TODO: Remove! This makes the § symbol very slow.
   //   {
-  //     "before": ["%"],
-  //     "after": ["%"]
+  //     "before": ["§"],
+  //     "after": ["§"]
   //   },
   //   {
   //     "before": ["down"],
