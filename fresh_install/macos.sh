@@ -93,5 +93,8 @@ defaults write com.apple.screencapture disable-shadow -bool true
 # Don’t show recent applications in Dock
 defaults write com.apple.dock show-recents -bool false
 
+# Kill all dock processes to apply changes
+killall Dock
+
 success "OS X System settings configured\n"
 
