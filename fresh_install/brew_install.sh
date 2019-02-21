@@ -79,6 +79,8 @@ main() {
   execute "brew cask install kap" "brew cask install kap"
   # Install Google Music Manager
   execute "brew cask install music-manager" "brew cask install music-manager"
+  # Install KeyboardCleanTool
+  execute "brew cask install keyboardcleantool" "brew cask install keyboardcleantool"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
