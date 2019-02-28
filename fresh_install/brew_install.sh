@@ -75,7 +75,7 @@ main() {
   execute "brew cask install iterm2" "brew cask install iterm2"
   # Install Adobe Acrobat Reader DC
   execute "brew cask install adobe-acrobat-reader" "brew cask install adobe-acrobat-reader"
-  # Install Kap screen capture app
+  # Install Kap screen capture app (also exports to gif)
   execute "brew cask install kap" "brew cask install kap"
   # Install Google Music Manager
   execute "brew cask install music-manager" "brew cask install music-manager"
