@@ -18,6 +18,8 @@ main() {
     "yarn"
     "zsh"
     "zsh-completions"
+    # Best PNG optimizer https://goo.gl/WCWW3D
+    "pngquant"
   )
 
   for i in ${!formulae[*]}; do
