@@ -108,6 +108,8 @@ main() {
   execute "code --install-extension ms-vsliveshare.vsliveshare" "code --install-extension ms-vsliveshare.vsliveshare"
   # Install VS Code extension Bracket Pair Colorizer 2
   execute "code --install-extension CoenraadS.bracket-pair-colorizer-2" "code --install-extension CoenraadS.bracket-pair-colorizer-2"
+  # Install VS Code extension Markdown Preview Enhanced
+  execute "code --install-extension shd101wyy.markdown-preview-enhanced" "code --install-extension shd101wyy.markdown-preview-enhanced"
 
   # Install VS Code Insiders Build
   execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
