@@ -159,11 +159,21 @@
   {
     "key": "up",
     "command": "cursorUp",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   },
   {
     "key": "down",
     "command": "cursorDown",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Insert' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   }
 ]
