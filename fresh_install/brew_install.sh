@@ -54,7 +54,7 @@ main() {
   execute "brew cask install slack" "brew cask install slack"
   execute "brew cask install discord" "brew cask install discord"
   execute "brew cask install caprine" "brew cask install caprine"
-  execute "brew cask install whatsapp" "brew cask install whatsapp"
+  # execute "brew cask install whatsapp" "brew cask install whatsapp"
   execute "brew cask install skype" "brew cask install skype"
   execute "brew cask install keybase" "brew cask install keybase"
   execute "brew cask install magicprefs" "brew cask install magicprefs"
@@ -153,11 +153,11 @@ main() {
   execute "brew cask install veracrypt" "brew cask install veracrypt"
 
   # Install Mac App Store software
-  execute "brew install mas" "brew install mas"
-  execute "mas install 1176895641" "mas install 1176895641" # Spark - Love your email again
-  execute "mas install 409789998" "mas install 409789998" # Twitter (official client)
-  execute "mas install 1006184923" "mas install 1006184923" # Kiwi for Gmail Lite
-  execute "mas install 1351639930" "mas install 1351639930" # Gifski
+  # execute "brew install mas" "brew install mas"
+  # execute "mas install 1176895641" "mas install 1176895641" # Spark - Love your email again
+  # execute "mas install 409789998" "mas install 409789998" # Twitter (official client)
+  # execute "mas install 1006184923" "mas install 1006184923" # Kiwi for Gmail Lite
+  # execute "mas install 1351639930" "mas install 1351639930" # Gifski
 
   success "Homebrew formulae installed!"
 }
