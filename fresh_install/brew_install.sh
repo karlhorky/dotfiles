@@ -13,6 +13,7 @@ main() {
   local -a formulae=(
     "vim"
     "git"
+    "git-lfs"
     "hub"
     "node"
     "yarn"
