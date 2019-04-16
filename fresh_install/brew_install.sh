@@ -156,6 +156,9 @@ main() {
   # Install VeraCrypt and OSXFuse dependency
   execute "brew cask install osxfuse" "brew cask install osxfuse"
   execute "brew cask install veracrypt" "brew cask install veracrypt"
+  
+  # Install Flume Instagram desktop app https://flumeapp.com/
+  execute ""brew cask install flume "brew cask install flume"
 
   # Install Mac App Store software
   # execute "brew install mas" "brew install mas"
