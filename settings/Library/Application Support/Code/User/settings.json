@@ -15,7 +15,8 @@
   "workbench.colorCustomizations": {
     "statusBar.background": "#303030",
     "statusBar.noFolderBackground": "#222225",
-    "statusBar.debuggingBackground": "#511f1f"
+    "statusBar.debuggingBackground": "#511f1f",
+    "editor.lineHighlightBackground": "#2f2f2f"
   },
   "vim.useSystemClipboard": true,
   // "vim.debug.loggingLevel": "debug",
