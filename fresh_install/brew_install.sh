@@ -161,11 +161,20 @@ main() {
   execute ""brew cask install flume "brew cask install flume"
 
   # Install Mac App Store software
-  # execute "brew install mas" "brew install mas"
+  execute "brew install mas" "brew install mas"
   # execute "mas install 1176895641" "mas install 1176895641" # Spark - Love your email again
   # execute "mas install 409789998" "mas install 409789998" # Twitter (official client)
   # execute "mas install 1006184923" "mas install 1006184923" # Kiwi for Gmail Lite
   # execute "mas install 1351639930" "mas install 1351639930" # Gifski
+
+  # Install ImageOptim-CLI ("Automates ImageOptim, ImageAlpha, and JPEGmini for Mac [for] batch optimisation of images")
+  execute "brew install imageoptim-cli" "brew install imageoptim-cli"
+  # Install ImageOptim image optimization tool
+  execute "brew cask install imageoptim" "brew cask install imageoptim"
+  # Install ImageAlpha image optimization tool
+  execute "brew cask install imageoptim" "brew cask install imageoptim"
+  # Install JPEGmini Lite image optimizer
+  execute "mas install 525742250" "mas install 525742250"
 
   success "Homebrew formulae installed!"
 }
