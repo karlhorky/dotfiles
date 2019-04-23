@@ -172,7 +172,7 @@ main() {
   # Install ImageOptim image optimization tool
   execute "brew cask install imageoptim" "brew cask install imageoptim"
   # Install ImageAlpha image optimization tool
-  execute "brew cask install imageoptim" "brew cask install imageoptim"
+  execute "brew cask install imagealpha" "brew cask install imagealpha"
   # Install JPEGmini Lite image optimizer
   execute "mas install 525742250" "mas install 525742250"
 
