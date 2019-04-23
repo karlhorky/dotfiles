@@ -176,6 +176,9 @@ main() {
   # Install JPEGmini Lite image optimizer
   execute "mas install 525742250" "mas install 525742250"
 
+  # Install Optimage (better than JPEGmini?)
+  execute "brew cask install optimage" "brew cask install optimage"
+
   success "Homebrew formulae installed!"
 }
 
