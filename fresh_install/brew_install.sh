@@ -85,7 +85,7 @@ main() {
   # Install KeyboardCleanTool
   execute "brew cask install keyboardcleantool" "brew cask install keyboardcleantool"
   # Install KeePassXC Password Manager
-  execute "brew cask install keepassxc"
+  execute "brew cask install keepassxc" "brew cask install keepassxc"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
   execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
