@@ -115,6 +115,8 @@ main() {
   execute "code --install-extension shd101wyy.markdown-preview-enhanced" "code --install-extension shd101wyy.markdown-preview-enhanced"
   # Install VS Code extension Activitus Bar
   execute "code --install-extension Gruntfuggly.activitusbar" "code --install-extension Gruntfuggly.activitusbar"
+  # Install VS Code extension vscode-styled-components
+  execute "code --install-extension jpoissonnier.vscode-styled-components" "code --install-extension jpoissonnier.vscode-styled-components"
 
   # Install VS Code Insiders Build
   execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
