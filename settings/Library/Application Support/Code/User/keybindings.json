@@ -41,30 +41,6 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+2",
-    "command": "workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "cmd+2",
-    "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "workbench.action.focusThirdEditorGroup"
-  },
-  {
-    "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "cmd+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
-  },
-  {
     "key": "ctrl+cmd+r",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
