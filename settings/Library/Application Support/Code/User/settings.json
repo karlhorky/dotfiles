@@ -65,6 +65,6 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "breadcrumbs.enabled": false,
-  "search.quickOpen.includeHistory": false
+  "breadcrumbs.enabled": false
+  // "search.quickOpen.includeHistory": false
 }
