@@ -135,21 +135,21 @@
   {
     "key": "up",
     "command": "cursorUp",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   },
   {
     "key": "down",
     "command": "cursorDown",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   },
   {
     "key": "k",
     "command": "cursorUp",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   },
   {
     "key": "j",
     "command": "cursorDown",
-    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal' && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   }
 ]
