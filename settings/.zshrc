@@ -104,7 +104,10 @@ if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 # Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
 alias ganpa='git add --intent-to-add . && git add --patch'
 
-# Skip words with alt + arrows
+# Enable emacs mode for bindkey
+bindkey -e
+
+# Enable word skipping with alt + arrows
 bindkey '\e\e[D' backward-word # Skip one word backwards (alt-left arrow)
 bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
 
@@ -112,3 +115,8 @@ bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
 # doesn't work, don't know why
 #bindkey '\e\e[E' beginning-of-line
 #bindkey '\e\e[F' end-of-line
+
+# Prevent zsh from sharing histories between terminal tabs
+# https://superuser.com/a/1248123/157255
+unsetopt inc_append_history
+unsetopt share_history
