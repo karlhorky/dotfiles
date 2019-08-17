@@ -132,6 +132,7 @@
     "command": "-editor.action.insertCursorBelow",
     "when": "editorTextFocus"
   },
+  // Move down each wrapped display line instead of full line
   {
     "key": "up",
     "command": "cursorUp",
@@ -151,5 +152,33 @@
     "key": "j",
     "command": "cursorDown",
     "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-  }
+  },
+  // Yank (copy) to system clipboard in VISUAL and VISUAL_LINE modes
+  {
+    "key": "y",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "y",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && amVim.mode == 'VISUAL LINE' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  {
+    "key": "y y",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  // Delete (cut) to system clipboard in VISUAL modes
+  {
+    "key": "d",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  },
+  // Paste from system clipboard only in NORMAL mode (not working - pastes also in INSERT mode)
+  // {
+  //   "key": "P",
+  //   "command": "editor.action.clipboardPasteAction",
+  //   "when": "amVim.mode != 'INSERT' && !editorTextFocus && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  // },
 ]

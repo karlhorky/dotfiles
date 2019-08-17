@@ -18,7 +18,7 @@
     "statusBar.debuggingBackground": "#511f1f",
     "editor.lineHighlightBackground": "#2f2f2f"
   },
-  "vim.useSystemClipboard": true,
+  // "vim.useSystemClipboard": true,
   // "vim.debug.loggingLevel": "debug",
   // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
   // "vim.normalModeKeyBindingsNonRecursive": [
