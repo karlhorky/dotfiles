@@ -59,12 +59,17 @@
   "window.clickThroughInactive": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
-  "vim.mouseSelectionGoesIntoVisualMode": false,
+  // "vim.mouseSelectionGoesIntoVisualMode": false,
   "editor.formatOnSaveTimeout": 5000,
   "prettier.singleQuote": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
+  "workbench.tree.renderIndentGuides": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
