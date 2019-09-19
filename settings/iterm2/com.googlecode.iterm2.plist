@@ -2075,7 +2075,7 @@
 	<key>TabsHaveCloseButton</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
-	<false/>
+	<true/>
 	<key>WindowNumber</key>
 	<false/>
 	<key>findMode_iTerm</key>
