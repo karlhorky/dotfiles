@@ -87,9 +87,9 @@ main() {
   # Install KeePassXC Password Manager
   execute "brew cask install keepassxc" "brew cask install keepassxc"
 
-  # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration
-  execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
-  execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
+  # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration (currently disabled in favor of the preferences solution in macos.sh)
+  # execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
+  # execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
 
   # Install VS Code and packages
   execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"

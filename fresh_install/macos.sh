@@ -52,6 +52,10 @@ sudo defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 # Set the text on the login screen in case computer lost
 sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "If lost please contact Karl at <email address>"
 
+# Disable mouse acceleration
+# Ref: https://apple.stackexchange.com/questions/333989/how-do-i-disable-mouse-acceleration-and-adjust-tracking-speed-in-high-sierra
+sudo defaults write .GlobalPreferences com.apple.mouse.scaling -1
+
 # Change indexing order and disable some search results
 # Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
 # 	MENU_DEFINITION            Dictionary definitions
