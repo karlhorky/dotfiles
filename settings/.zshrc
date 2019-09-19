@@ -26,7 +26,15 @@ ZSH_THEME="robbyrussell"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
+function precmd () {
+  echo -ne "\033]0;$(print -rD $PWD)\007"
+}
+precmd
+
+function preexec () {
+  print -Pn "\e]0;🚀 $(echo $1 | cut -d " " -f1) $(print -rD $PWD) ($1)\a"
+}
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -85,7 +93,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set window title to same as tab title (for Hyper.app terminal tabs).
-export ZSH_THEME_TERM_TITLE_IDLE="%23<..<%~%<<"
+# Disabled because of setting the tab title above using precmd and preexec
+# functions
+# export ZSH_THEME_TERM_TITLE_IDLE="%18<..<%~%<<"
+
+# echo -ne "\e]1;$PWD\a" && clear
 
 # Add path to Yarn global binaries
 if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
