@@ -33,7 +33,7 @@ function precmd () {
 precmd
 
 function preexec () {
-  print -Pn "\e]0;🚀 $(echo $1 | cut -d " " -f1) $(print -rD $PWD) ($1)\a"
+  print -Pn "\e]0;$(print -rD $PWD) $1 🚀\a"
 }
 
 # Uncomment the following line to enable command auto-correction.
