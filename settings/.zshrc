@@ -103,14 +103,14 @@ source $ZSH/oh-my-zsh.sh
 if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
 
 # OPAM configuration
-. /Users/k/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+#. /Users/k/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
+#[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
+#[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
 
 # Add all untracked files and enter patch mode
 # Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
