@@ -58,7 +58,8 @@ main() {
   execute "brew cask install whatsapp" "brew cask install whatsapp"
   execute "brew cask install skype" "brew cask install skype"
   execute "brew cask install keybase" "brew cask install keybase"
-  execute "brew cask install magicprefs" "brew cask install magicprefs"
+  # Currently disabled because version 2.4.3 causes Inertia Scrolling (aka Momentum Scrolling) to fail in macOS 10.15 Catalina
+  # execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
