@@ -60,6 +60,13 @@ main() {
   execute "brew cask install keybase" "brew cask install keybase"
   # Currently disabled because version 2.4.3 causes Inertia Scrolling (aka Momentum Scrolling) to fail in macOS 10.15 Catalina
   # execute "brew cask install magicprefs" "brew cask install magicprefs"
+  execute "brew cask install dafuqtor/tap/midclick" "brew cask install dafuqtor/tap/midclick"
+  # Open MiddleClick in order to *manually* do the following:
+  # 1. Accept the Accessibility settings
+  # 2. Set the setting to "3 Finger Click"
+  open -a MiddleClick
+  # This sets the number of fingers to 2
+  defaults write com.rouge41.middleClick fingers 2
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
