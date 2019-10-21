@@ -134,3 +134,6 @@ bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
 # https://superuser.com/a/1248123/157255
 unsetopt inc_append_history
 unsetopt share_history
+
+# Location of PostgreSQL database
+export PGDATA=/usr/local/var/postgres
