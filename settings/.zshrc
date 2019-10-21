@@ -137,3 +137,13 @@ unsetopt share_history
 
 # Location of PostgreSQL database
 export PGDATA=/usr/local/var/postgres
+
+# Set Locale Category because of gettext bug, which causes
+# Vim to output strange errors like:
+# Warning: Failed to set locale category LC_NUMERIC to en_AT.
+# Warning: Failed to set locale category LC_TIME to en_AT.
+# Warning: Failed to set locale category LC_COLLATE to en_AT.
+# Warning: Failed to set locale category LC_MONETARY to en_AT.
+# Warning: Failed to set locale category LC_MESSAGES to en_AT.
+# Ref: https://github.com/Homebrew/homebrew-core/issues/41139
+export LC_ALL=en_US.UTF-8
