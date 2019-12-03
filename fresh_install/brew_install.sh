@@ -21,6 +21,8 @@ main() {
     "zsh-completions"
     # Best PNG optimizer https://goo.gl/WCWW3D
     "pngquant"
+    # FTP and other tools https://apple.stackexchange.com/a/348495/36202
+    "inetutils"
   )
 
   for i in ${!formulae[*]}; do
