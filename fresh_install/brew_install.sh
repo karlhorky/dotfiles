@@ -188,6 +188,9 @@ main() {
   # Install JPEGmini Lite image optimizer
   # execute "mas install 525742250" "mas install 525742250"
 
+  # Install ColorSlurp color picker
+  execute "mas install 1287239339" "mas install 1287239339"
+
   # Install Optimage (better than JPEGmini?)
   # execute "brew cask install optimage" "brew cask install optimage"
 
