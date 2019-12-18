@@ -53,6 +53,9 @@ main() {
   execute "brew cask install firefox" "brew cask install firefox"
   # Safari Technical Preview browser
   execute "brew cask install safari-technology-preview" "brew cask install safari-technology-preview"
+  # Microsoft Edge Dev browser
+  execute "brew cask install microsoft-edge-dev" "brew cask install microsoft-edge-dev"
+
   execute "brew cask install hyper" "brew cask install hyper"
   execute "brew cask install slack" "brew cask install slack"
   execute "brew cask install discord" "brew cask install discord"
