@@ -41,4 +41,5 @@ Here are the steps how to do that:
 6. Change the Throttling dropdown in the Devtools to "Online" again.
 7. Try going to the URL again. While the page loads, there should be a window that pops up, asking if you want to create a shortcut. Check the "Open as window" checkbox and hit "Create".<br /><br />
    <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut-window.png" alt="" /><br /><br />
-8. You should now have a Chrome Desktop App Shortcut that will launch separately from your regular Google Calendar!
+8. You should now have a Chrome Desktop App Shortcut that will launch separately from your regular Google Calendar!<br /><br />
+   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-dock.png" alt="" /><br /><br />
