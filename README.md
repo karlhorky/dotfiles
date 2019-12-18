@@ -1,10 +1,9 @@
-Karl Horky's dotfiles
-=====================
+# Karl Horky's dotfiles
 
 System settings for OS X and bootstrapper for new systems.
 
 
-### Setup
+## Setup
 
 To set up a new Mac, clone and run the `fresh_install` script:
 
@@ -14,10 +13,12 @@ cd dotfiles
 ./fresh_install/fresh_install.sh
 ```
 
-### Update
+## Update
 
 To update existing settings files, run the `dotfiles_refresh` script from any location:
 
 ```sh
 dotfiles_refresh
 ```
+
+## [System Setup Tricks](./tricks)
