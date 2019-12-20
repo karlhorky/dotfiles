@@ -60,9 +60,13 @@ main() {
   execute "brew cask install slack" "brew cask install slack"
   execute "brew cask install discord" "brew cask install discord"
   # execute "brew cask install caprine" "brew cask install caprine"
+
   execute "brew cask install whatsapp" "brew cask install whatsapp"
+  execute "brew cask install signal" "brew cask install signal"
   execute "brew cask install skype" "brew cask install skype"
+
   execute "brew cask install keybase" "brew cask install keybase"
+
   # Currently disabled because version 2.4.3 causes Inertia Scrolling (aka Momentum Scrolling) to fail in macOS 10.15 Catalina
   # execute "brew cask install magicprefs" "brew cask install magicprefs"
   execute "brew cask install dafuqtor/tap/midclick" "brew cask install dafuqtor/tap/midclick"
