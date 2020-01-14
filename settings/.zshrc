@@ -63,6 +63,10 @@ function preexec () {
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# Install with:
+# git clone https://github.com/chrisands/zsh-yarn-completions ~/.oh-my-zsh/custom/plugins/zsh-yarn-completions
+plugins+=(zsh-yarn-completions)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -147,7 +151,3 @@ export PGDATA=/usr/local/var/postgres
 # Warning: Failed to set locale category LC_MESSAGES to en_AT.
 # Ref: https://github.com/Homebrew/homebrew-core/issues/41139
 export LC_ALL=en_US.UTF-8
-
-# Install with:
-# git clone https://github.com/chrisands/zsh-yarn-completions ~/.oh-my-zsh/custom/plugins/zsh-yarn-completions
-plugins+=(zsh-yarn-completions)
