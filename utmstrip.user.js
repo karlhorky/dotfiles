@@ -11,6 +11,7 @@
 // From https://gist.github.com/paulirish/626834
 
 // Updates:
+// 2020-02-07 Added matching for mkt_tok (Marketo)
 // 2020-01-14 Added matching for ck_subscriber_id (ConvertKit)
 
 // You can install this user script by downloading this script,
@@ -24,7 +25,7 @@
   'use strict';
 
   if (
-    /(utm_|ck_subscriber_id)/.test(location.search) &&
+    /(utm_|ck_subscriber_id|mkt_tok)/.test(location.search) &&
     window.history.replaceState
   ) {
     // thx @cowboy for the revised hash param magic.
@@ -33,7 +34,7 @@
       search = search
         .split('&')
         .map(function(v) {
-          return !/^(utm_|ck_subscriber_id)/.test(v) && v;
+          return !/^(utm_|ck_subscriber_id|mkt_tok)/.test(v) && v;
         })
         .filter(Boolean)
         .join('&'); // omg filter(Boolean) so dope.
