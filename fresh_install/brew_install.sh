@@ -103,6 +103,8 @@ main() {
   execute "brew cask install keyboardcleantool" "brew cask install keyboardcleantool"
   # Install KeePassXC Password Manager
   execute "brew cask install keepassxc" "brew cask install keepassxc"
+  # Install LibreOffice for PDF editing
+  execute "brew cask install libreoffice" "brew cask install libreoffice"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration (currently disabled in favor of the preferences solution in macos.sh)
   # execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
