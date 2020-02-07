@@ -62,6 +62,7 @@
   // "vim.mouseSelectionGoesIntoVisualMode": false,
   "editor.formatOnSaveTimeout": 5000,
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
