@@ -5,7 +5,7 @@
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
   "editor.renderIndentGuides": false,
-  "prettier.eslintIntegration": true,
+  // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
   "javascript.format.enable": false,
   "editor.formatOnSave": true,
