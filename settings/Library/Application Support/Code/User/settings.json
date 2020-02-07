@@ -72,5 +72,9 @@
   "workbench.tree.renderIndentGuides": "none",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  // "editor.cursorSurroundingLines": 6,
+  "window.zoomLevel": 0,
+  "search.enableSearchEditorPreview": true,
+  // "javascript.implicitProjectConfig.checkJs": true
 }
