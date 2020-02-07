@@ -153,28 +153,36 @@
     "command": "cursorDown",
     "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
   },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.zoomReset"
+  },
+  {
+    "key": "cmd+numpad0",
+    "command": "-workbench.action.zoomReset"
+  },
   // Yank (copy) to system clipboard in VISUAL and VISUAL_LINE modes
-  {
-    "key": "y",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-  },
-  {
-    "key": "y",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && amVim.mode == 'VISUAL LINE' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-  },
-  {
-    "key": "y y",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-  },
+  // {
+  //   "key": "y",
+  //   "command": "editor.action.clipboardCopyAction",
+  //   "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  // },
+  // {
+  //   "key": "y",
+  //   "command": "editor.action.clipboardCopyAction",
+  //   "when": "editorTextFocus && amVim.mode == 'VISUAL LINE' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  // },
+  // {
+  //   "key": "y y",
+  //   "command": "editor.action.clipboardCopyAction",
+  //   "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  // },
   // Delete (cut) to system clipboard in VISUAL modes
-  {
-    "key": "d",
-    "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-  },
+  // {
+  //   "key": "d",
+  //   "command": "editor.action.clipboardCopyAction",
+  //   "when": "editorTextFocus && amVim.mode == 'VISUAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+  // },
   // Paste from system clipboard only in NORMAL mode (not working - pastes also in INSERT mode)
   // {
   //   "key": "P",
