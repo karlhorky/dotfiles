@@ -60,7 +60,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
   // "vim.mouseSelectionGoesIntoVisualMode": false,
-  "editor.formatOnSaveTimeout": 5000,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all",
   "[markdown]": {
