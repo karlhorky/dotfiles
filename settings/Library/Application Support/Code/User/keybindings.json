@@ -161,6 +161,19 @@
     "key": "cmd+numpad0",
     "command": "-workbench.action.zoomReset"
   },
+  {
+    "key": "shift+cmd+f",
+    "command": "search.action.openNewEditor"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.action.findInFiles"
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "-workbench.view.search",
+    "when": "!searchViewletVisible"
+  },
   // Yank (copy) to system clipboard in VISUAL and VISUAL_LINE modes
   // {
   //   "key": "y",
