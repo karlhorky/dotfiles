@@ -1,21 +1,6 @@
 [
   // Place your key bindings in this file to overwrite the defaults
   {
-    "key": "shift+cmd+d",
-    "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+alt+down",
-    "command": "-editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+k",
-    "command": "editor.action.deleteLines",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
     "when": "editorTextFocus && !editorReadonly"
