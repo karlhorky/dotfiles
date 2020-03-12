@@ -1290,7 +1290,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>19200D25-A498-49DC-85FB-06D269919018</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>38</integer>
+	<integer>45</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2017,16 +2017,16 @@
 	</dict>
 	<key>NoSyncSearchHistory2</key>
 	<array>
-		<string>&lt;em&gt;</string>
-		<string>&lt;em</string>
-		<string>fuse</string>
-		<string>gett</string>
-		<string>renamed</string>
-		<string>renm</string>
-		<string>succeed</string>
-		<string>this is ba</string>
-		<string>optional</string>
-		<string>username</string>
+		<string>3.1.0</string>
+		<string>3.10</string>
+		<string>heml</string>
+		<string>prep-l</string>
+		<string>src-pages-courses-prep</string>
+		<string>icon</string>
+		<string>astro</string>
+		<string>static</string>
+		<string>page-2</string>
+		<string>14: js classes.</string>
 	</array>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>539532326.14709604</real>
@@ -2080,13 +2080,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-05T17:18:45Z</date>
+	<date>2020-03-12T14:11:11Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SwitchTabModifier</key>
