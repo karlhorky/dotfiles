@@ -74,6 +74,5 @@
   },
   // "editor.cursorSurroundingLines": 6,
   "window.zoomLevel": 0,
-  "search.enableSearchEditorPreview": true,
   // "javascript.implicitProjectConfig.checkJs": true
 }
