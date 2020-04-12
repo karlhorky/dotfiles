@@ -49,6 +49,10 @@ main() {
   # such as utmstrip.user.js and javascript-errors-notifier/
   # TODO: Make list of used extensions here
 
+  # Google Chrome Canary
+  execute "brew cask install google-chrome-canary" "brew cask install google-chrome-canary"
+  # Google Chrome Canary
+  execute "brew cask install chromium" "brew cask install chromium"
   # Firefox browser
   execute "brew cask install firefox" "brew cask install firefox"
   # Safari Technical Preview browser
