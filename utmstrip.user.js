@@ -21,7 +21,7 @@
 // lastly, if your site / marketing funnel uses these tracking tokens. you can clean up your users URLs
 // look at the comments below on correct installation to integrate with __gaq.push
 
-(function() {
+(function () {
   'use strict';
 
   if (
@@ -30,10 +30,10 @@
   ) {
     // thx @cowboy for the revised hash param magic.
     var oldUrl = location.href;
-    var newUrl = oldUrl.replace(/\?([^#]*)/, function(_, search) {
+    var newUrl = oldUrl.replace(/\?([^#]*)/, function (_, search) {
       search = search
         .split('&')
-        .map(function(v) {
+        .map(function (v) {
           return !/^(utm_|ck_subscriber_id|mkt_tok)/.test(v) && v;
         })
         .filter(Boolean)
