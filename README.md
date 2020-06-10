@@ -2,7 +2,6 @@
 
 System settings for OS X and bootstrapper for new systems.
 
-
 ## Setup
 
 To set up a new Mac, clone and run the `fresh_install` script:
