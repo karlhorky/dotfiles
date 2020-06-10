@@ -178,6 +178,8 @@ main() {
 
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
+  # For Mac users, the GPG Suite allows you to store your GPG key passphrase in the Mac OS Keychain.
+  # https://help.github.com/en/github/authenticating-to-github/signing-commits
   execute "brew cask install gpgtools-beta" "brew cask install gpgtools-beta"
 
   # Install VeraCrypt and OSXFuse dependency
