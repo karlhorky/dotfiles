@@ -100,5 +100,15 @@ defaults write com.apple.dock show-recents -bool false
 # Kill all dock processes to apply changes
 killall Dock
 
-success "OS X System settings configured\n"
+# Set your computer name to avoid random changes
+# when you're connected to public wifi networks.
+#
+# Otherwise, your hostname that appears when you
+# run `hostname` may change to the name of the
+# DNS or DHCP server 🤯
+#
+# Source: https://apple.stackexchange.com/a/127405/36202
+sudo scutil --set HostName 'Karls-MacBook-Pro.local'
+
+success "macOS System settings configured\n"
 
