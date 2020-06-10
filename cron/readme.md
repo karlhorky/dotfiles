@@ -11,3 +11,5 @@ If you don't set this up, you will receive an email that tells you "Operation no
 <img src="email-cron-operation-not-permitted-1.png" alt="Mail list showing notifications">
 
 <img src="email-cron-operation-not-permitted-2.png" alt="Mail showing 'Operation not permitted' error">
+
+Source: https://apple.stackexchange.com/a/378558/36202
