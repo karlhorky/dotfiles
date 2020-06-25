@@ -88,5 +88,9 @@
   "search.searchEditor.reusePriorSearchConfiguration": true,
   // Don't scroll explorer tree when opening a new file
   // https://code.visualstudio.com/updates/v1_46#_explorer-auto-reveal-focus-without-forcing-a-scroll
-  "explorer.autoReveal": "focusNoScroll"
+  "explorer.autoReveal": "focusNoScroll",
+  // Use operating system clipboard, available since v1.32.0
+  // Original PR: https://github.com/aioutecism/amVim-for-VSCode/pull/260
+  // Release: https://github.com/aioutecism/amVim-for-VSCode/issues/276
+  "amVim.useSystemClipboard": true
 }
