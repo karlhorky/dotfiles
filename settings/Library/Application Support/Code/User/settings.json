@@ -92,5 +92,14 @@
   // Use operating system clipboard, available since v1.32.0
   // Original PR: https://github.com/aioutecism/amVim-for-VSCode/pull/260
   // Release: https://github.com/aioutecism/amVim-for-VSCode/issues/276
-  "amVim.useSystemClipboard": true
+  "amVim.useSystemClipboard": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Turn off Debug button above npm scripts in package.json
+  // https://github.com/microsoft/vscode/issues/101107#issuecomment-650106018
+  "debug.javascript.codelens.npmScripts": "never"
 }
