@@ -101,5 +101,8 @@
   },
   // Turn off Debug button above npm scripts in package.json
   // https://github.com/microsoft/vscode/issues/101107#issuecomment-650106018
-  "debug.javascript.codelens.npmScripts": "never"
+  "debug.javascript.codelens.npmScripts": "never",
+  // Auto-close HTML / JSX tags in MDX
+  // https://github.com/silvenon/vscode-mdx/blob/master/readme.md#auto-close-tags
+  "auto-close-tag.activationOnLanguage": ["mdx"]
 }
