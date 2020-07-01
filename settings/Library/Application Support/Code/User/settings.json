@@ -104,5 +104,6 @@
   "debug.javascript.codelens.npmScripts": "never",
   // Auto-close HTML / JSX tags in MDX
   // https://github.com/silvenon/vscode-mdx/blob/master/readme.md#auto-close-tags
+  // https://github.com/formulahendry/vscode-auto-close-tag
   "auto-close-tag.activationOnLanguage": ["mdx"]
 }
