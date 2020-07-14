@@ -186,8 +186,12 @@ main() {
   execute "brew cask install osxfuse" "brew cask install osxfuse"
   execute "brew cask install veracrypt" "brew cask install veracrypt"
 
+  # Edit: Removed Flume as of July 2020, because Instagram
+  # Direct Messages are available on the web:
+  # https://www.instagram.com/direct/inbox/
+  #
   # Install Flume Instagram desktop app https://flumeapp.com/
-  execute ""brew cask install flume "brew cask install flume"
+  # execute ""brew cask install flume "brew cask install flume"
 
   # Install Mac App Store software
   # execute "brew install mas" "brew install mas"
