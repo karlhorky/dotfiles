@@ -32,6 +32,9 @@ main() {
       || execute "brew install $formula" "brew install $formula"
   done
 
+  # Set Git reconciliation to merge (the default strategy)
+  git config --global pull.rebase false
+
   # Install diff-highlight module and set it as default pager
   make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
   ln -sf "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight" /usr/local/bin/diff-highlight
