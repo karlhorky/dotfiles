@@ -30,6 +30,8 @@
           first_air_date,
         } = result;
 
+        if (!/^tv|movie$/.test(mediaType)) return;
+
         const link = `https://www.themoviedb.org/${mediaType}/${id}`;
 
         linksHtml += `<div style="margin-bottom: 5px"><a href="${link}">${
