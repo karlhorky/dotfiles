@@ -145,6 +145,8 @@ main() {
   execute "code --install-extension Gruntfuggly.activitusbar" "code --install-extension Gruntfuggly.activitusbar"
   # Install VS Code extension vscode-styled-components
   execute "code --install-extension jpoissonnier.vscode-styled-components" "code --install-extension jpoissonnier.vscode-styled-components"
+  # Install VS Code extension Error Lens
+  execute "code --install-extension usernamehw.errorlens" "code --install-extension usernamehw.errorlens"
 
   # Install VS Code Insiders Build
   execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
