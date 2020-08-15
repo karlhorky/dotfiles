@@ -107,7 +107,7 @@
   },
   {
     "key": "shift+cmd+f",
-    "command": "search.action.openNewEditor"
+    "command": "search.action.openEditor"
   },
   {
     "key": "shift+cmd+f",
