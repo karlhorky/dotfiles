@@ -13,7 +13,11 @@ There are two problems:
 
 ## Solution
 
-Open the Chrome Devtools and run the following JavaScript in the "Console" panel (change the URL to whatever URL you are trying to create an app for):
+1. Copy the JavaScript below
+2. Open the Chrome Devtools (right click anywhere on the page and select "Inspect")
+3. Paste the copied JavaScript
+4. Modify the URL if necessary to whatever URL you are trying to create an app for
+5. Hit return to run the JavaScript
 
 ```js
 const startUrl = 'https://calendar.google.com/calendar/b/1/r';
@@ -29,9 +33,9 @@ This will add a [Web App Manifest](https://www.w3.org/TR/appmanifest) for this w
 
 Once you have done this, you can create the desktop app as normal:
 
-1. three dots menu -> More Tools -> Create Shortcut
+6. three dots menu -> More Tools -> Create Shortcut
    <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut.png" alt="" /><br /><br />
-2. Check "Open as window" and select "Create"
+7. Check "Open as window" and select "Create"
    <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut-window.png" alt="" /><br /><br />
 
 Now you should have a separate desktop app for your second calendar account!
