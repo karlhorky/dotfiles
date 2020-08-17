@@ -4,12 +4,10 @@
 
 You have a personal Google Calendar and also a GSuite Google Calendar account, and you want to have [Chrome desktop apps](#chrome-desktop-apps) (aka pseudo-PWAs or Shortcuts) for both of them.
 
-However, when creating the app to the second account, Chrome does not create a new app - it replaces the existing one.
+However, when creating the app to the second account, Chrome does not create a new app:
 
-There are two problems:
-
-1. Creating an app using the `/b/1` url (example URL: https://calendar.google.com/calendar/b/1/r) will default to your main Google Calendar account (when you relaunch it).
-2. Creating a new app will replace your existing app.
+1. Creating a new app replaces your existing app.
+2. Creating an app using the `/b/1` url (example URL: https://calendar.google.com/calendar/b/1/r) will launch the incorrect Google Calendar account when you relaunch it
 
 ## Solution
 
