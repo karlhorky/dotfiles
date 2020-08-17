@@ -27,6 +27,18 @@ document.head
 
 This will add a [Web App Manifest](https://www.w3.org/TR/appmanifest) for this website, which will be used when creating the app.
 
+Once you have done this, you can create the desktop app as normal:
+
+1. three dots menu
+2. More Tools
+3. Create Shortcut
+4. Check "Open as window"
+5. Hit OK
+
+Now you should have a separate desktop app for your second calendar account!
+
+### Old Solution
+
 This new solution is simpler and works more reliably than [the old solution](https://github.com/karlhorky/dotfiles/blob/3dc4f34f4ef00159987d4dee0dec4aafd8331895/tricks/gsuite-google-calendar-chrome-desktop-app-shortcut.md), which used offline mode in the Network tab.
 
 ## Chrome Desktop Apps
