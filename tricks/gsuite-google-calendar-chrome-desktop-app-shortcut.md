@@ -2,44 +2,35 @@
 
 ## Problem
 
-You have a personal Google Calendar and also a GSuite Google Calendar account, and you want to have Chrome desktop shortcuts to both of them (example: https://twitter.com/karlhorky/status/1127884049073233920).
+You have a personal Google Calendar and also a GSuite Google Calendar account, and you want to have [Chrome desktop apps](#chrome-desktop-apps) for both of them.
 
-But Chrome does not want to cooperate. Chrome does not currently have an easy way to create a desktop app shortcut to both the GSuite and normal Google Calendar accounts.
+However, when creating the app to the second account, Chrome does not create a new shortcut - it replaces the existing one.
 
 There are two problems:
 
-1. Creating a shortcut to the `/b/1` url (example URL: https://calendar.google.com/calendar/b/1/r) will only go to your GSuite account the first time you create it. The next time you launch it, it will default to your main Google Calendar account.
-2. Creating a new shortcut will replace your old shortcut.
+1. Creating an app using the `/b/1` url (example URL: https://calendar.google.com/calendar/b/1/r) will default to your main Google Calendar account (when you relaunch it).
+2. Creating a new app will replace your existing app.
 
 ## Solution
 
-Create a shortcut with the URL that redirects to your GSuite Google Calendar account:
+Open the Chrome Devtools and run the following JavaScript (change the URL to whatever URL you are trying to create an app for):
 
+```js
+const startUrl = 'https://calendar.google.com/calendar/b/1/r';
+document.head
+  .querySelector(':first-child')
+  .insertAdjacentHTML(
+    'beforebegin',
+    `<link rel="manifest" href='data:application/manifest+json,{"start_url":"${startUrl}"}' />`,
+  );
 ```
-https://calendar.google.com/calendar?authuser=1
-```
 
-I found this URL in the account switcher in the top right in Google Calendar:
+This will add a [Web App Manifest](https://www.w3.org/TR/appmanifest) for this website, which will be used when creating the app.
 
-<img src="gsuite-google-calendar-chrome-desktop-app-shortcut-acct-switcher.png" alt="" />
+This new solution is simpler and works more reliably than [the old solution](https://github.com/karlhorky/dotfiles/blob/3dc4f34f4ef00159987d4dee0dec4aafd8331895/tricks/gsuite-google-calendar-chrome-desktop-app-shortcut.md), which used offline mode in the Network tab.
 
-The problem with creating a shortcut with this URL is that milliseconds after you go to the URL, it will redirect to the other `/b/1` (or similar) URL (example URL: https://calendar.google.com/calendar/b/1/r).
+## Chrome Desktop Apps
 
-The way to get around this is to use the Chrome Devtools to set your connection to "Offline", so that you have time to create the shortcut before the redirect.
+Chrome desktop apps can be created for any website or web application, and behave similar to full desktop applications on your computer (see https://twitter.com/karlhorky/status/1127884049073233920).
 
-Here are the steps how to do that:
-
-1. Open a new tab
-2. Open the Chrome Devtools (under the three dots menu -> `More Tools` -> `Developer Tools`)<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-devtools.png" alt="" /><br /><br />
-3. Go to the `Network` tab and set the Throttling dropdown to "Offline". Keep the Devtools open.<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-network-offline.png" alt="" /><br /><br />
-4. Go to the URL `https://calendar.google.com/calendar?authuser=1`. It will show a page that you have "No internet" (because we turned on the throttling).<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-no-internet.png" alt="" /><br /><br />
-5. Create a Desktop App Shortcut (under the three dots menu -> `More Tools` -> `Create Shortcut...`). Note: No window should appear at this step!<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut.png" alt="" /><br /><br />
-6. Change the Throttling dropdown in the Devtools to "Online" again.
-7. Try going to the URL again. While the page loads, there should be a window that pops up, asking if you want to create a shortcut. Check the "Open as window" checkbox and hit "Create".<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut-window.png" alt="" /><br /><br />
-8. You should now have a Chrome Desktop App Shortcut that will launch separately from your regular Google Calendar!<br /><br />
-   <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-dock.png" alt="" /><br /><br />
+They are created using the three dots menu -> More Tools -> Create Shortcut -> Check "Open as window" example.
