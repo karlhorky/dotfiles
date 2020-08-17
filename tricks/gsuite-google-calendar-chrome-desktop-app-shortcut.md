@@ -2,9 +2,9 @@
 
 ## Problem
 
-You have a personal Google Calendar and also a GSuite Google Calendar account, and you want to have [Chrome desktop apps](#chrome-desktop-apps) for both of them.
+You have a personal Google Calendar and also a GSuite Google Calendar account, and you want to have [Chrome desktop apps](#chrome-desktop-apps) (aka pseudo-PWAs or Shortcuts) for both of them.
 
-However, when creating the app to the second account, Chrome does not create a new shortcut - it replaces the existing one.
+However, when creating the app to the second account, Chrome does not create a new app - it replaces the existing one.
 
 There are two problems:
 
@@ -49,5 +49,3 @@ This new solution is simpler and works more reliably than [the old solution](htt
 ## Chrome Desktop Apps
 
 Chrome desktop apps can be created for any website or web application, and behave similar to full desktop applications on your computer (see https://twitter.com/karlhorky/status/1127884049073233920).
-
-They are created using the three dots menu -> More Tools -> Create Shortcut -> Check "Open as window" example.
