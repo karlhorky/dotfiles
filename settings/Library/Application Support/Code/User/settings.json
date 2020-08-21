@@ -105,8 +105,8 @@
   // Auto-close HTML / JSX tags in MDX
   // https://github.com/silvenon/vscode-mdx/blob/master/readme.md#auto-close-tags
   // https://github.com/formulahendry/vscode-auto-close-tag
-  "auto-close-tag.activationOnLanguage": [
-    "mdx"
-  ],
-  "errorLens.onSave": true
+  "auto-close-tag.activationOnLanguage": ["mdx"],
+  "errorLens.onSave": true,
+  "errorLens.onSaveTimeout": 5000,
+  "errorLens.scrollbarHackEnabled": true
 }
