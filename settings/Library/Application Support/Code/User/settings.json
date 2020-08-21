@@ -108,5 +108,10 @@
   "auto-close-tag.activationOnLanguage": ["mdx"],
   "errorLens.onSave": true,
   "errorLens.onSaveTimeout": 5000,
-  "errorLens.scrollbarHackEnabled": true
+  "errorLens.scrollbarHackEnabled": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info"
+  ]
 }
