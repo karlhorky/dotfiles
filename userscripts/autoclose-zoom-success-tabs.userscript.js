@@ -10,13 +10,8 @@
 
 (function() {
   'use strict';
-  const url = location.href;
-
   // https://us02web.zoom.us/j/6830992169#success
-  const isZoomInviteUrl = url.match(/https:\/\/\S+\.zoom.us\/j\/.+/);
-  const isSuccess = url.endsWith('#success');
-
-  if (isZoomInviteUrl && isSuccess) {
+  if (location.href.match(/https:\/\/\S+\.zoom.us\/j\/.+#success$/)) {
     setTimeout(() => window.close(), 2000);
   }
 })();
