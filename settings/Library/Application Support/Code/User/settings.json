@@ -112,5 +112,12 @@
   "errorLens.onSave": true,
   "errorLens.onSaveTimeout": 5000,
   "errorLens.scrollbarHackEnabled": true,
-  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"]
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
