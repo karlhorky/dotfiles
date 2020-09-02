@@ -147,6 +147,8 @@ main() {
   execute "code --install-extension jpoissonnier.vscode-styled-components" "code --install-extension jpoissonnier.vscode-styled-components"
   # Install VS Code extension Error Lens
   execute "code --install-extension usernamehw.errorlens" "code --install-extension usernamehw.errorlens"
+  # Install VS Code extension Multiple cursor case preserve
+  execute "code --install-extension Cardinal90.multi-cursor-case-preserve" "code --install-extension Cardinal90.multi-cursor-case-preserve"
 
   # Install VS Code Insiders Build
   execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
