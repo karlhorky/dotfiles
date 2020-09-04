@@ -7,7 +7,7 @@ You have a personal Google Calendar and also a GSuite Google Calendar account, a
 However, when creating the app to the second account, Chrome does not create a new app:
 
 1. Creating a new app replaces your existing app.
-2. Creating an app using the `/b/1` url (example URL: https://calendar.google.com/calendar/b/1/r) will launch the incorrect Google Calendar account when you relaunch it
+2. Creating an app using the `/u/1` url (example URL: https://calendar.google.com/calendar/u/1/r) will launch the incorrect Google Calendar account when you relaunch it
 
 ## Solution
 
@@ -18,7 +18,7 @@ However, when creating the app to the second account, Chrome does not create a n
 5. Hit return to run the JavaScript
 
 ```js
-const startUrl = 'https://calendar.google.com/calendar/b/1/r';
+const startUrl = 'https://calendar.google.com/calendar/u/1/r';
 document.head
   .querySelector(':first-child')
   .insertAdjacentHTML(
