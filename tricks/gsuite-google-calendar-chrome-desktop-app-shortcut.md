@@ -12,8 +12,8 @@ However, when creating the app to the second account, Chrome does not create a n
 ## Solution
 
 1. Copy the JavaScript below
-2. Open the Chrome Devtools (right click anywhere on the page and select "Inspect")
-3. Paste the copied JavaScript
+2. On the Google Calendar page, open the Chrome Devtools (right click anywhere on the page and select "Inspect")
+3. Go to the Console tab and paste the copied JavaScript
 4. Modify the URL if necessary to whatever URL you are trying to create an app for
 5. Hit return to run the JavaScript
 
@@ -31,7 +31,7 @@ This will add a [Web App Manifest](https://www.w3.org/TR/appmanifest) for this w
 
 Once you have done this, you can create the desktop app as normal:
 
-6. three dots menu -> More Tools -> Create Shortcut
+6. Click on the three dots menu > More Tools > Create Shortcut
    <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut.png" alt="" /><br /><br />
 7. Check "Open as window" and select "Create"
    <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-create-shortcut-window.png" alt="" /><br /><br />
