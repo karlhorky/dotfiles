@@ -42,6 +42,7 @@
   //   // }
   // ],
   "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
   // "eslint.validate": [
   //   "javascript",
   //   "javascriptreact",
@@ -86,7 +87,6 @@
   // "editor.cursorSurroundingLines": 6,
   "window.zoomLevel": 0,
   // "javascript.implicitProjectConfig.checkJs": true
-
   "eslint.nodePath": "/Users/k/p/upleveled-vscode-eslint-base-config/node_modules",
   "eslint.options": {
     "configFile": "/Users/k/p/upleveled-vscode-eslint-base-config/.eslintrc.js",
@@ -112,11 +112,7 @@
   "errorLens.onSave": true,
   "errorLens.onSaveTimeout": 5000,
   "errorLens.scrollbarHackEnabled": true,
-  "errorLens.enabledDiagnosticLevels": [
-    "error",
-    "warning",
-    "info"
-  ],
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"],
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
