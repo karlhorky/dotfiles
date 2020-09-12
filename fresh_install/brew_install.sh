@@ -87,7 +87,10 @@ main() {
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
   # Install Flycut clipboard manager
-  execute "brew cask install flycut" "brew cask install flycut"
+  # Currently commented out because of this missing feature:
+  # https://github.com/TermiT/Flycut/pull/117
+  # Until that PR is merged, use the fork: https://github.com/unkhz/Flycut/releases/tag/1.8.3
+  # execute "brew cask install flycut" "brew cask install flycut"
   # Install KeepingYouAwake - Prevent your Mac from sleeping
   execute "brew cask install keepingyouawake" "brew cask install keepingyouawake"
   # Install ngrok: Secure introspectable tunnels to localhost
