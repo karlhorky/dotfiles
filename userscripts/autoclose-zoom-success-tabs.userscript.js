@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Autoclose Zoom Success Tabs
 // @namespace    https://www.karlhorky.com/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Automatically close Zoom tabs after success à la https://github.com/thesephist/clozoom/blob/master/background.js
 // @author       Karl Horky
 // @match        https://*.zoom.us/j/*
@@ -10,8 +10,8 @@
 
 (function() {
   'use strict';
-  // https://us02web.zoom.us/j/6830992169#success
-  if (location.href.match(/https:\/\/\S+\.zoom.us\/j\/.+#success$/)) {
+  // https://us02web.zoom.us/postattendee?id=8
+  if (location.href.match(/^https:\/\/\S+\.zoom.us\/postattendee\?id=/)) {
     setTimeout(() => window.close(), 2000);
   }
 })();
