@@ -107,11 +107,11 @@
   // "editor.cursorSurroundingLines": 6,
   "window.zoomLevel": 0,
   // "javascript.implicitProjectConfig.checkJs": true
-  "eslint.nodePath": "/Users/k/p/upleveled-vscode-eslint-base-config/node_modules",
-  "eslint.options": {
-    "configFile": "/Users/k/p/upleveled-vscode-eslint-base-config/.eslintrc.js",
-    "resolvePluginsRelativeTo": "/Users/k/p/upleveled-vscode-eslint-base-config/node_modules"
-  },
+  // "eslint.nodePath": "/Users/k/p/eslint-config-upleveled/node_modules",
+  // "eslint.options": {
+  //   "configFile": "/Users/k/p/eslint-config-upleveled/index.js",
+  //   "resolvePluginsRelativeTo": "/Users/k/p/eslint-config-upleveled/node_modules"
+  // },
   // Reuse the search configuration
   // https://code.visualstudio.com/updates/v1_46#_search-editor
   "search.searchEditor.reusePriorSearchConfiguration": true,
