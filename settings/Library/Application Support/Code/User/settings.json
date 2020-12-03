@@ -8,7 +8,10 @@
   // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
   "javascript.format.enable": false,
-  "editor.formatOnSave": true,
+  // No longer needed due to rohit-gohri.format-code-action and
+  // `editor.codeActionsOnSave` configuration with the
+  // `source.fixAll.format` element
+  "editor.formatOnSave": false,
   "files.autoSave": "onFocusChange",
   "editor.folding": false,
   "explorer.openEditors.visible": 0,
@@ -80,6 +83,23 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": [
+    // VS Code Organize Imports feature for sorting and consolidating imports
+    // https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
+    "source.organizeImports",
+    // Run ESLint --fix on the current file
+    // https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
+    "source.fixAll.eslint",
+    // Trigger VS Code Format Document feature through rohit-gohri.format-code-action, configured above to default to Prettier
+    // https://github.com/rohit-gohri/vscode-format-code-action#usage
+    "source.fixAll.format"
+  ],
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
