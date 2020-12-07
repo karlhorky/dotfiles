@@ -7,7 +7,8 @@
   "editor.renderIndentGuides": false,
   // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
-  "javascript.format.enable": false,
+  // "javascript.format.enable": false,
+  // "typescript.format.enable": false,
   // No longer needed due to rohit-gohri.format-code-action and
   // `editor.codeActionsOnSave` configuration with the
   // `source.fixAll.format` element
