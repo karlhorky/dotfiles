@@ -76,7 +76,7 @@ main() {
 
   # Currently disabled because version 2.4.3 causes Inertia Scrolling (aka Momentum Scrolling) to fail in macOS 10.15 Catalina
   # execute "brew cask install magicprefs" "brew cask install magicprefs"
-  execute "brew cask install dafuqtor/tap/midclick" "brew cask install dafuqtor/tap/midclick"
+  execute "brew cask install middleclick" "brew cask install middleclick"
   # # Open MiddleClick in order to *manually* do the following:
   # # 1. Accept the Accessibility settings
   # # 2. Set the setting to "3 Finger Click"
