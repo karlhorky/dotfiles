@@ -1,0 +1,61 @@
+! 30/07/2017, 18:56:35 https://www.linguee.com/english-german/search?source=auto&query=gesamt
+||www.linguee.com/img5/sprites15_2x.png$image
+
+! 30/07/2017, 19:00:18 https://www.linguee.com/english-german/search?source=auto&query=gesamt
+www.linguee.com##.wide_in_main.desktop_app_teaser.app_teaser > div
+
+! 29/03/2018, 15:46:30 http://www.zdnet.com/article/chromebooks-still-beat-the-ipad-is-one-critical-way/
+www.zdnet.com###lightbox-iframe-f0433f51-4cb3-432b-b2cb-f0c5b71cbf39
+
+! 29/03/2018, 15:49:07 http://www.zdnet.com/article/chromebooks-still-beat-the-ipad-is-one-critical-way/
+www.zdnet.com##.preloaded_lightbox
+
+! 05/04/2018, 15:27:20 http://www.thesaurus.com/browse/target?s=t
+www.thesaurus.com###synonyms-0 > .editorial-content-feed
+
+! 6/7/2018, 9:22:11 AM https://www.sitepoint.com/replacing-jquery-vue/
+www.sitepoint.com##sp-fixed-countdown-bar
+
+! 8/8/2018, 1:21:34 PM http://www.idownloadblog.com/2018/06/11/ios-12-ipad-one-finger-app-switching/
+www.idownloadblog.com###pushmonkey-prompt-container
+
+! 9/26/2018, 1:12:44 PM https://www.thesaurus.com/browse/credit
+www.thesaurus.com###optanon-popup-bg
+
+! 9/26/2018, 1:13:04 PM https://www.thesaurus.com/browse/credit
+www.thesaurus.com##.optanon-alert-box-wrapper
+
+! 1/15/2019, 12:37:44 PM https://www.linkedin.com/in/mathias-burger-7741178b/?originalSubdomain=at
+www.linkedin.com###ember30.ember-view.nav-item__try-premium.nav-item__link
+
+! 3/1/2019 http://www.warda.at
+www.warda.at##.adblocker
+
+www.warda.at##body:style( overflow: visible !important; position: static !important; )
+
+! 6/2/2019 https://www.forbes.com
+www.forbes.com##.sticky-video-placeholder.video-placeholder
+
+! 1/14/2020 https://toggl.com
+toggl.com##.AnnouncementBar__root
+
+! 4/16/2020 https://www.linkedin.com
+www.linkedin.com##.notification-badge--show.notification-badge
+
+! 2020-09-25 https://www.linguee.com
+www.linguee.com##.wide_in_main.l_deepl_ad_container
+www.linguee.com##.wide_in_main.dlTopBanner
+
+! 2020-09-27 https://news.google.com
+! Disable Sports section on Google News
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc + div.nID9nc + div.nID9nc
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc + div.nID9nc
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/)
+
+! 2020-10-14 https://www.derbrutkasten.com
+www.derbrutkasten.com##[data-elementor-type="footer"]
+
+! 2020-12-22 Disable "People also search for" in Google results
+www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
