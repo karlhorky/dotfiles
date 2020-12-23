@@ -86,7 +86,9 @@ main() {
   execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
-  # Install Flycut clipboard manager
+  # Install Maccy clipboard manager
+  execute "brew install --cask maccy" "brew install --cask maccy"
+  # DO NOT USE (use Maccy instead - see above) Install Flycut clipboard manager
   # Currently commented out because of this missing feature:
   # https://github.com/TermiT/Flycut/pull/117
   # Until that PR is merged, use the fork: https://github.com/unkhz/Flycut/releases/tag/1.8.3
