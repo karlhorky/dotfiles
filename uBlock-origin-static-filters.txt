@@ -67,3 +67,6 @@ fuelcellsworks.com##+js(acis, document.ondragstart)
 fuelcellsworks.com##+js(acis, document.onselectstart)
 fuelcellsworks.com##+js(acis, document.oncontextmenu)
 fuelcellsworks.com###ajax-loading-screen
+
+! 2020-12-28 https://www.newyorker.com
+www.newyorker.com##.paywall-bar__expanded.paywall-bar__wrapper
