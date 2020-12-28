@@ -59,3 +59,11 @@ www.derbrutkasten.com##[data-elementor-type="footer"]
 
 ! 2020-12-22 Disable "People also search for" in Google results
 www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
+
+! 2020-12-28 Disable WP Content Copy Protection & No Right Click
+fuelcellsworks.com##+js(acis, document.addEventListener)
+fuelcellsworks.com##+js(acis, document.onclick)
+fuelcellsworks.com##+js(acis, document.ondragstart)
+fuelcellsworks.com##+js(acis, document.onselectstart)
+fuelcellsworks.com##+js(acis, document.oncontextmenu)
+fuelcellsworks.com###ajax-loading-screen
