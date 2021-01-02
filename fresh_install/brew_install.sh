@@ -37,7 +37,7 @@ main() {
 
   # Install diff-highlight module and set it as default pager
   make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
-  ln -sf "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight" /usr/local/bin/diff-highlight
+  ln -sf "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight" "$(brew --prefix git)/bin/diff-highlight"
 
   # Install vim packages
   mkdir -p ~/.vim/autoload ~/.vim/bundle && \
