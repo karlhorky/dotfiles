@@ -1,6 +1,6 @@
 # Karl Horky's dotfiles
 
-System settings for OS X and bootstrapper for new systems.
+System settings for macOS and bootstrapper for new systems.
 
 ## Setup
 
