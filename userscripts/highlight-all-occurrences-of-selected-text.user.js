@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Highlight All Occurrences of Selected Text
 // @namespace    https://www.karlhorky.com/
-// @version      1.0
+// @version      1.1
 // @description  Highlight all occurrences of any text that has been selected on the page
 // @author       James Wilson, Karl Horky
 // @match        https://*/*
@@ -26,7 +26,7 @@
   const options = {
     isSelectionValid: function ({ selectionString, selection }) {
       return (
-        selectionString.length >= 3 &&
+        selectionString.length >= 2 &&
         selection.type !== 'None' &&
         selection.type !== 'Caret'
       );
