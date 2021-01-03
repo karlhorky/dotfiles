@@ -112,6 +112,8 @@ main() {
   execute "brew cask install kap" "brew cask install kap"
   # Install Google Music Manager
   execute "brew cask install music-manager" "brew cask install music-manager"
+  # Install VLC
+  execute "brew cask install vlc" "brew cask install vlc"
   # Install KeyboardCleanTool
   execute "brew cask install keyboardcleantool" "brew cask install keyboardcleantool"
   # Install KeePassXC Password Manager
