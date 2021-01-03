@@ -83,7 +83,7 @@ main() {
   open -a MiddleClick
   # # This sets the number of fingers to 2 (currently disabled because of mis-clicks)
   # defaults write com.rouge41.middleClick fingers 2
-  execute "brew cask install yujitach-menumeters" "brew cask install yujitach-menumeters"
+  execute "brew cask install menumeters" "brew cask install menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
   # Install Maccy clipboard manager
