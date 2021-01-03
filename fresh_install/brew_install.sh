@@ -71,6 +71,7 @@ main() {
   execute "brew cask install whatsapp" "brew cask install whatsapp"
   execute "brew cask install signal" "brew cask install signal"
   execute "brew cask install skype" "brew cask install skype"
+  execute "brew cask install zoom" "brew cask install zoom"
 
   execute "brew cask install keybase" "brew cask install keybase"
 
