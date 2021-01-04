@@ -48,11 +48,11 @@ www.linguee.com##.wide_in_main.dlTopBanner
 
 ! 2020-09-27 https://news.google.com
 ! Disable Sports section on Google News
-news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc + div.nID9nc + div.nID9nc
-news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc + div.nID9nc
-news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc + div.nID9nc
-news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.nID9nc
 news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/)
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.NiLAwe
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.NiLAwe + div.NiLAwe
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.NiLAwe + div.NiLAwe + div.NiLAwe
+news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.NiLAwe + div.NiLAwe + div.NiLAwe + div.NiLAwe
 
 ! 2020-10-14 https://www.derbrutkasten.com
 www.derbrutkasten.com##[data-elementor-type="footer"]
