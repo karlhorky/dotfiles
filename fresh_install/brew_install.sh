@@ -124,7 +124,7 @@ main() {
   execute "brew cask install krisp" "brew cask install krisp"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration (currently disabled in favor of the preferences solution in macos.sh)
-  # execute "brew tap caskroom/drivers" "brew tap caskroom/drivers"
+  # execute "brew tap homebrew/cask-drivers" "brew tap homebrew/cask-drivers"
   # execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
 
   # Install VS Code and packages
