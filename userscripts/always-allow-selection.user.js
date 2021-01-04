@@ -1,12 +1,10 @@
 // ==UserScript==
 // @name         Always Allow Selection
 // @namespace    https://www.karlhorky.com/
-// @version      2.1
+// @version      2.2
 // @description  Disable user-select: none on all elements
 // @author       Karl Horky
-// @match        https://*/*
-// @match        http://*/*
-// @exclude      https://*.google.com/*
+// @match        https://fuelcellsworks.com/*
 // @grant        none
 // ==/UserScript==
 
