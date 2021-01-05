@@ -1,3 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Karl Horky
+	email = karl.horky@gmail.com
+
+	# Retrieve GPG secret key id from this command:
+	# gpg --list-secret-keys --with-colons | awk -F: '$1 == "sec" {print $5}'
+	# https://superuser.com/questions/1150165/get-list-of-secret-key-ids
+	signingkey = XXXXXXX
 [push]
 	default = simple
 [core]
@@ -7,10 +16,9 @@
 	# disabled until github.com/so-fancy/diff-so-fancy/pull/172 is resolved :(
 	# diffFilter = diff-so-fancy --patch-mode | less --tabs=2 -RFX
 	diffFilter = diff-highlight
-[user]
-	name = Karl Horky
-	email = karl.horky@gmail.com
 [commit]
 	gpgsign = true
+[gpg]
+  program = gpg
 [diff-so-fancy]
 	first-run = false

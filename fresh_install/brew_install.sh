@@ -14,7 +14,12 @@ main() {
     "vim"
     "git"
     "git-lfs"
-    "hub"
+
+    # For Git commit signing
+    "gpg"
+    "pinentry-mac"
+
+    # "hub"
     "node"
     "yarn"
     "zsh"

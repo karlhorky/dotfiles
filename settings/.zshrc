@@ -151,3 +151,7 @@ export PGDATA=/usr/local/var/postgres
 # Warning: Failed to set locale category LC_MESSAGES to en_AT.
 # Ref: https://github.com/Homebrew/homebrew-core/issues/41139
 export LC_ALL=en_US.UTF-8
+
+# Fix "signing failed: Inappropriate ioctl for device" error with gpg
+# https://stackoverflow.com/a/57591830/1268612
+export GPG_TTY=$(tty)
