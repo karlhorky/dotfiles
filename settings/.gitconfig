@@ -6,6 +6,12 @@
 	# Retrieve GPG secret key id from this command:
 	# gpg --list-secret-keys --with-colons | awk -F: '$1 == "sec" {print $5}'
 	# https://superuser.com/questions/1150165/get-list-of-secret-key-ids
+	#
+	# If this is still not working or returning the dreaded
+	# "git error: gpg failed to sign the data", then you may need
+	# to do additional steps from here:
+	# https://sabbour.me/setting-up-signed-git-commits-on-macos/
+	# https://gist.github.com/karlhorky/65e73461225a7f7e6877589c9b10faaa
 	signingkey = XXXXXXX
 [push]
 	default = simple
