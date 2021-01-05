@@ -3,7 +3,7 @@
 info "Configuring macOS System settings..."
 
 # Disable press-and-hold for keys in favor of key repeat
-sudo defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+sudo defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
 sudo defaults write NSGlobalDomain KeyRepeat -int 1
@@ -111,4 +111,3 @@ killall Dock
 sudo scutil --set HostName 'Karls-MacBook-Pro.local'
 
 success "macOS System settings configured\n"
-
