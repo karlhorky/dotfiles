@@ -440,8 +440,12 @@ call <sid>hi('gitcommitSelectedFile', s:cdGreen, {}, 'none', {})
 call <sid>hi('gitcommitDiscardedType', s:cdRed, {}, 'none', {})
 call <sid>hi('gitcommitDiscardedFile', s:cdRed, {}, 'none', {})
 call <sid>hi('gitcommitOverflow', s:cdRed, {}, 'none', {})
-call <sid>hi('gitcommitSummary', s:cdPink, {}, 'none', {})
+call <sid>hi('gitcommitSummary', s:cdFront, {}, 'none', {})
 call <sid>hi('gitcommitBlank', s:cdPink, {}, 'none', {})
+
+" Diff:
+call <sid>hi('diffAdded', s:cdLightGreen, {}, 'none', {})
+call <sid>hi('diffRemoved', s:cdLightRed, {}, 'none', {})
 
 " Lua:
 call <sid>hi('luaFuncCall', s:cdYellow, {}, 'none', {})
