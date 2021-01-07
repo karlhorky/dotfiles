@@ -3,175 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.42</string>
+	<string>509</string>
 	<key>AMApplicationVersion</key>
-	<string>2.9</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
 	<array>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>2.1.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>itemType</key>
-					<dict/>
-					<key>predicate</key>
-					<dict/>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.path</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>AMSelectedInputType</key>
-				<string>com.apple.cocoa.path</string>
-				<key>AMSelectedOutputType</key>
-				<string>com.apple.cocoa.path</string>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Filter Finder Items 2.action</string>
-				<key>ActionName</key>
-				<string>Filter Finder Items</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>itemType</key>
-					<string>com.apple.cocoa.path</string>
-					<key>predicate</key>
-					<data>
-					YnBsaXN0MDDUAQIDBAUGYmNYJHZlcnNpb25Y
-					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlVZXV9V
-					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
-					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
-					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
-					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
-					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
-					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
-					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
-					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
-					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
-					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
-					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
-					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
-					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
-					Njc4WU5TS2V5UGF0aIALEAqAClRraW5k0ior
-					OzxfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHBy
-					ZXNzaW9uozsuL9IqKz4/Xk5TTXV0YWJsZUFy
-					cmF5oz5AL1dOU0FycmF50iorQkNfEBNOU0tl
-					eVBhdGhFeHByZXNzaW9upEJELi9fEBROU0Z1
-					bmN0aW9uRXhwcmVzc2lvbtNGHwtHSElfEA9O
-					U0NvbnN0YW50VmFsdWWADxAAgBAQBNIqK0xN
-					XxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lv
-					bqNMLi/VC09QUVJTSFRISlpOU01vZGlmaWVy
-					WE5TTmVnYXRlWU5TT3B0aW9uc15OU09wZXJh
-					dG9yVHlwZYASCNIqK1ZXXxAbTlNFcXVhbGl0
-					eVByZWRpY2F0ZU9wZXJhdG9yo1ZYL18QE05T
-					UHJlZGljYXRlT3BlcmF0b3LSKitaW18QFU5T
-					Q29tcGFyaXNvblByZWRpY2F0ZaNaXC9bTlNQ
-					cmVkaWNhdGXSKitAXqJAL9IqK2BhXxATTlND
-					b21wb3VuZFByZWRpY2F0ZaNgXC9fEA9OU0tl
-					eWVkQXJjaGl2ZXLRZGVUcm9vdIABAAgAEQAa
-					ACMALQAyADcAUABWAF0AdwCJAJAAkgCUAJYA
-					mwCmAKgAqgCsALUAyQDcAPIA9AD2APgA+gEF
-					AQ8BHgExAT0BPwFBAUMBRQFHAVQBWQFbAWAB
-					awF0AYcBiwGYAaEBpgGoAaoBrAGzAb0BvwHB
-					AcMByAHNAewB8AH1AgQCCAIQAhUCKwIwAkcC
-					TgJgAmICZAJmAmgCbQKJAo0CmAKjAqwCtgLF
-					AscCyALNAusC7wMFAwoDIgMmAzIDNwM6Az8D
-					VQNZA2sDbgNzAAAAAAAAAgEAAAAAAAAAZgAA
-					AAAAAAAAAAAAAAAAA3U=
-					</data>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.FilterFinderItems2</string>
-				<key>CFBundleVersion</key>
-				<string>2.1.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryFilesAndFolders</string>
-				</array>
-				<key>Class Name</key>
-				<string>Filter_Finder_Items_2</string>
-				<key>InputUUID</key>
-				<string>CCB921B5-A1BE-4EFC-8B3C-26FE9061E077</string>
-				<key>Keywords</key>
-				<array/>
-				<key>OutputUUID</key>
-				<string>84595913-62D3-45A7-A594-E244A717E39B</string>
-				<key>UUID</key>
-				<string>6BE8F260-5167-4C6A-8518-8828D9E9569D</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Finder</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string>com.apple.cocoa.path</string>
-						<key>name</key>
-						<string>itemType</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<data>
-						</data>
-						<key>name</key>
-						<string>predicate</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-				</dict>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>529.000000:243.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
 		<dict>
 			<key>action</key>
 			<dict>
@@ -221,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>[[ `basename "$@"` == Screen\ Shot* ]] &amp;&amp; /Applications/ImageOptim.app/Contents/MacOS/ImageOptim "$@"</string>
+					<string>[[ `basename "$@"` == Screen\ Shot*.png ]] &amp;&amp; /Applications/ImageOptim.app/Contents/MacOS/ImageOptim "$@"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -257,6 +95,8 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>7B7DBF42-45C4-4A57-8313-1D04EFB3E4CE</string>
+				<key>ShowWhenRun</key>
+				<false/>
 				<key>UUID</key>
 				<string>762362E1-8785-4E37-8C79-48F3B9F12562</string>
 				<key>UnlocalizedApplications</key>
@@ -281,9 +121,9 @@
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>source</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -294,9 +134,9 @@
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -334,7 +174,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:425.000000</string>
+				<string>529.000000:432.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -343,15 +183,7 @@
 		</dict>
 	</array>
 	<key>connectors</key>
-	<dict>
-		<key>0A6A415B-18A8-4815-8475-3AC322FC0D96</key>
-		<dict>
-			<key>from</key>
-			<string>6BE8F260-5167-4C6A-8518-8828D9E9569D - 6BE8F260-5167-4C6A-8518-8828D9E9569D</string>
-			<key>to</key>
-			<string>762362E1-8785-4E37-8C79-48F3B9F12562 - 762362E1-8785-4E37-8C79-48F3B9F12562</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>folderActionFolderPath</key>
