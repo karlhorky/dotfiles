@@ -2,7 +2,7 @@
 
 ## Installation
 
-Install ImageOptim (`brew cask install imageoptim`).
+Install ImageOptim (`brew install --cask imageoptim`).
 
 Copy the folders above to `~/Library/Services/` to have them appear under right-click "Quick Actions" menu.
 
