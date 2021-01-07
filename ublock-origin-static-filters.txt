@@ -70,3 +70,6 @@ fuelcellsworks.com###ajax-loading-screen
 
 ! 2020-12-28 https://www.newyorker.com
 www.newyorker.com##.paywall-bar__expanded.paywall-bar__wrapper
+
+! 2021-01-07 Hide synopsis on pause screen https://www.netflix.com
+www.netflix.com##.PlayerControlsNeo__all-controls .nfa-w-60.nfa-m-0.nfa-c-gray-80.nfa-fs-1-6-em
