@@ -73,3 +73,6 @@ www.newyorker.com##.paywall-bar__expanded.paywall-bar__wrapper
 
 ! 2021-01-07 Hide synopsis on pause screen https://www.netflix.com
 www.netflix.com##.PlayerControlsNeo__all-controls .nfa-w-60.nfa-m-0.nfa-c-gray-80.nfa-fs-1-6-em
+
+! 2021-01-10 https://www.wired.com
+www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
