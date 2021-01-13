@@ -9,7 +9,7 @@ However, when creating the app to the second account, Chrome does not create a n
 1. Creating a new app replaces your existing app.
 2. Creating an app using the `/u/1` url (example URL: https://calendar.google.com/calendar/u/1/r) will launch the incorrect Google Calendar account when you relaunch it
 
-## Solution 1: Add a Web Manifest
+## Solution 1: Add a Web App Manifest
 
 1. Copy the JavaScript below
 2. On the Google Calendar page, open the Chrome Devtools (right click anywhere on the page and select "Inspect")
@@ -40,9 +40,9 @@ Now you should have a separate desktop app for your second calendar account!
 
 <img src="gsuite-google-calendar-chrome-desktop-app-shortcut-dock.png" alt="" />
 
-## Solution 2: Edit an Existing Web Manifest
+## Solution 2: Edit an Existing Web App Manifest
 
-For applications other than Google Calendar, you may have issues with the solution above, and you may have more success [editing an existing Web Manifest](https://github.com/karlhorky/pwa-tricks#change-starting-url-of-pwa-in-chrome).
+For applications other than Google Calendar, you may have issues with the solution above, and you may have more success [editing an existing Web App Manifest](https://github.com/karlhorky/pwa-tricks#change-starting-url-of-pwa-in-chrome).
 
 ## Alternative Offline Mode Solution
 
