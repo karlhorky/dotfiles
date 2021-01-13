@@ -76,3 +76,6 @@ www.netflix.com##.PlayerControlsNeo__all-controls .nfa-w-60.nfa-m-0.nfa-c-gray-8
 
 ! 2021-01-10 https://www.wired.com
 www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
+
+! 2021-01-13 Bottom banner for "Remaining Articles" https://www.newsweek.com
+www.newsweek.com##.remaining-articles
