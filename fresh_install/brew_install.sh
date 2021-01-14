@@ -92,8 +92,10 @@ main() {
   execute "brew cask install menumeters" "brew cask install menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
-  # Install Maccy clipboard manager
-  execute "brew install --cask maccy" "brew install --cask maccy"
+  # Install Yippy
+  # https://github.com/mattDavo/Yippy/releases
+  # DO NOT USE (use Yippy instead - see above) Install Maccy clipboard manager
+  # execute "brew install --cask maccy" "brew install --cask maccy"
   # DO NOT USE (use Maccy instead - see above) Install Flycut clipboard manager
   # Currently commented out because of this missing feature:
   # https://github.com/TermiT/Flycut/pull/117
