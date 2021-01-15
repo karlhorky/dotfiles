@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Highlight All Occurrences of Selected Text
 // @namespace    https://www.karlhorky.com/
-// @version      1.1
+// @version      1.2
 // @description  Highlight all occurrences of any text that has been selected on the page
 // @author       James Wilson, Karl Horky
 // @match        https://*/*
@@ -41,6 +41,7 @@
         'youtube.com',
         'notion.so',
         'codesandbox.io',
+        'track.toggl.com',
       ];
       return !blacklistedHosts.some((h) => windowLocation.host.includes(h));
     },
