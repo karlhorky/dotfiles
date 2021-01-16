@@ -149,6 +149,7 @@
   ],
   "template-string-converter.addBracketsToProps": true,
   "editor.wordBasedSuggestions": false,
+  "editor.snippetSuggestions": "none",
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
