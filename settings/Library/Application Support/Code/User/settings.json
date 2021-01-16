@@ -148,6 +148,7 @@
     "javascriptreact"
   ],
   "template-string-converter.addBracketsToProps": true,
+  "editor.wordBasedSuggestions": false,
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
