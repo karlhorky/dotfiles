@@ -185,5 +185,6 @@
     "yaml",
     "yml",
     "mdx"
-  ]
+  ],
+  "extensions.ignoreRecommendations": true
 }
