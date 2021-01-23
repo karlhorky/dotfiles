@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add TMDb links to IMDb
 // @description  Add links to themoviedb.org on IMDb pages
-// @version      1.0.1
+// @version      1.0.0
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://www.imdb.com/title/*
@@ -10,8 +10,6 @@
 
 const h1 = document.querySelector('div.title_wrapper > h1');
 const movieTitle = h1.firstChild.nodeValue;
-
-console.log(1);
 
 fetch(
   `https://cors-anywhere.herokuapp.com/https://www.themoviedb.org/search/trending?query=${movieTitle}`,
