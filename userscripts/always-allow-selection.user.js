@@ -5,6 +5,7 @@
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://fuelcellsworks.com/*
+// @match        https://www.displayspecifications.com/*
 // @grant        none
 // ==/UserScript==
 
