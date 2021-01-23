@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Always Allow Selection
 // @description  Disable user-select: none on all elements
-// @version      2.2.0
+// @version      2.2.1
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://fuelcellsworks.com/*
