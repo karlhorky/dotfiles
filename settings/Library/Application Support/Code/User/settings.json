@@ -9,10 +9,20 @@
   "editor.formatOnType": false,
   // "javascript.format.enable": false,
   // "typescript.format.enable": false,
-  // No longer needed due to rohit-gohri.format-code-action and
-  // `editor.codeActionsOnSave` configuration with the
-  // `source.fixAll.format` element
-  "editor.formatOnSave": false,
+
+  // This is currently disabled in favor of
+  // `editor.formatOnSave: true` and
+  // `editor.codeActionsOnSave: ["source.organizeImports"]`
+  // to try to figure out why there are slowdowns causing
+  // reloads of the window to be necessary.
+  //
+  // editor.formatOnSave can be set to false with proper
+  // configuration of the rohit-gohri.format-code-action
+  // extension under the `editor.codeActionsOnSave`
+  // settings key (eg. `source.fixAll.format`)
+  // "editor.formatOnSave": false,
+
+  "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
   "editor.folding": false,
   "explorer.openEditors.visible": 0,
@@ -100,13 +110,13 @@
   "editor.codeActionsOnSave": [
     // VS Code Organize Imports feature for sorting and consolidating imports
     // https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
-    "source.organizeImports",
+    "source.organizeImports"
     // // Run ESLint --fix on the current file
     // // https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
     // "source.fixAll.eslint",
     // Trigger VS Code Format Document feature through rohit-gohri.format-code-action, configured above to default to Prettier
     // https://github.com/rohit-gohri/vscode-format-code-action#usage
-    "source.fixAll.format"
+    // "source.fixAll.format"
   ],
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
