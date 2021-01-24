@@ -51,47 +51,47 @@ main() {
   git clone git://github.com/tpope/vim-sleuth.git  # sleuth.vim: automatically detect buffer indentation settings and configure based on that https://github.com/tpope/vim-sleuth
 
   # Google Chrome Browser and extensions
-  execute "brew cask install google-chrome" "brew cask install google-chrome"
+  execute "brew install --cask google-chrome" "brew install --cask google-chrome"
   # Only install untrusted extensions with limited permissions (not "Read and change all your data on the websites that you visit")
   # For extensions you want that need lots of permissions, review the code and save it to this repo,
   # such as utmstrip.user.js and javascript-errors-notifier/
   # TODO: Make list of used extensions here
 
   # Google Chrome Canary
-  execute "brew cask install google-chrome-canary" "brew cask install google-chrome-canary"
+  execute "brew install --cask google-chrome-canary" "brew install --cask google-chrome-canary"
   # Google Chrome Canary
-  execute "brew cask install chromium" "brew cask install chromium"
+  execute "brew install --cask chromium" "brew install --cask chromium"
   # Firefox browser
-  execute "brew cask install firefox" "brew cask install firefox"
+  execute "brew install --cask firefox" "brew install --cask firefox"
   # Safari Technical Preview browser
-  execute "brew cask install safari-technology-preview" "brew cask install safari-technology-preview"
+  execute "brew install --cask safari-technology-preview" "brew install --cask safari-technology-preview"
   # Microsoft Edge browser
-  execute "brew cask install microsoft-edge" "brew cask install microsoft-edge"
+  execute "brew install --cask microsoft-edge" "brew install --cask microsoft-edge"
 
-  execute "brew cask install hyper" "brew cask install hyper"
-  execute "brew cask install slack" "brew cask install slack"
-  execute "brew cask install discord" "brew cask install discord"
-  # execute "brew cask install caprine" "brew cask install caprine"
+  execute "brew install --cask hyper" "brew install --cask hyper"
+  execute "brew install --cask slack" "brew install --cask slack"
+  execute "brew install --cask discord" "brew install --cask discord"
+  # execute "brew install --cask caprine" "brew install --cask caprine"
 
-  execute "brew cask install whatsapp" "brew cask install whatsapp"
-  execute "brew cask install signal" "brew cask install signal"
-  execute "brew cask install skype" "brew cask install skype"
-  execute "brew cask install zoom" "brew cask install zoom"
+  execute "brew install --cask whatsapp" "brew install --cask whatsapp"
+  execute "brew install --cask signal" "brew install --cask signal"
+  execute "brew install --cask skype" "brew install --cask skype"
+  execute "brew install --cask zoom" "brew install --cask zoom"
 
-  execute "brew cask install keybase" "brew cask install keybase"
+  execute "brew install --cask keybase" "brew install --cask keybase"
 
   # Currently disabled because version 2.4.3 causes Inertia Scrolling (aka Momentum Scrolling) to fail in macOS 10.15 Catalina
-  # execute "brew cask install magicprefs" "brew cask install magicprefs"
-  execute "brew cask install middleclick" "brew cask install middleclick"
+  # execute "brew install --cask magicprefs" "brew install --cask magicprefs"
+  execute "brew install --cask middleclick" "brew install --cask middleclick"
   # # Open MiddleClick in order to *manually* do the following:
   # # 1. Accept the Accessibility settings
   # # 2. Set the setting to "3 Finger Click"
   open -a MiddleClick
   # # This sets the number of fingers to 2 (currently disabled because of mis-clicks)
   # defaults write com.rouge41.middleClick fingers 2
-  execute "brew cask install menumeters" "brew cask install menumeters"
+  execute "brew install --cask menumeters" "brew install --cask menumeters"
   # Install Disk Inventory X (disk space usage utility)
-  execute "brew cask install disk-inventory-x" "brew cask install disk-inventory-x"
+  execute "brew install --cask disk-inventory-x" "brew install --cask disk-inventory-x"
   # Install Yippy
   # https://github.com/mattDavo/Yippy/releases
   # DO NOT USE (use Yippy instead - see above) Install Maccy clipboard manager
@@ -100,42 +100,42 @@ main() {
   # Currently commented out because of this missing feature:
   # https://github.com/TermiT/Flycut/pull/117
   # Until that PR is merged, use the fork: https://github.com/unkhz/Flycut/releases/tag/1.8.3
-  # execute "brew cask install flycut" "brew cask install flycut"
+  # execute "brew install --cask flycut" "brew install --cask flycut"
   # Install KeepingYouAwake - Prevent your Mac from sleeping
-  execute "brew cask install keepingyouawake" "brew cask install keepingyouawake"
+  execute "brew install --cask keepingyouawake" "brew install --cask keepingyouawake"
   # Install ngrok: Secure introspectable tunnels to localhost
-  execute "brew cask install ngrok" "brew cask install ngrok"
+  execute "brew install --cask ngrok" "brew install --cask ngrok"
   # Install Arq Backup
-  execute "brew cask install arq" "brew cask install arq"
+  execute "brew install --cask arq" "brew install --cask arq"
   # Install QLStephen plain text file Quick Look plugin
-  execute "brew cask install qlstephen" "brew cask install qlstephen"
+  execute "brew install --cask qlstephen" "brew install --cask qlstephen"
   # Install WebP Quick Look plugin
-  execute "brew cask install webpquicklook" "brew cask install webpquicklook"
+  execute "brew install --cask webpquicklook" "brew install --cask webpquicklook"
   # Install iterm2 Terminal Emulator
-  execute "brew cask install iterm2" "brew cask install iterm2"
+  execute "brew install --cask iterm2" "brew install --cask iterm2"
   # Install Adobe Acrobat Reader DC
-  execute "brew cask install adobe-acrobat-reader" "brew cask install adobe-acrobat-reader"
+  execute "brew install --cask adobe-acrobat-reader" "brew install --cask adobe-acrobat-reader"
   # Install Kap screen capture app (also exports to gif)
-  execute "brew cask install kap" "brew cask install kap"
+  execute "brew install --cask kap" "brew install --cask kap"
   # Install Google Music Manager
-  execute "brew cask install music-manager" "brew cask install music-manager"
+  execute "brew install --cask music-manager" "brew install --cask music-manager"
   # Install VLC
-  execute "brew cask install vlc" "brew cask install vlc"
+  execute "brew install --cask vlc" "brew install --cask vlc"
   # Install KeyboardCleanTool
-  execute "brew cask install keyboardcleantool" "brew cask install keyboardcleantool"
+  execute "brew install --cask keyboardcleantool" "brew install --cask keyboardcleantool"
   # Install KeePassXC Password Manager
-  execute "brew cask install keepassxc" "brew cask install keepassxc"
+  execute "brew install --cask keepassxc" "brew install --cask keepassxc"
   # Install LibreOffice for PDF editing
-  execute "brew cask install libreoffice" "brew cask install libreoffice"
+  execute "brew install --cask libreoffice" "brew install --cask libreoffice"
   # Install Krisp.ai noise cancellation software
-  execute "brew cask install krisp" "brew cask install krisp"
+  execute "brew install --cask krisp" "brew install --cask krisp"
 
   # Add drivers tap and install SteelSeries ExactMouse to disable macOS mouse acceleration (currently disabled in favor of the preferences solution in macos.sh)
   # execute "brew tap homebrew/cask-drivers" "brew tap homebrew/cask-drivers"
-  # execute "brew cask install steelseries-exactmouse-tool" "brew cask install steelseries-exactmouse-tool"
+  # execute "brew install --cask steelseries-exactmouse-tool" "brew install --cask steelseries-exactmouse-tool"
 
   # Install VS Code and packages
-  execute "brew cask install visual-studio-code" "brew cask install visual-studio-code"
+  execute "brew install --cask visual-studio-code" "brew install --cask visual-studio-code"
   # Install VS Code extension Docker
   execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
   # Install VS Code extension Prettier
@@ -169,13 +169,13 @@ main() {
   # execute "code --install-extension DominicVonk.parameter-hints" "code --install-extension DominicVonk.parameter-hints"
 
   # Install VS Code Insiders Build
-  execute "brew cask install visual-studio-code-insiders" "brew cask install visual-studio-code-insiders"
+  execute "brew install --cask visual-studio-code-insiders" "brew install --cask visual-studio-code-insiders"
 
   # Install Oni
-  execute "brew cask install oni" "brew cask install oni"
+  execute "brew install --cask oni" "brew install --cask oni"
 
   # Install Atom and packages as backup to VS Code
-  execute "brew cask install atom" "brew cask install atom"
+  execute "brew install --cask atom" "brew install --cask atom"
   execute "apm install atom-alignment" "apm install atom-alignment"
   execute "apm install atom-no-tab-close-button" "apm install atom-no-tab-close-button"
   execute "apm install busy-signal" "apm install busy-signal"
@@ -199,24 +199,24 @@ main() {
   execute "apm install vim-mode-plus" "apm install vim-mode-plus"
 
   # Install Sublime Text editor as alternative / backup to Atom
-  execute "brew cask install sublime-text" "brew cask install sublime-text"
+  execute "brew install --cask sublime-text" "brew install --cask sublime-text"
 
   # Install beta versions of casks
   execute "brew tap caskroom/versions" "brew tap caskroom/versions"
   # For Mac users, the GPG Suite allows you to store your GPG key passphrase in the Mac OS Keychain.
   # https://help.github.com/en/github/authenticating-to-github/signing-commits
-  execute "brew cask install gpgtools-beta" "brew cask install gpgtools-beta"
+  execute "brew install --cask gpgtools-beta" "brew install --cask gpgtools-beta"
 
   # Install VeraCrypt and OSXFuse dependency
-  execute "brew cask install osxfuse" "brew cask install osxfuse"
-  execute "brew cask install veracrypt" "brew cask install veracrypt"
+  execute "brew install --cask osxfuse" "brew install --cask osxfuse"
+  execute "brew install --cask veracrypt" "brew install --cask veracrypt"
 
   # Edit: Removed Flume as of July 2020, because Instagram
   # Direct Messages are available on the web:
   # https://www.instagram.com/direct/inbox/
   #
   # Install Flume Instagram desktop app https://flumeapp.com/
-  # execute ""brew cask install flume "brew cask install flume"
+  # execute ""brew install --cask flume "brew install --cask flume"
 
   # Install Mac App Store software
   # execute "brew install mas" "brew install mas"
@@ -228,9 +228,9 @@ main() {
   # Install ImageOptim-CLI ("Automates ImageOptim, ImageAlpha, and JPEGmini for Mac [for] batch optimisation of images")
   # execute "brew install imageoptim-cli" "brew install imageoptim-cli"
   # Install ImageOptim image optimization tool
-  execute "brew cask install imageoptim" "brew cask install imageoptim"
+  execute "brew install --cask imageoptim" "brew install --cask imageoptim"
   # Install ImageAlpha image optimization tool
-  execute "brew cask install imagealpha" "brew cask install imagealpha"
+  execute "brew install --cask imagealpha" "brew install --cask imagealpha"
   # Install JPEGmini Lite image optimizer
   # execute "mas install 525742250" "mas install 525742250"
 
@@ -238,7 +238,7 @@ main() {
   execute "mas install 1287239339" "mas install 1287239339"
 
   # Install Optimage (better than JPEGmini?)
-  # execute "brew cask install optimage" "brew cask install optimage"
+  # execute "brew install --cask optimage" "brew install --cask optimage"
 
   success "Homebrew formulae installed!"
 }
