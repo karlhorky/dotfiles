@@ -196,5 +196,6 @@
     "yml",
     "mdx"
   ],
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "editor.lightbulb.enabled": false
 }
