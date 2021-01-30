@@ -240,6 +240,9 @@ main() {
   # Install Optimage (better than JPEGmini?)
   # execute "brew install --cask optimage" "brew install --cask optimage"
 
+  # Install Muzzle: "Silence embarrassing notifications while screensharing"
+  execute "brew install --cask muzzle" "brew install --cask muzzle"
+
   success "Homebrew formulae installed!"
 }
 
