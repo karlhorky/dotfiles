@@ -140,7 +140,7 @@ unsetopt inc_append_history
 unsetopt share_history
 
 # Location of PostgreSQL database
-export PGDATA=/usr/local/var/postgres
+export PGDATA=/opt/homebrew/var/postgres
 
 # Set Locale Category because of gettext bug, which causes
 # Vim to output strange errors like:
