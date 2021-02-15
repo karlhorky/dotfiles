@@ -107,17 +107,26 @@
   // "[json]": {
   //   "editor.defaultFormatter": "esbenp.prettier-vscode"
   // },
-  "editor.codeActionsOnSave": [
-    // VS Code Organize Imports feature for sorting and consolidating imports
-    // https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
-    "source.organizeImports"
-    // // Run ESLint --fix on the current file
-    // // https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
-    // "source.fixAll.eslint",
-    // Trigger VS Code Format Document feature through rohit-gohri.format-code-action, configured above to default to Prettier
-    // https://github.com/rohit-gohri/vscode-format-code-action#usage
-    // "source.fixAll.format"
-  ],
+
+  // Commented out because JS/TS Import/Export Sorter can
+  // sort the imports while also being configured to not
+  // remove unused imports (see config below)
+  //
+  // "editor.codeActionsOnSave": [
+  //   // VS Code Organize Imports feature for sorting and consolidating imports
+  //   // https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
+  //   "source.organizeImports",
+  //   // // Run ESLint --fix on the current file
+  //   // // https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
+  //   "source.fixAll.eslint",
+  //   // Trigger VS Code Format Document feature through rohit-gohri.format-code-action, configured above to default to Prettier
+  //   // https://github.com/rohit-gohri/vscode-format-code-action#usage
+  //   "source.fixAll.format"
+  // ],
+  "tsImportSorter.configuration.keepUnused": [".*"],
+  "tsImportSorter.configuration.emptyLinesBetweenGroups": 0,
+  "tsImportSorter.configuration.wrappingStyle": "prettier",
+
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
@@ -198,6 +207,5 @@
     "mdx"
   ],
   "extensions.ignoreRecommendations": true,
-  "editor.lightbulb.enabled": false,
-  "tsImportSorter.configuration.keepUnused": [".*"]
+  "editor.lightbulb.enabled": false
 }
