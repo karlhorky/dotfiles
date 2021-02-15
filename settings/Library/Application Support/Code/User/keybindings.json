@@ -104,18 +104,5 @@
   {
     "key": "cmd+numpad0",
     "command": "-workbench.action.zoomReset"
-  },
-  {
-    "key": "shift+cmd+f",
-    "command": "search.action.openEditor"
-  },
-  {
-    "key": "shift+cmd+f",
-    "command": "-workbench.action.findInFiles"
-  },
-  {
-    "key": "shift+cmd+f",
-    "command": "-workbench.view.search",
-    "when": "!searchViewletVisible"
   }
 ]

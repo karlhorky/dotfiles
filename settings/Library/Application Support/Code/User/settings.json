@@ -122,8 +122,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
   "workbench.tree.renderIndentGuides": "none",
-  // "editor.cursorSurroundingLines": 6,
-  "window.zoomLevel": 0,
   // "javascript.implicitProjectConfig.checkJs": true
   // "eslint.nodePath": "/Users/k/p/eslint-config-upleveled/node_modules",
   // "eslint.options": {
@@ -133,6 +131,9 @@
   // Reuse the search configuration
   // https://code.visualstudio.com/updates/v1_46#_search-editor
   "search.searchEditor.reusePriorSearchConfiguration": true,
+  // Use an existing Search Editor if there is one, otherwise create a new one
+  // https://code.visualstudio.com/updates/v1_53#_default-search-mode
+  "search.mode": "reuseEditor",
   // Don't scroll explorer tree when opening a new file
   // https://code.visualstudio.com/updates/v1_46#_explorer-auto-reveal-focus-without-forcing-a-scroll
   "explorer.autoReveal": "focusNoScroll",
@@ -197,5 +198,6 @@
     "mdx"
   ],
   "extensions.ignoreRecommendations": true,
-  "editor.lightbulb.enabled": false
+  "editor.lightbulb.enabled": false,
+  "tsImportSorter.configuration.keepUnused": [".*"]
 }
