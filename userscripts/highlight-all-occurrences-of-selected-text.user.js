@@ -3,7 +3,7 @@
 // @description  Highlight all occurrences of any text that has been selected on the page
 // @author       James Wilson, Karl Horky
 // @namespace    https://www.karlhorky.com/
-// @version      1.2.0
+// @version      1.2.1
 // @match        https://*/*
 // @match        http://*/*
 // @grant        none
@@ -33,6 +33,7 @@ const options = {
   },
   isWindowLocationValid: function (windowLocation) {
     const blacklistedHosts = [
+      'localhost',
       'linkedin.com',
       'collabedit.com',
       'coderpad.io',
