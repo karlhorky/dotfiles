@@ -79,3 +79,9 @@ www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-
 
 ! 2021-01-13 Bottom banner for "Remaining Articles" https://www.newsweek.com
 www.newsweek.com##.remaining-articles
+
+! 2021-02-04 https://digiday.com
+digiday.com###piano_offer_fixed
+
+! 2021-03-09 https://www.bloomberg.com
+www.bloomberg.com##.fence-rendered.yellow__a52dfc47.banner__10d4e47e
