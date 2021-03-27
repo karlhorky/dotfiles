@@ -84,4 +84,7 @@ www.newsweek.com##.remaining-articles
 digiday.com###piano_offer_fixed
 
 ! 2021-03-09 https://www.bloomberg.com
-www.bloomberg.com##.fence-rendered.yellow__a52dfc47.banner__10d4e47e
+www.bloomberg.com##.fence-rendered[class*="banner__"]
+
+! 2021-03-27 https://www.technologyreview.com
+www.technologyreview.com##[class^="overlayFooter__wrapper--"]
