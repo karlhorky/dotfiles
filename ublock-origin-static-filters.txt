@@ -88,3 +88,6 @@ www.bloomberg.com##.fence-rendered[class*="banner__"]
 
 ! 2021-03-27 https://www.technologyreview.com
 www.technologyreview.com##[class^="overlayFooter__wrapper--"]
+
+! 2021-03-28 https://www.theatlantic.com
+www.theatlantic.com##[data-testid="paywall"]
