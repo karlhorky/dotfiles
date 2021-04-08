@@ -42,6 +42,7 @@ const options = {
       'youtube.com',
       'notion.so',
       'codesandbox.io',
+      'github1s.com',
       'track.toggl.com',
     ];
     return !blacklistedHosts.some((h) => windowLocation.host.includes(h));
