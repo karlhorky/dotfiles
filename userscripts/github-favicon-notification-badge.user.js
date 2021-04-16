@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Favicon Notification Badge
 // @description  Show a badge over the favicon with the number of unread notifications
-// @version      1.2.0
+// @version      1.3.0
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://github.com/notifications
@@ -76,7 +76,7 @@ function updateFaviconWithBadge(unreadNotifications) {
 
 let unreadNotifications;
 
-setInterval(async () => {
+async function fetchAndUpdateNotifications() {
   const url = new URL('notifications', location.origin);
   const newUnreadNotifications = (await (await fetch(url)).text()).match(
     /<span class="count text-normal">(\d+)/,
@@ -88,4 +88,8 @@ setInterval(async () => {
 
   unreadNotifications = newUnreadNotifications;
   updateFaviconWithBadge(unreadNotifications);
-}, 20000);
+}
+
+fetchAndUpdateNotifications();
+
+setInterval(fetchAndUpdateNotifications, 20000);
