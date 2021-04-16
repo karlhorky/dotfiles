@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Favicon Notification Badge
 // @description  Show a badge over the favicon with the number of unread notifications (requires https://github.com/tanmayrajani/notifications-preview-github)
-// @version      1.0.0
+// @version      1.0.1
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://github.com/*
@@ -11,11 +11,19 @@
 const faviconHref = 'https://github.githubassets.com/favicons/favicon-dark.svg';
 const faviconSize = 32;
 
+function removeAllFavicons() {
+  [...document.head.querySelectorAll('[rel~="icon"]')].forEach((element) =>
+    document.head.removeChild(element),
+  );
+}
+
 function updateFaviconWithBadge(unreadNotifications) {
   if (!unreadNotifications) {
     const link = document.createElement('link');
     link.setAttribute('rel', 'icon');
     link.href = faviconHref;
+    removeAllFavicons();
+    document.head.appendChild(link);
     return;
   }
 
@@ -56,12 +64,9 @@ function updateFaviconWithBadge(unreadNotifications) {
     // Replace favicon
     const link = document.createElement('link');
     link.setAttribute('rel', 'icon');
-
-    [...document.head.querySelectorAll('[rel~="icon"]')].forEach((element) =>
-      document.head.removeChild(element),
-    );
-
     link.href = canvas.toDataURL('image/png');
+
+    removeAllFavicons();
     document.head.appendChild(link);
   };
 
