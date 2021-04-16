@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         GitHub Favicon Notification Badge
 // @description  Show a badge over the favicon with the number of unread notifications
-// @version      1.1.0
+// @version      1.2.0
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
-// @match        https://github.com/*
+// @match        https://github.com/notifications
 // @grant        none
 // ==/UserScript==
 
