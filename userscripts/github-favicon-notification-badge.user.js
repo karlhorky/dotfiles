@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Favicon Notification Badge
 // @description  Show a badge over the favicon with the number of unread notifications
-// @version      1.3.0
+// @version      1.4.0
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://github.com/notifications
@@ -84,6 +84,18 @@ async function fetchAndUpdateNotifications() {
 
   if (newUnreadNotifications === unreadNotifications) {
     return;
+  }
+
+  const unreadNotificationsOnPage =
+    document.querySelector('.js-notification-inboxes .selected .count')
+      .innerText || undefined;
+
+  // Reload the whole page if the page is in the background and the current page is out of date
+  if (
+    !document.hasFocus() &&
+    newUnreadNotifications !== unreadNotificationsOnPage
+  ) {
+    location.reload();
   }
 
   unreadNotifications = newUnreadNotifications;
