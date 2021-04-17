@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub Favicon Notification Badge
 // @description  Show a badge over the favicon with the number of unread notifications
-// @version      1.4.0
+// @version      1.5.0
 // @author       Karl Horky
 // @namespace    https://www.karlhorky.com/
 // @match        https://github.com/notifications
@@ -51,7 +51,8 @@ function updateFaviconWithBadge(unreadNotifications) {
     context.fill();
 
     // Draw notification number
-    context.font = '18px "helvetica", sans-serif';
+    context.font =
+      '18px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, sans-serif';
     context.textAlign = 'center';
     context.textBaseline = 'middle';
     context.fillStyle = '#FFFFFF';
