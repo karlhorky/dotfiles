@@ -91,3 +91,6 @@ www.technologyreview.com##[class^="overlayFooter__wrapper--"]
 
 ! 2021-03-28 https://www.theatlantic.com
 www.theatlantic.com##[data-testid="paywall"]
+
+! 2021-04-18 https://www.theverge.com
+www.theverge.com##.adblock-allowlist-messaging__article-wrapper
