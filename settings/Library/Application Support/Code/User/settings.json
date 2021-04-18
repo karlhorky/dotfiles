@@ -196,4 +196,7 @@
   "editor.formatOnSave": true,
   // "template-string-converter.autoRemoveTemplateString": true,
   "terminal.integrated.shell.osx": "zsh",
+  "stylelint.configOverrides": {
+    "ignoreFiles": ["**/*.cjs"]
+  }
 }
