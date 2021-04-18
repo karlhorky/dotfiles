@@ -7,22 +7,6 @@
   "editor.renderIndentGuides": false,
   // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
-  // "javascript.format.enable": false,
-  // "typescript.format.enable": false,
-
-  // This is currently disabled in favor of
-  // `editor.formatOnSave: true` and
-  // `editor.codeActionsOnSave: ["source.organizeImports"]`
-  // to try to figure out why there are slowdowns causing
-  // reloads of the window to be necessary.
-  //
-  // editor.formatOnSave can be set to false with proper
-  // configuration of the rohit-gohri.format-code-action
-  // extension under the `editor.codeActionsOnSave`
-  // settings key (eg. `source.fixAll.format`)
-  // "editor.formatOnSave": false,
-
-  "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
   "editor.folding": false,
   "explorer.openEditors.visible": 0,
@@ -207,5 +191,6 @@
     "mdx"
   ],
   "extensions.ignoreRecommendations": true,
-  "editor.lightbulb.enabled": false
+  "editor.lightbulb.enabled": false,
+  "editor.formatOnSave": true
 }
