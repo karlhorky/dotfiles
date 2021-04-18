@@ -153,6 +153,8 @@
   "template-string-converter.addBracketsToProps": true,
   "editor.wordBasedSuggestions": false,
   "editor.snippetSuggestions": "none",
+  // Disable Emmet suggestions
+  "emmet.showExpandedAbbreviation": "never",
   "cSpell.enabledLanguageIds": [
     "asciidoc",
     "c",
