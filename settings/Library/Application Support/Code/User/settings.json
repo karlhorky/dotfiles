@@ -107,10 +107,9 @@
   //   // https://github.com/rohit-gohri/vscode-format-code-action#usage
   //   "source.fixAll.format"
   // ],
-  "tsImportSorter.configuration.keepUnused": [".*"],
   "tsImportSorter.configuration.emptyLinesBetweenGroups": 0,
   "tsImportSorter.configuration.wrappingStyle": "prettier",
-
+  "tsImportSorter.configuration.groupRules": [{}, "^[.]"],
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
