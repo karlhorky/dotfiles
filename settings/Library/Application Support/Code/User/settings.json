@@ -197,6 +197,11 @@
   // "template-string-converter.autoRemoveTemplateString": true,
   "terminal.integrated.shell.osx": "zsh",
   "stylelint.configOverrides": {
-    "ignoreFiles": ["**/*.cjs"]
+    "ignoreFiles": [
+      // All normal .cjs files
+      "**/*.cjs",
+      // .cjs files starting with a dot eg. .eslintrc.cjs
+      "**/.*.cjs"
+    ]
   }
 }
