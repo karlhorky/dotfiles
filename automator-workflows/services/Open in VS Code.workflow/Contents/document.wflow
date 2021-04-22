@@ -132,7 +132,7 @@
 					<key>COMMAND_STRING</key>
 					<string>export PATH=/usr/local/bin:$PATH
 for folder in "$@"; do
-	code "$folder" -n
+	/opt/homebrew/bin/code "$folder" -n
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
