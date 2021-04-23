@@ -94,3 +94,6 @@ www.theatlantic.com##[data-testid="paywall"]
 
 ! 2021-04-18 https://www.theverge.com
 www.theverge.com##.adblock-allowlist-messaging__article-wrapper
+
+! 2021-04-23 https://www.bbc.com
+www.bbc.com###piano-footer
