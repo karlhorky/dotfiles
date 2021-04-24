@@ -203,5 +203,6 @@
       // .cjs files starting with a dot eg. .eslintrc.cjs
       "**/.*.cjs"
     ]
-  }
+  },
+  "eslint.runtime": "/opt/homebrew/bin/node"
 }
