@@ -109,7 +109,7 @@
   // ],
   "tsImportSorter.configuration.emptyLinesBetweenGroups": 0,
   "tsImportSorter.configuration.wrappingStyle": "prettier",
-  "tsImportSorter.configuration.groupRules": [{}, "^[.]"],
+  "tsImportSorter.configuration.groupRules": ["^node:", {}, "^[.]"],
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
