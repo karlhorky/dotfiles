@@ -44,6 +44,7 @@ const options = {
       'codesandbox.io',
       'github1s.com',
       'track.toggl.com',
+      'app.sqldbm.com',
     ];
     return !blacklistedHosts.some((h) => windowLocation.host.includes(h));
   },
