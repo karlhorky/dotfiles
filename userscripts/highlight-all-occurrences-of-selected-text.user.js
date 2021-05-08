@@ -3,7 +3,7 @@
 // @description  Highlight all occurrences of any text that has been selected on the page
 // @author       James Wilson, Karl Horky
 // @namespace    https://www.karlhorky.com/
-// @version      1.3.1
+// @version      1.3.2
 // @match        https://*/*
 // @match        http://*/*
 // @grant        none
@@ -39,9 +39,10 @@ const options = {
       'coderpad.io',
       'jsbin.com',
       'plnkr.co',
+      'codesandbox.io',
+      'replit.com',
       'youtube.com',
       'notion.so',
-      'codesandbox.io',
       'github1s.com',
       'track.toggl.com',
       'app.sqldbm.com',
