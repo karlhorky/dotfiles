@@ -195,7 +195,7 @@
   "editor.lightbulb.enabled": false,
   "editor.formatOnSave": true,
   // "template-string-converter.autoRemoveTemplateString": true,
-  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "stylelint.configOverrides": {
     "ignoreFiles": [
       // All normal .cjs files
