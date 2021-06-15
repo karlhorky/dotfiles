@@ -92,8 +92,8 @@ main() {
   execute "brew install --cask menumeters" "brew install --cask menumeters"
   # Install Disk Inventory X (disk space usage utility)
   execute "brew install --cask disk-inventory-x" "brew install --cask disk-inventory-x"
-  # Install Yippy
-  # https://github.com/mattDavo/Yippy/releases
+  # Install Yippy clipboard manager
+  execute "brew install --cask yippy" "brew install --cask yippy"
   # DO NOT USE (use Yippy instead - see above) Install Maccy clipboard manager
   # execute "brew install --cask maccy" "brew install --cask maccy"
   # DO NOT USE (use Maccy instead - see above) Install Flycut clipboard manager
