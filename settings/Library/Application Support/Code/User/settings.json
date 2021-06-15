@@ -205,5 +205,6 @@
     ]
   },
   "eslint.runtime": "node",
-  "workbench.editor.untitled.hint": "hidden"
+  "workbench.editor.untitled.hint": "hidden",
+  "terminal.integrated.tabs.enabled": false
 }
