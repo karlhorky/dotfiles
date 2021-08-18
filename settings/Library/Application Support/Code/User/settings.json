@@ -207,5 +207,6 @@
   "eslint.runtime": "node",
   "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.scrollback": 100000
 }
