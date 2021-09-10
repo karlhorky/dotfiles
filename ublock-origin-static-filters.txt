@@ -104,3 +104,9 @@ www.bbc.com###piano-footer
 ! 2021-08-01 Bottom paywall on Wired https://www.wired.com
 www.wired.com##.paywall-bar--expanded
 www.wired.com##.paywall-bar__expanded
+
+! 2021-08-18 https://date-fns.org
+date-fns.org##._3d0QX2D45PrIfcI4FIeCXa
+
+! 2021-09-10 Gradient over page https://www.nytimes.com
+www.nytimes.com##.css-gx5sib
