@@ -110,3 +110,6 @@ date-fns.org##._3d0QX2D45PrIfcI4FIeCXa
 
 ! 2021-09-10 Gradient over page https://www.nytimes.com
 www.nytimes.com##.css-gx5sib
+
+! 2021-10-02 Large fixed ad bar at bottom https://www.washingtonpost.com
+www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
