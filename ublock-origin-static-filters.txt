@@ -113,3 +113,6 @@ www.nytimes.com##.css-gx5sib
 
 ! 2021-10-02 Large fixed ad bar at bottom https://www.washingtonpost.com
 www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
+
+! 2022-02-17 Unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications
+github.com##:not(:matches-path(/notifications)) .unread.mail-status
