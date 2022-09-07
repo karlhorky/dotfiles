@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 info "Configuring macOS System settings..."
+info "Manual step: macOS: System Preferences > Accessibility > Display > Reduce Motion"
 
 # Disable press-and-hold for keys in favor of key repeat
 sudo defaults write -g ApplePressAndHoldEnabled -bool false
