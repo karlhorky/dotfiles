@@ -117,10 +117,10 @@ www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-
 ! 2022-02-17 Unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications
 github.com##:not(:matches-path(/notifications)) .unread.mail-status
 
-! 2022-09-26 Hide Substack full-screen overlay https://www.fullstackeconomics.com
-www.fullstackeconomics.com##.intro-popup
-www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
-
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
 substack.com##.intro-popup
 substack.com##html,body:style(overflow: auto !important;)
+www.fullstackeconomics.com##.intro-popup
+www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
+www.computerenhance.com##.intro-popup
+www.computerenhance.com##html,body:style(overflow: auto !important;)
