@@ -124,3 +124,5 @@ www.fullstackeconomics.com##.intro-popup
 www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
 www.computerenhance.com##.intro-popup
 www.computerenhance.com##html,body:style(overflow: auto !important;)
+lspace.swyx.io##.intro-popup
+lspace.swyx.io##html,body:style(overflow: auto !important;)
