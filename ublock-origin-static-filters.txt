@@ -120,9 +120,17 @@ github.com##:not(:matches-path(/notifications)) .unread.mail-status
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
 substack.com##.intro-popup
 substack.com##html,body:style(overflow: auto !important;)
+substack.com##.subscribe-dialog
+substack.com##.subscribe-dialog-scroll-modal-scroll-capture
 www.fullstackeconomics.com##.intro-popup
 www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
+www.fullstackeconomics.com##.subscribe-dialog
+www.fullstackeconomics.com##.subscribe-dialog-scroll-modal-scroll-capture
 www.computerenhance.com##.intro-popup
 www.computerenhance.com##html,body:style(overflow: auto !important;)
+www.computerenhance.com##.subscribe-dialog
+www.computerenhance.com##.subscribe-dialog-scroll-modal-scroll-capture
 lspace.swyx.io##.intro-popup
 lspace.swyx.io##html,body:style(overflow: auto !important;)
+lspace.swyx.io##.subscribe-dialog
+lspace.swyx.io##.subscribe-dialog-scroll-modal-scroll-capture
