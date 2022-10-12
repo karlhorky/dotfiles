@@ -138,3 +138,7 @@ frenchpress.thedispatch.com##.intro-popup
 frenchpress.thedispatch.com##html,body:style(overflow: auto !important;)
 frenchpress.thedispatch.com##.subscribe-dialog
 frenchpress.thedispatch.com##.subscribe-dialog-scroll-modal-scroll-capture
+www.cspicenter.com##.intro-popup
+www.cspicenter.com##html,body:style(overflow: auto !important;)
+www.cspicenter.com##.subscribe-dialog
+www.cspicenter.com##.subscribe-dialog-scroll-modal-scroll-capture
