@@ -146,3 +146,7 @@ www.thediff.co##.intro-popup
 www.thediff.co##html,body:style(overflow: auto !important;)
 www.thediff.co##.subscribe-dialog
 www.thediff.co##.subscribe-dialog-scroll-modal-scroll-capture
+
+! 2022-12-01 Twitter Promoted tweets https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
+twitter.com##[data-testid="tweet"]:has-text(Promoted)
+twitter.com##[data-testid="UserCell"]:has-text(Promoted)
