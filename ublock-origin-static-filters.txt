@@ -58,7 +58,9 @@ news.google.com##div.JQQdOc.dSva6b:has-text(/Sports/) + div.NiLAwe + div.NiLAwe 
 www.derbrutkasten.com##[data-elementor-type="footer"]
 
 ! 2020-12-22 Disable "People also search for" in Google results
-www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
+! https://webapps.stackexchange.com/questions/115038/how-to-stop-googles-people-also-search-for#comment142339_115197
+! www.google.*##div[jscontroller]:if(h4:has-text(People also search for))
+www.google.*##h4:has-text(People also search for):xpath(ancestor::div[@jscontroller][1])
 
 ! 2020-12-28 Disable WP Content Copy Protection & No Right Click
 fuelcellsworks.com##+js(acis, document.addEventListener)
