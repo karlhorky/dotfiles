@@ -3,6 +3,9 @@
 info "Configuring macOS System settings..."
 info "Manual step: macOS: System Preferences > Accessibility > Display > Reduce Motion"
 
+# Also look at this for more tips:
+# https://git.herrbischoff.com/awesome-macos-command-line/about/
+
 # Disable press-and-hold for keys in favor of key repeat
 sudo defaults write -g ApplePressAndHoldEnabled -bool false
 
