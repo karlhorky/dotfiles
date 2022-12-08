@@ -118,34 +118,34 @@ www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-
 github.com##:not(:matches-path(/notifications)) .unread.mail-status
 
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
-substack.com##.intro-popup
+! substack.com##.intro-popup
 substack.com##html,body:style(overflow: auto !important;)
-substack.com##.subscribe-dialog
-substack.com##.subscribe-dialog-scroll-modal-scroll-capture
-www.fullstackeconomics.com##.intro-popup
+substack.com##[class*=SubscribePrompt-module__subscribeDialog]
+substack.com##[class*=SubscribePrompt-module__background]
+! www.fullstackeconomics.com##.intro-popup
 www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
-www.fullstackeconomics.com##.subscribe-dialog
-www.fullstackeconomics.com##.subscribe-dialog-scroll-modal-scroll-capture
-www.computerenhance.com##.intro-popup
+www.fullstackeconomics.com##[class*=SubscribePrompt-module__subscribeDialog]
+www.fullstackeconomics.com##[class*=SubscribePrompt-module__background]
+! www.computerenhance.com##.intro-popup
 www.computerenhance.com##html,body:style(overflow: auto !important;)
-www.computerenhance.com##.subscribe-dialog
-www.computerenhance.com##.subscribe-dialog-scroll-modal-scroll-capture
-lspace.swyx.io##.intro-popup
+www.computerenhance.com##[class*=SubscribePrompt-module__subscribeDialog]
+www.computerenhance.com##[class*=SubscribePrompt-module__background]
+! lspace.swyx.io##.intro-popup
 lspace.swyx.io##html,body:style(overflow: auto !important;)
-lspace.swyx.io##.subscribe-dialog
-lspace.swyx.io##.subscribe-dialog-scroll-modal-scroll-capture
-frenchpress.thedispatch.com##.intro-popup
+lspace.swyx.io##[class*=SubscribePrompt-module__subscribeDialog]
+lspace.swyx.io##[class*=SubscribePrompt-module__background]
+! frenchpress.thedispatch.com##.intro-popup
 frenchpress.thedispatch.com##html,body:style(overflow: auto !important;)
-frenchpress.thedispatch.com##.subscribe-dialog
-frenchpress.thedispatch.com##.subscribe-dialog-scroll-modal-scroll-capture
-www.cspicenter.com##.intro-popup
+frenchpress.thedispatch.com##[class*=SubscribePrompt-module__subscribeDialog]
+frenchpress.thedispatch.com##[class*=SubscribePrompt-module__background]
+! www.cspicenter.com##.intro-popup
 www.cspicenter.com##html,body:style(overflow: auto !important;)
-www.cspicenter.com##.subscribe-dialog
-www.cspicenter.com##.subscribe-dialog-scroll-modal-scroll-capture
-www.thediff.co##.intro-popup
+www.cspicenter.com##[class*=SubscribePrompt-module__subscribeDialog]
+www.cspicenter.com##[class*=SubscribePrompt-module__background]
+! www.thediff.co##.intro-popup
 www.thediff.co##html,body:style(overflow: auto !important;)
-www.thediff.co##.subscribe-dialog
-www.thediff.co##.subscribe-dialog-scroll-modal-scroll-capture
+www.thediff.co##[class*=SubscribePrompt-module__subscribeDialog]
+www.thediff.co##[class*=SubscribePrompt-module__background]
 
 ! 2022-12-01 Twitter Promoted tweets https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(Promoted)
