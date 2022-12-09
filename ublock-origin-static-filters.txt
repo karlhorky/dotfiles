@@ -120,31 +120,31 @@ www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-
 github.com##:not(:matches-path(/notifications)) .unread.mail-status
 
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
-! substack.com##.intro-popup
+substack.com##.intro-popup
 substack.com##html,body:style(overflow: auto !important;)
 substack.com##[class*=SubscribePrompt-module__subscribeDialog]
 substack.com##[class*=SubscribePrompt-module__background]
-! www.fullstackeconomics.com##.intro-popup
+www.fullstackeconomics.com##.intro-popup
 www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
 www.fullstackeconomics.com##[class*=SubscribePrompt-module__subscribeDialog]
 www.fullstackeconomics.com##[class*=SubscribePrompt-module__background]
-! www.computerenhance.com##.intro-popup
+www.computerenhance.com##.intro-popup
 www.computerenhance.com##html,body:style(overflow: auto !important;)
 www.computerenhance.com##[class*=SubscribePrompt-module__subscribeDialog]
 www.computerenhance.com##[class*=SubscribePrompt-module__background]
-! lspace.swyx.io##.intro-popup
+lspace.swyx.io##.intro-popup
 lspace.swyx.io##html,body:style(overflow: auto !important;)
 lspace.swyx.io##[class*=SubscribePrompt-module__subscribeDialog]
 lspace.swyx.io##[class*=SubscribePrompt-module__background]
-! frenchpress.thedispatch.com##.intro-popup
+frenchpress.thedispatch.com##.intro-popup
 frenchpress.thedispatch.com##html,body:style(overflow: auto !important;)
 frenchpress.thedispatch.com##[class*=SubscribePrompt-module__subscribeDialog]
 frenchpress.thedispatch.com##[class*=SubscribePrompt-module__background]
-! www.cspicenter.com##.intro-popup
+www.cspicenter.com##.intro-popup
 www.cspicenter.com##html,body:style(overflow: auto !important;)
 www.cspicenter.com##[class*=SubscribePrompt-module__subscribeDialog]
 www.cspicenter.com##[class*=SubscribePrompt-module__background]
-! www.thediff.co##.intro-popup
+www.thediff.co##.intro-popup
 www.thediff.co##html,body:style(overflow: auto !important;)
 www.thediff.co##[class*=SubscribePrompt-module__subscribeDialog]
 www.thediff.co##[class*=SubscribePrompt-module__background]
