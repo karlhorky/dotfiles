@@ -4,7 +4,6 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
-  "editor.renderIndentGuides": false,
   // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
   "files.autoSave": "onFocusChange",
@@ -62,7 +61,6 @@
   "workbench.editor.closeEmptyGroups": false,
   // "vim.mouseSelectionGoesIntoVisualMode": false,
   "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
     "files.trimTrailingWhitespace": false
@@ -195,6 +193,8 @@
   "extensions.ignoreRecommendations": true,
   "editor.formatOnSave": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.scrollback": 100000,
+  "terminal.integrated.tabs.enabled": false,
   "stylelint.configOverrides": {
     "ignoreFiles": [
       // All normal .cjs files
@@ -206,15 +206,43 @@
   "eslint.runtime": "node",
   "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
-  "terminal.integrated.tabs.enabled": false,
-  "terminal.integrated.scrollback": 100000,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
     "yaml": false,
     "plaintext": true,
-    "markdown": false
+    "markdown": false,
+    "css": true,
+    "javascript": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "mdx": false,
+    "sql": true
   },
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "editor.lightbulb.enabled": false,
+  "files.associations": {
+    ".env": "plaintext"
+  },
+  "cSpell.enableFiletypes": ["sql"],
+  "cSpell.userWords": [
+    "bootcamp",
+    "hackathons",
+    "katas",
+    "Vercel",
+    "wireframes"
+  ],
+  "editor.guides.indentation": false,
+  "files.insertFinalNewline": true,
+  "editor.stickyScroll.enabled": true,
+  "prettier.trailingComma": "all",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "javascript",
+    "typescriptreact"
+  ]
+  // , "editor.hover.above": false
 }
