@@ -108,5 +108,15 @@
   {
     "key": "alt+z",
     "command": "-editor.action.toggleWordWrap"
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "workbench.action.replaceInFiles"
   }
+  // Disable find keyboard shortcut in File Explorer
+  // , {
+  //   "key": "cmd+f", // "ctrl+f" on Windows/Linux
+  //   "command": "-list.find",
+  //   "when": "listFocus && listSupportsFind"
+  // }
 ]
