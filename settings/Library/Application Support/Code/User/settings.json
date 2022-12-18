@@ -193,7 +193,6 @@
     "mdx"
   ],
   "extensions.ignoreRecommendations": true,
-  "editor.lightbulb.enabled": false,
   "editor.formatOnSave": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "stylelint.configOverrides": {
