@@ -243,6 +243,10 @@
     "postcss",
     "javascript",
     "typescriptreact"
-  ]
+  ],
   // , "editor.hover.above": false
+  "[yaml]": {
+    // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub Workflow (github-workflow.json)" in YAML files
+    "editor.codeLens": false
+  }
 }
