@@ -194,3 +194,4 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 HISTFILE="$HOME/.zsh_history"
 
 alias pnpmpatch="pnpm patch --edit-dir ./node_modules/.pnpm-patch"
+alias pnpmpatch-commit="pnpm patch-commit ./node_modules/.pnpm-patch && rm -r ./node_modules/.pnpm-patch"
