@@ -153,5 +153,5 @@ www.thediff.co##[class*=SubscribePrompt-module__background]
 twitter.com##[data-testid="tweet"]:has-text(Promoted)
 twitter.com##[data-testid="UserCell"]:has-text(Promoted)
 
-! 2023-02-20 Block Notion "Invite to workspace" button when inviting people to a page (maybe not needed as of Mar 2023) https://www.notion.so
-www.notion.so##div:nth-of-type(3) > div.notion-focusable:nth-of-type(2)
+! 2023-02-20 Block Notion "Invite to workspace" button when inviting people to a page https://www.notion.so
+www.notion.so##.notion-default-overlay-container.notion-overlay-container > div > div > div > div > div > div > div > div > div > div > div[rdole="button"]:nth-of-type(2)
