@@ -116,8 +116,11 @@ www.nytimes.com##.css-gx5sib
 ! 2021-10-02 Large fixed ad bar at bottom https://www.washingtonpost.com
 www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-hidden.border-box.w-100.left-0.bottom-0.fixed
 
-! 2022-02-17 Unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications
+! 2022-02-17 GitHub unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications
 github.com##:not(:matches-path(/notifications)) .unread.mail-status
+
+! 2023-04-07 GitHub unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications - with Redesigned Navigation https://github.blog/changelog/2023-04-05-redesigned-navigation-available-in-public-beta/
+github.com##:not(:matches-path(/notifications)) #AppHeader-notifications-button:style(--color-accent-fg: transparent; --AppHeader-bg: transparent)
 
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
 substack.com##.intro-popup
@@ -155,3 +158,6 @@ twitter.com##[data-testid="UserCell"]:has-text(Promoted)
 
 ! 2023-02-20 Block Notion "Invite to workspace" button when inviting people to a page https://www.notion.so
 www.notion.so##.notion-default-overlay-container.notion-overlay-container > div > div > div > div > div > div > div > div > div > div > div[rdole="button"]:nth-of-type(2)
+
+! 2023-03-27 https://www.wired.com
+www.wired.com##.paywall-modal--paywall.paywall-modal.drNpIn.PaywallModalWrapper-iultiD
