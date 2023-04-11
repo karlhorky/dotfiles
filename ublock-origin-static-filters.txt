@@ -120,7 +120,7 @@ www.washingtonpost.com##.softwall-overlay.bg-white.justify-center.flex.overflow-
 github.com##:not(:matches-path(/notifications)) .unread.mail-status
 
 ! 2023-04-07 GitHub unread notifications bubble on github.com pages / paths EXCEPT github.com/notifications - with Redesigned Navigation https://github.blog/changelog/2023-04-05-redesigned-navigation-available-in-public-beta/
-github.com##:not(:matches-path(/notifications)) #AppHeader-notifications-button:style(--color-accent-fg: transparent; --AppHeader-bg: transparent)
+github.com##:not(:matches-path(/notifications)) #AppHeader-notifications-button:style(z-index:101; --color-accent-fg: transparent; --AppHeader-bg: transparent)
 
 ! 2022-09-26 Hide Substack full-screen overlay substack.com
 substack.com##.intro-popup
