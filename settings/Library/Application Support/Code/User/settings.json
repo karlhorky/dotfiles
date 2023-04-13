@@ -90,6 +90,11 @@
   //   "editor.defaultFormatter": "esbenp.prettier-vscode"
   // },
 
+  "editor.codeActionsOnSave": [
+    // Sort package.json keys
+    "source.sortPackageJson"
+  ],
+
   // Commented out because JS/TS Import/Export Sorter can
   // sort the imports while also being configured to not
   // remove unused imports (see config below)
@@ -211,12 +216,12 @@
     "*": true,
     "yaml": true,
     "plaintext": true,
-    "markdown": false,
+    "markdown": true,
     "css": true,
     "javascript": true,
     "typescript": true,
     "typescriptreact": true,
-    "mdx": false,
+    "mdx": true,
     "sql": true
   },
   "javascript.preferences.quoteStyle": "single",
