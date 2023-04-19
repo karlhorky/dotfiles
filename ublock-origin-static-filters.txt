@@ -157,7 +157,7 @@ twitter.com##[data-testid="tweet"]:has-text(Promoted)
 twitter.com##[data-testid="UserCell"]:has-text(Promoted)
 
 ! 2023-02-20 Block Notion "Invite to workspace" button when inviting people to a page https://www.notion.so
-www.notion.so##.notion-default-overlay-container.notion-overlay-container > div > div > div > div > div > div > div > div > div > div > div[rdole="button"]:nth-of-type(2)
+www.notion.so##.notion-default-overlay-container.notion-overlay-container > div > div > div > div > div > div > div > div > div > div > div[role="button"]:nth-of-type(2)
 
 ! 2023-03-27 https://www.wired.com
 www.wired.com##.paywall-modal--paywall.paywall-modal.drNpIn.PaywallModalWrapper-iultiD
