@@ -200,23 +200,24 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": false,
-  "stylelint.configOverrides": {
-    "ignoreFiles": [
-      // All normal .cjs files
-      "**/*.cjs",
-      // .cjs files starting with a dot eg. .eslintrc.cjs
-      "**/.*.cjs"
-    ]
-  },
+  // "stylelint.configOverrides": {
+  //   "ignoreFiles": [
+  //     // All normal .cjs files
+  //     "**/*.cjs",
+  //     // .cjs files starting with a dot eg. .eslintrc.cjs
+  //     "**/.*.cjs"
+  //   ]
+  // },
   "eslint.runtime": "node",
   "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true,
-    "yaml": true,
     "plaintext": true,
     "markdown": true,
+    "scminput": false,
+    "yaml": true,
     "css": true,
     "javascript": true,
     "typescript": true,
@@ -242,13 +243,6 @@
   "files.insertFinalNewline": true,
   "editor.stickyScroll.enabled": true,
   "prettier.trailingComma": "all",
-  "stylelint.validate": [
-    "css",
-    "less",
-    "postcss",
-    "javascript",
-    "typescriptreact"
-  ],
   // , "editor.hover.above": false
   "[yaml]": {
     // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub Workflow (github-workflow.json)" in YAML files
