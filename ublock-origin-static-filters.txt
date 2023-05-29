@@ -151,6 +151,10 @@ www.thediff.co##.intro-popup
 www.thediff.co##html,body:style(overflow: auto !important;)
 www.thediff.co##[class*=SubscribePrompt-module__subscribeDialog]
 www.thediff.co##[class*=SubscribePrompt-module__background]
+newsletter.pragmaticengineer.com##.intro-popup
+newsletter.pragmaticengineer.com##html,body:style(overflow: auto !important;)
+newsletter.pragmaticengineer.com##[class*=SubscribePrompt-module__subscribeDialog]
+newsletter.pragmaticengineer.com##[class*=SubscribePrompt-module__background]
 
 ! 2022-12-01 Twitter Promoted tweets https://www.reddit.com/r/uBlockOrigin/comments/z73yk9/twitter_promoted_tweets_showing_up/
 twitter.com##[data-testid="tweet"]:has-text(Promoted)
