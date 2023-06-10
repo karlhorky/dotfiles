@@ -112,6 +112,16 @@
   {
     "key": "cmd+shift+d",
     "command": "workbench.action.replaceInFiles"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f2",
+    "command": "-editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
   }
   // Disable find keyboard shortcut in File Explorer
   // , {
