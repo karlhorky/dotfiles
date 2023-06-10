@@ -6,6 +6,7 @@
   "editor.cursorBlinking": "solid",
   // "prettier.eslintIntegration": true,
   "editor.formatOnType": false,
+  "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
   "editor.folding": false,
   "explorer.openEditors.visible": 0,
@@ -196,7 +197,6 @@
     "mdx"
   ],
   "extensions.ignoreRecommendations": true,
-  "editor.formatOnSave": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": false,
