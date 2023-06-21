@@ -157,7 +157,8 @@
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.suggest.selectionMode": "never",
+  // Instead disable Tab as keybinding for accepting widget suggestions
+  // "editor.suggest.selectionMode": "never",
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,

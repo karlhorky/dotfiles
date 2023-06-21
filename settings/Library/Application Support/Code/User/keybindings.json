@@ -122,6 +122,16 @@
     "key": "f2",
     "command": "-editor.action.rename",
     "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "tab",
+    "command": "-acceptSelectedSuggestion",
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "hideSuggestWidget",
+    "when": "suggestWidgetVisible && textInputFocus"
   }
   // Disable find keyboard shortcut in File Explorer
   // , {
