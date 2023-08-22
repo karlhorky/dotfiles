@@ -60,6 +60,7 @@
   "window.clickThroughInactive": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
+  "workbench.editor.splitSizing": "distribute",
   // "vim.mouseSelectionGoesIntoVisualMode": false,
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
