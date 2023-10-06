@@ -252,5 +252,7 @@
     "editor.codeLens": false
   },
   "editor.linkedEditing": true,
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  // Show Quick Fixes which are available nearby when triggering quick fix with ⌘.
+  "editor.codeActionWidget.includeNearbyQuickfixes": true
 }
