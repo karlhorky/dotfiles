@@ -9,7 +9,6 @@
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
   "editor.folding": false,
-  "explorer.openEditors.visible": 0,
   "workbench.colorCustomizations": {
     "statusBar.background": "#303030",
     "statusBar.noFolderBackground": "#222225",
