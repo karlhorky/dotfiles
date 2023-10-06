@@ -132,6 +132,20 @@
     "key": "tab",
     "command": "hideSuggestWidget",
     "when": "suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.terminal.splitInstance",
+    "when": "terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "cmd+\\",
+    "command": "-workbench.action.splitEditor"
   }
   // Disable find keyboard shortcut in File Explorer
   // , {
