@@ -251,6 +251,7 @@
   "editor.linkedEditing": true,
   "workbench.editor.empty.hint": "hidden",
   "workbench.activityBar.location": "top",
+  "editor.multiDocumentOccurrencesHighlight": true
   // Prefer jumping to source instead of TS types
   // https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
   // "javascript.preferGoToSourceDefinition": true,
