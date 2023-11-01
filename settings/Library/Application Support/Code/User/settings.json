@@ -1,6 +1,5 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.activityBar.visible": false,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "solid",
@@ -225,7 +224,6 @@
   //   ]
   // },
   "eslint.runtime": "node",
-  "workbench.editor.untitled.hint": "hidden",
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
@@ -254,6 +252,7 @@
   "workbench.editor.empty.hint": "hidden",
   // Show Quick Fixes which are available nearby when triggering quick fix with ⌘.
   "editor.codeActionWidget.includeNearbyQuickfixes": true
+  "workbench.activityBar.location": "top",
   // Prefer jumping to source instead of TS types
   // https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
   // "javascript.preferGoToSourceDefinition": true,
