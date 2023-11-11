@@ -49,7 +49,6 @@
   // ],
   "editor.tabSize": 2,
   "workbench.editor.tabCloseButton": "off",
-  "eslint.alwaysShowStatus": true,
   "workbench.editor.tabSizing": "shrink",
   "window.newWindowDimensions": "maximized",
   "workbench.editor.showIcons": false,
@@ -224,6 +223,7 @@
   //   ]
   // },
   "eslint.runtime": "node",
+  "eslint.experimental.useFlatConfig": true,
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
