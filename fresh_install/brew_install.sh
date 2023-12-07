@@ -32,7 +32,7 @@ main() {
 
   for i in ${!formulae[*]}; do
     formula="${formulae[$i]}"
-    [ $(brew list "$formula" &> /dev/null; printf $?) -eq 0 ] \
+    [ "$(brew list "$formula" &> /dev/null; printf $?)" -eq 0 ] \
       && success "$formula" \
       || execute "brew install $formula" "brew install $formula"
   done
@@ -41,7 +41,7 @@ main() {
   git config --global pull.rebase false
 
   # Install diff-highlight module and set it as default pager
-  make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
+  make -C "$(brew --prefix git)/share/git-core/contrib/diff-highlight"
   ln -sf "$(brew --prefix git)/share/git-core/contrib/diff-highlight/diff-highlight" "$(brew --prefix git)/bin/diff-highlight"
 
   # Install vim packages
