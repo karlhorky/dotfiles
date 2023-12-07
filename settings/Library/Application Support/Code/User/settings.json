@@ -16,37 +16,18 @@
     // Use no-unused-vars from ESLint instead (baseConfig below)
     // "editorUnnecessaryCode.border": "#ff0000"
   },
-  // "vim.useSystemClipboard": true,
-  // "vim.debug.loggingLevel": "debug",
-  // Fix moving down full lines on word wrapped lines https://stackoverflow.com/a/46436056/1268612
-  // "vim.normalModeKeyBindingsNonRecursive": [
-  //   {
-  //     "before": ["j"],
-  //     "after": ["g", "j"]
-  //   },
-  //   {
-  //     "before": ["k"],
-  //     "after": ["g", "k"]
-  //   }
-  //   // {
-  //   //   "before": ["down"],
-  //   //   "after": ["g", "j"]
-  //   // },
-  //   // {
-  //   //   "before": ["up"],
-  //   //   "after": ["g", "k"]
-  //   // }
-  // ],
+  // "vim.useSystemClipboard": true, "vim.debug.loggingLevel":
+  // "debug", Fix moving down full lines on word wrapped lines
+  // https://stackoverflow.com/a/46436056/1268612
+  // "vim.normalModeKeyBindingsNonRecursive": [ { "before":
+  //   ["j"], "after": ["g", "j"] }, { "before": ["k"], "after":
+  //     ["g", "k"] } // { //   "before": ["down"], //   "after":
+  //     ["g", "j"] // }, // { //   "before": ["up"], // "after":
+  //   ["g", "k"] // } ],
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
-  // "eslint.validate": [
-  //   "javascript",
-  //   "javascriptreact",
-  //   {
-  //     "language": "vue",
-  //     "autofix": true
-  //   }
-  // ],
+  // "eslint.validate": [ "javascript", "javascriptreact", {
+  //   "language": "vue", "autofix": true } ],
   "editor.tabSize": 2,
   "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabSizing": "shrink",
@@ -67,48 +48,39 @@
   "[plaintext]": {
     "files.trimTrailingWhitespace": false
   },
-  // "[html]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[javascriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[typescript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[typescriptreact]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[jsonc]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
-  // "[json]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
+  // "[html]": { "editor.defaultFormatter":
+  //   "esbenp.prettier-vscode" }, "[javascript]": {
+  // "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  // "[javascriptreact]": { "editor.defaultFormatter":
+  //   "esbenp.prettier-vscode" }, "[typescript]": {
+  // "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  // "[typescriptreact]": { "editor.defaultFormatter":
+  //   "esbenp.prettier-vscode" }, "[jsonc]": {
+  // "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  // "[json]": { "editor.defaultFormatter":
+  //   "esbenp.prettier-vscode" },
 
   "editor.codeActionsOnSave": {
-    // Sort package.json keys with https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json
+    // Sort package.json keys with
+    // https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json
     "source.sortPackageJson": "always"
   },
 
-  // Commented out because JS/TS Import/Export Sorter can
-  // sort the imports while also being configured to not
-  // remove unused imports (see config below)
+  // Commented out because JS/TS Import/Export Sorter can sort
+  // the imports while also being configured to not remove unused
+  // imports (see config below)
   //
-  // "editor.codeActionsOnSave": [
-  //   // VS Code Organize Imports feature for sorting and consolidating imports
-  //   // https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
-  //   "source.organizeImports",
-  //   // // Run ESLint --fix on the current file
-  //   // // https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
-  //   "source.fixAll.eslint",
-  //   // Trigger VS Code Format Document feature through rohit-gohri.format-code-action, configured above to default to Prettier
-  //   // https://github.com/rohit-gohri/vscode-format-code-action#usage
-  //   "source.fixAll.format"
-  // ],
+  // "editor.codeActionsOnSave": [ // VS Code Organize Imports
+  //   feature for sorting and consolidating imports //
+  //   https://code.visualstudio.com/updates/v1_23#_javascript-and-typescript-organize-imports
+  //   "source.organizeImports", // // Run ESLint --fix on the
+  //   current file // //
+  //   https://github.com/microsoft/vscode-eslint/blob/master/README.md#version-204
+  //   "source.fixAll.eslint", // Trigger VS Code Format Document
+  //   feature through rohit-gohri.format-code-action, configured
+  //   above to default to Prettier //
+  //   https://github.com/rohit-gohri/vscode-format-code-action#usage
+  // "source.fixAll.format" ],
   "tsImportSorter.configuration.emptyLinesBetweenGroups": 0,
   "tsImportSorter.configuration.wrappingStyle": "prettier",
   "tsImportSorter.configuration.groupRules": ["^node:", {}, "^[.]"],
@@ -117,23 +89,27 @@
   // "search.quickOpen.includeHistory": false
   "workbench.tree.renderIndentGuides": "none",
   // "javascript.implicitProjectConfig.checkJs": true
-  // "eslint.nodePath": "/Users/k/p/eslint-config-upleveled/node_modules",
-  // "eslint.options": {
-  //   "configFile": "/Users/k/p/eslint-config-upleveled/index.js",
-  //   "resolvePluginsRelativeTo": "/Users/k/p/eslint-config-upleveled/node_modules"
-  // },
-  // Reuse the search configuration
+  // "eslint.nodePath":
+  // "/Users/k/p/eslint-config-upleveled/node_modules",
+  //   "eslint.options": { "configFile":
+  //   "/Users/k/p/eslint-config-upleveled/index.js",
+  // "resolvePluginsRelativeTo":
+  // "/Users/k/p/eslint-config-upleveled/node_modules" }, Reuse
+  // the search configuration
   // https://code.visualstudio.com/updates/v1_46#_search-editor
   "search.searchEditor.reusePriorSearchConfiguration": true,
-  // Use an existing Search Editor if there is one, otherwise create a new one
+  // Use an existing Search Editor if there is one, otherwise
+  // create a new one
   // https://code.visualstudio.com/updates/v1_53#_default-search-mode
   "search.mode": "reuseEditor",
   // Don't scroll explorer tree when opening a new file
   // https://code.visualstudio.com/updates/v1_46#_explorer-auto-reveal-focus-without-forcing-a-scroll
   "explorer.autoReveal": "focusNoScroll",
   // Use operating system clipboard, available since v1.32.0
-  // Original PR: https://github.com/aioutecism/amVim-for-VSCode/pull/260
-  // Release: https://github.com/aioutecism/amVim-for-VSCode/issues/276
+  // Original PR:
+  // https://github.com/aioutecism/amVim-for-VSCode/pull/260
+  // Release:
+  // https://github.com/aioutecism/amVim-for-VSCode/issues/276
   "amVim.useSystemClipboard": true,
   // Turn off Debug button above npm scripts in package.json
   // https://github.com/microsoft/vscode/issues/101107#issuecomment-650106018
@@ -155,8 +131,8 @@
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
   "editor.inlineSuggest.enabled": true,
-  // Instead disable Tab as keybinding for accepting widget suggestions
-  // "editor.suggest.selectionMode": "never",
+  // Instead disable Tab as keybinding for accepting widget
+  // suggestions "editor.suggest.selectionMode": "never",
   "github.copilot.enable": {
     "*": true,
     "plaintext": true,
@@ -214,14 +190,9 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": false,
-  // "stylelint.configOverrides": {
-  //   "ignoreFiles": [
-  //     // All normal .cjs files
-  //     "**/*.cjs",
-  //     // .cjs files starting with a dot eg. .eslintrc.cjs
-  //     "**/.*.cjs"
-  //   ]
-  // },
+  // "stylelint.configOverrides": { "ignoreFiles": [ // All
+  //   normal .cjs files "**/*.cjs", // .cjs files starting with
+  //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
   "eslint.runtime": "node",
   "eslint.experimental.useFlatConfig": true,
   "redhat.telemetry.enabled": false,
@@ -245,7 +216,8 @@
   "prettier.trailingComma": "all",
   // , "editor.hover.above": false
   "[yaml]": {
-    // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub Workflow (github-workflow.json)" in YAML files
+    // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub
+    // Workflow (github-workflow.json)" in YAML files
     "editor.codeLens": false
   },
   "editor.linkedEditing": true,
@@ -255,7 +227,9 @@
   "workbench.activityBar.location": "top",
   // Highlight occurrences across multiple files
   // https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
-  "editor.multiDocumentOccurrencesHighlight": true
+  "editor.multiDocumentOccurrencesHighlight": true,
+  "rewrap.onSave": true,
+  "rewrap.wrappingColumn": 65
   // Prefer jumping to source instead of TS types
   // https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
   // "javascript.preferGoToSourceDefinition": true,
