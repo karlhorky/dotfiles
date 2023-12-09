@@ -29,7 +29,6 @@
   // "eslint.validate": [ "javascript", "javascriptreact", {
   //   "language": "vue", "autofix": true } ],
   "editor.tabSize": 2,
-  "workbench.editor.tabCloseButton": "off",
   "workbench.editor.tabSizing": "shrink",
   "window.newWindowDimensions": "maximized",
   "workbench.editor.showIcons": false,
