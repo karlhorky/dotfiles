@@ -146,7 +146,7 @@
     "mdx": true,
     "sql": true
   },
-  "editor.wordBasedSuggestions": false,
+  "editor.wordBasedSuggestions": "off",
   "editor.snippetSuggestions": "none",
   // Disable Emmet suggestions
   "emmet.showExpandedAbbreviation": "never",
@@ -190,6 +190,9 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.scrollback": 100000,
   "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.stickyScroll.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.tree.enableStickyScroll": true,
   // "stylelint.configOverrides": { "ignoreFiles": [ // All
   //   normal .cjs files "**/*.cjs", // .cjs files starting with
   //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
@@ -212,7 +215,6 @@
   ],
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
-  "editor.stickyScroll.enabled": true,
   "prettier.trailingComma": "all",
   // , "editor.hover.above": false
   "[yaml]": {
@@ -228,8 +230,9 @@
   // Highlight occurrences across multiple files
   // https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
   "editor.multiDocumentOccurrencesHighlight": true,
+  "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
-  "rewrap.wrappingColumn": 65
+  "workbench.editor.tabActionCloseVisibility": false
   // Prefer jumping to source instead of TS types
   // https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
   // "javascript.preferGoToSourceDefinition": true,
