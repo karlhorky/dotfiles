@@ -185,6 +185,9 @@
   // Highlight occurrences across multiple files
   // https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
   "editor.occurrencesHighlight": "multiFile",
+  // Enable mult-file diff editor
+  // https://code.visualstudio.com/updates/v1_85#_multifile-diff-editor
+  "multiDiffEditor.experimental.enabled": true,
   "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
   "workbench.editor.tabActionCloseVisibility": false,
