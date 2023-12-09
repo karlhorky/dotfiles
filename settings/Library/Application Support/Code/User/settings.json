@@ -184,7 +184,7 @@
   "workbench.activityBar.location": "top",
   // Highlight occurrences across multiple files
   // https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
-  "editor.multiDocumentOccurrencesHighlight": true,
+  "editor.occurrencesHighlight": "multiFile",
   "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
   "workbench.editor.tabActionCloseVisibility": false,
