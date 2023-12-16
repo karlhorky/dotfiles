@@ -159,6 +159,7 @@ export PGDATA=/opt/homebrew/var/postgresql@14
 
 # Use less as pager for psql, fixing headers and scrolling long lines
 # https://github.com/karlhorky/dotfiles/commit/8a9930db640b3d4192cc68e4e675abbc03e00c36
+# https://stackoverflow.com/a/71308346/1268612
 export PSQL_PAGER="less --chop-long-lines --header 1"
 
 # Fix "signing failed: Inappropriate ioctl for device" error with gpg
