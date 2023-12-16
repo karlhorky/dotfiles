@@ -28,6 +28,12 @@ main() {
     "pngquant"
     # FTP and other tools https://apple.stackexchange.com/a/348495/36202
     "inetutils"
+
+    # PostgreSQL and newer less to enable --header <number> option
+    # export PSQL_PAGER="less --chop-long-lines --header 1"
+    # https://stackoverflow.com/a/71308346/1268612
+    "postgresql"
+    "less"
   )
 
   for i in ${!formulae[*]}; do
