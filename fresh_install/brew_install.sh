@@ -249,6 +249,10 @@ main() {
   # Install Muzzle: "Silence embarrassing notifications while screensharing"
   execute "brew install --cask muzzle" "brew install --cask muzzle"
 
+  # Install AlDente: "The ALL-IN-ONE charge Limiter App for MacBooks"
+  # https://www.reddit.com/r/UsbCHardware/comments/g6rxrr/comment/k609bbp/
+  execute "brew install --cask aldente" "brew install --cask aldente"
+
   success "Homebrew formulae installed!"
 }
 
