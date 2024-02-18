@@ -136,10 +136,10 @@
     "*": true,
     "plaintext": true,
     "markdown": true,
-    "scminput": false,
+    "scminput": true,
     "yaml": true,
     "css": true,
-    "javascript": false,
+    "javascript": true,
     "typescript": true,
     "typescriptreact": true,
     "mdx": true,
@@ -164,7 +164,7 @@
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
-  "editor.lightbulb.enabled": false,
+  "editor.lightbulb.enabled": "off",
   "files.associations": {
     ".env": "plaintext"
   },
@@ -238,5 +238,23 @@
     "yaml",
     "yml",
     "mdx"
+  ],
+  "github.copilot.advanced": {},
+  "cssVariables.languages": [
+    "astro",
+    "svelte",
+    "vue",
+    "vue-html",
+    "vue-postcss",
+    "scss",
+    "postcss",
+    "less",
+    "css",
+    "html",
+    // "javascript",
+    // "javascriptreact",
+    // "typescript",
+    // "typescriptreact",
+    "source.css.styled"
   ]
 }
