@@ -241,11 +241,11 @@
   ],
   "github.copilot.advanced": {},
   "cssVariables.languages": [
-    "astro",
-    "svelte",
-    "vue",
-    "vue-html",
-    "vue-postcss",
+    // "astro",
+    // "svelte",
+    // "vue",
+    // "vue-html",
+    // "vue-postcss",
     "scss",
     "postcss",
     "less",
@@ -256,5 +256,14 @@
     // "typescript",
     // "typescriptreact",
     "source.css.styled"
-  ]
+  ],
+  // Enable feature "Custom labels for open editors" for VS Code 1.88+
+  // to allow customizing tab labels to avoid the problem with multiple
+  // tabs having the same label eg. `index.ts`
+  // https://code.visualstudio.com/updates/v1_88#_custom-labels-for-open-editors
+  "workbench.editor.customLabels.patterns": {
+    "**/index.*": "${dirname}/${filename}.${extname}",
+    "**/page.tsx": "${dirname}/${filename}.${extname}",
+    "**/route.ts": "${dirname}/${filename}.${extname}"
+  }
 }
