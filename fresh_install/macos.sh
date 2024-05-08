@@ -114,4 +114,8 @@ killall Dock
 # Source: https://apple.stackexchange.com/a/127405/36202
 sudo scutil --set HostName 'Karls-MacBook-Pro.local'
 
-success "macOS System settings configured\n"
+# Disable mini-emoji picker
+# https://mastodon.social/@stroughtonsmith/112216657091717306
+sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist emoji_enhancements -dict-add Enabled -bool NO
+
+success "macOS System settings configured. Restart to apply settings.\n"
