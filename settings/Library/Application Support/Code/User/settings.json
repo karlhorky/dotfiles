@@ -160,7 +160,6 @@
   //   normal .cjs files "**/*.cjs", // .cjs files starting with
   //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
   "eslint.runtime": "node",
-  "eslint.experimental.useFlatConfig": true,
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
