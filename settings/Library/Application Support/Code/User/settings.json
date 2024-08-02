@@ -266,5 +266,8 @@
     "**/route.ts": "${dirname}/${filename}.${extname}"
   },
   "github.copilot.editor.enableAutoCompletions": true,
-  "totalTypeScript.hideAllTips": true
+  "totalTypeScript.hideAllTips": true,
+  // Disable opening a file dragged and dropped into the explorer
+  // https://code.visualstudio.com/updates/v1_92#_disable-auto-file-open-on-drag-and-drop
+  "explorer.autoOpenDroppedFile": false
 }
