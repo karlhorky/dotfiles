@@ -265,5 +265,6 @@
     "**/page.tsx": "${dirname}/${filename}.${extname}",
     "**/route.ts": "${dirname}/${filename}.${extname}"
   },
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "totalTypeScript.hideAllTips": true
 }
