@@ -264,5 +264,6 @@
     "**/index.*": "${dirname}/${filename}.${extname}",
     "**/page.tsx": "${dirname}/${filename}.${extname}",
     "**/route.ts": "${dirname}/${filename}.${extname}"
-  }
+  },
+  "github.copilot.editor.enableAutoCompletions": true
 }
