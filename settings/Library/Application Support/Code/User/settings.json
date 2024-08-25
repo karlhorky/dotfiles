@@ -256,9 +256,9 @@
     // "typescriptreact",
     "source.css.styled"
   ],
-  // Enable feature "Custom labels for open editors" for VS Code 1.88+
-  // to allow customizing tab labels to avoid the problem with multiple
-  // tabs having the same label eg. `index.ts`
+  // Enable feature "Custom labels for open editors" for VS Code
+  // 1.88+ to allow customizing tab labels to avoid the problem
+  // with multiple tabs having the same label eg. `index.ts`
   // https://code.visualstudio.com/updates/v1_88#_custom-labels-for-open-editors
   "workbench.editor.customLabels.patterns": {
     "**/index.*": "${dirname}/${filename}.${extname}",
@@ -272,5 +272,12 @@
   "explorer.autoOpenDroppedFile": false,
   // Use single-line diff view for single-line changes
   // https://code.visualstudio.com/updates/v1_92#_true-inline-diffs
-  "diffEditor.experimental.useTrueInlineView": true
+  "diffEditor.experimental.useTrueInlineView": true,
+  "mdx.validate.validateFragmentLinks": "error",
+  // validateFileLinks not showing diagnostics as of MDX Analyzer 1.8.9
+  // https://github.com/mdx-js/mdx-analyzer/issues/465
+  "mdx.validate.validateFileLinks": "error",
+  // Hide Git history graph in Source Control tab in left pane
+  // https://code.visualstudio.com/docs/sourcecontrol/overview#_incoming-and-outgoing-changes
+  "scm.showHistoryGraph": false
 }
