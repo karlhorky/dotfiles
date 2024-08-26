@@ -173,3 +173,6 @@ www.notion.so##.notion-default-overlay-container.notion-overlay-container > div 
 
 ! 2023-03-27 https://www.wired.com
 www.wired.com##.paywall-modal--paywall.paywall-modal.drNpIn.PaywallModalWrapper-iultiD
+
+! 2024-08-26 Fix text selection in Twitter/X message compose input https://x.com/messages
+x.com##div:only-child > .public-DraftStyleDefault-block::selection:style(background: highlight !important;)
