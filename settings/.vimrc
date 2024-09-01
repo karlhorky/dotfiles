@@ -34,5 +34,7 @@ set shortmess=atI
 " Show the current mode
 set showmode
 
-" Set a highlighted column at 50 characters (git commit title) and 80 characters (git commit body)
-let &colorcolumn="50,80"
+" Set a highlighted column at:
+" - 72 characters (git commit title) https://github.com/refined-github/refined-github/pull/7428#issuecomment-2163379618
+" - 80 characters (git commit body)
+let &colorcolumn="72,80"
