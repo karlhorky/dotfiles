@@ -61,7 +61,7 @@
 
   "editor.codeActionsOnSave": {
     // Sort package.json keys with
-    // https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json
+    // - https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json
     "source.sortPackageJson": "always"
   },
 
@@ -95,27 +95,27 @@
   // "resolvePluginsRelativeTo":
   // "/Users/k/p/eslint-config-upleveled/node_modules" }, Reuse
   // the search configuration
-  // https://code.visualstudio.com/updates/v1_46#_search-editor
+  // - https://code.visualstudio.com/updates/v1_46#_search-editor
   "search.searchEditor.reusePriorSearchConfiguration": true,
   // Use an existing Search Editor if there is one, otherwise
   // create a new one
-  // https://code.visualstudio.com/updates/v1_53#_default-search-mode
+  // - https://code.visualstudio.com/updates/v1_53#_default-search-mode
   "search.mode": "reuseEditor",
   // Don't scroll explorer tree when opening a new file
-  // https://code.visualstudio.com/updates/v1_46#_explorer-auto-reveal-focus-without-forcing-a-scroll
+  // - https://code.visualstudio.com/updates/v1_46#_explorer-auto-reveal-focus-without-forcing-a-scroll
   "explorer.autoReveal": "focusNoScroll",
   // Use operating system clipboard, available since v1.32.0
   // Original PR:
-  // https://github.com/aioutecism/amVim-for-VSCode/pull/260
+  // - https://github.com/aioutecism/amVim-for-VSCode/pull/260
   // Release:
-  // https://github.com/aioutecism/amVim-for-VSCode/issues/276
+  // - https://github.com/aioutecism/amVim-for-VSCode/issues/276
   "amVim.useSystemClipboard": true,
   // Turn off Debug button above npm scripts in package.json
-  // https://github.com/microsoft/vscode/issues/101107#issuecomment-650106018
+  // - https://github.com/microsoft/vscode/issues/101107#issuecomment-650106018
   "debug.javascript.codelens.npmScripts": "never",
   // Auto-close HTML / JSX tags in MDX
-  // https://github.com/silvenon/vscode-mdx/blob/master/readme.md#auto-close-tags
-  // https://github.com/formulahendry/vscode-auto-close-tag
+  // - https://github.com/silvenon/vscode-mdx/blob/master/readme.md#auto-close-tags
+  // - https://github.com/formulahendry/vscode-auto-close-tag
   "auto-close-tag.activationOnLanguage": ["mdx"],
   "errorLens.onSave": true,
   "errorLens.onSaveTimeout": 5000,
@@ -170,7 +170,7 @@
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
   "prettier.trailingComma": "all",
-  // , "editor.hover.above": false
+  // "editor.hover.above": false,
   "[yaml]": {
     // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub
     // Workflow (github-workflow.json)" in YAML files
@@ -179,19 +179,19 @@
   "editor.linkedEditing": true,
   "workbench.editor.empty.hint": "hidden",
   // Move Activity Bar to the top
-  // https://code.visualstudio.com/updates/v1_84#_customize-activity-bar-position
+  // - https://code.visualstudio.com/updates/v1_84#_customize-activity-bar-position
   "workbench.activityBar.location": "top",
   // Highlight occurrences across multiple files
-  // https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
+  // - https://code.visualstudio.com/updates/v1_84#_multidocument-highlighting
   "editor.occurrencesHighlight": "multiFile",
   // Enable mult-file diff editor
-  // https://code.visualstudio.com/updates/v1_85#_multifile-diff-editor
+  // - https://code.visualstudio.com/updates/v1_85#_multifile-diff-editor
   "multiDiffEditor.experimental.enabled": true,
   "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
   "workbench.editor.tabActionCloseVisibility": false,
   // Prefer jumping to source instead of TS types
-  // https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
+  // - https://twitter.com/ambarmutha/status/1719658670592569371?t=jt6COmeaLiXJx3b9htyV3Q&s=19
   // "javascript.preferGoToSourceDefinition": true,
   // "typescript.preferGoToSourceDefinition": true
   "cSpell.enableFiletypes": ["sql"],
@@ -259,7 +259,7 @@
   // Enable feature "Custom labels for open editors" for VS Code
   // 1.88+ to allow customizing tab labels to avoid the problem
   // with multiple tabs having the same label eg. `index.ts`
-  // https://code.visualstudio.com/updates/v1_88#_custom-labels-for-open-editors
+  // - https://code.visualstudio.com/updates/v1_88#_custom-labels-for-open-editors
   "workbench.editor.customLabels.patterns": {
     "**/index.*": "${dirname}/${filename}.${extname}",
     "**/page.tsx": "${dirname}/${filename}.${extname}",
@@ -268,16 +268,17 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "totalTypeScript.hideAllTips": true,
   // Disable opening a file dragged and dropped into the explorer
-  // https://code.visualstudio.com/updates/v1_92#_disable-auto-file-open-on-drag-and-drop
+  // - https://code.visualstudio.com/updates/v1_92#_disable-auto-file-open-on-drag-and-drop
   "explorer.autoOpenDroppedFile": false,
   // Use single-line diff view for single-line changes
-  // https://code.visualstudio.com/updates/v1_92#_true-inline-diffs
+  // - https://code.visualstudio.com/updates/v1_92#_true-inline-diffs
   "diffEditor.experimental.useTrueInlineView": true,
   "mdx.validate.validateFragmentLinks": "error",
-  // validateFileLinks not showing diagnostics as of MDX Analyzer 1.8.9
-  // https://github.com/mdx-js/mdx-analyzer/issues/465
+  // validateFileLinks not showing diagnostics as of MDX Analyzer
+  // 1.8.9
+  // - https://github.com/mdx-js/mdx-analyzer/issues/465
   "mdx.validate.validateFileLinks": "error",
   // Hide Git history graph in Source Control tab in left pane
-  // https://code.visualstudio.com/docs/sourcecontrol/overview#_incoming-and-outgoing-changes
-  "scm.showHistoryGraph": false
+  // - https://code.visualstudio.com/docs/sourcecontrol/overview#_incoming-and-outgoing-changes
+  "scm.showHistoryGraph": false,
 }
