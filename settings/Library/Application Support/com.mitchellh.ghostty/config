@@ -1,0 +1,14 @@
+# Use cmd+option+left/right to switch between terminal tabs
+# https://ghostty.org/docs/config/keybind/reference#previous_tab
+keybind = cmd+option+left=previous_tab
+keybind = cmd+option+right=next_tab
+
+# Always use block cursor, disable cursor blinking
+# https://github.com/ghostty-org/ghostty/discussions/3836#discussioncomment-11688264
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# Disable ligatures
+# https://ghostty.org/docs/config/reference#font-feature
+font-feature = -calt
