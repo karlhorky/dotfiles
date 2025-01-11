@@ -12,3 +12,11 @@ shell-integration-features = no-cursor
 # Disable ligatures
 # https://ghostty.org/docs/config/reference#font-feature
 font-feature = -calt
+
+# Hide macOS title bar
+# https://ghostty.org/docs/config/reference#macos-titlebar-style
+macos-titlebar-style = tabs
+
+# Always save window state (position, size, tabs, etc)
+# https://ghostty.org/docs/config/reference#window-save-state
+window-save-state = always
