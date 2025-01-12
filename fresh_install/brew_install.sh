@@ -142,6 +142,13 @@ main() {
 
   # Install VS Code and packages
   execute "brew install --cask visual-studio-code" "brew install --cask visual-studio-code"
+  # Set default text editor to VS Code, eg. for Ghostty settings
+  # https://github.com/ghostty-org/ghostty/issues/189#issuecomment-2565897365
+  defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add
+  '{
+      LSHandlerContentType = "public.plain-text";
+      LSHandlerRoleAll = "com.microsoft.VSCode";
+  }'
   # Install VS Code extension Docker
   execute "code --install-extension PeterJausovec.vscode-docker" "code --install-extension PeterJausovec.vscode-docker"
   # Install VS Code extension Prettier
