@@ -281,11 +281,6 @@
   // Hide Git history graph in Source Control tab in left pane
   // - https://code.visualstudio.com/docs/sourcecontrol/overview#_incoming-and-outgoing-changes
   "scm.showHistoryGraph": false,
-  // Automatically use chat participant with natural language in
-  // Chat view (Experimental), introduced in VS Code August 2024
-  // (1.93)
-  // - https://code.visualstudio.com/updates/v1_93#_automatic-chat-participant-detection-in-chat-view-experimental
-  "chat.experimental.detectParticipant.enabled": true,
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
     "*.svg": "default"
@@ -298,13 +293,22 @@
     "vscode",
     "vscode-insiders"
   ],
-  // Enable multi-file Copilot Edits, for Pre-Release version
-  // of Copilot Chat extension, introduced in VS Code October
-  // 2024 (1.95)
+  // Enable multi-file Copilot Edits, for Pre-Release version of
+  // Copilot Chat extension, introduced in VS Code October 2024
+  // (1.95)
   // - https://code.visualstudio.com/updates/v1_95#_start-a-code-editing-session-with-copilot-edits
   "github.copilot.chat.edits.enabled": true,
   // Update imports on paste for JavaScript and TypeScript,
   // introduced in VS Code October 2024 (1.95)
   // - https://code.visualstudio.com/updates/v1_95#_start-a-code-editing-session-with-copilot-edits
-  "typescript.experimental.updateImportsOnPaste": true
+  "typescript.experimental.updateImportsOnPaste": true,
+  // Automatically use chat participant with natural language in
+  // Chat view (Experimental), introduced in VS Code August 2024
+  // (1.93)
+  // - https://code.visualstudio.com/updates/v1_93#_automatic-chat-participant-detection-in-chat-view-experimental
+  "chat.detectParticipant.enabled": true,
+  // Enable Copilot Next Edit Suggestions, introduced in VS Code
+  // January 2025 (1.97)
+  // - https://code.visualstudio.com/updates/v1_97#_copilot-next-edit-suggestions-preview
+  "github.copilot.nextEditSuggestions.enabled": true
 }
