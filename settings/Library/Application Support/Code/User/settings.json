@@ -310,5 +310,13 @@
   // Enable Copilot Next Edit Suggestions, introduced in VS Code
   // January 2025 (1.97)
   // - https://code.visualstudio.com/updates/v1_97#_copilot-next-edit-suggestions-preview
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  // Enable Agentic codebase search (Preview), introduced in VS
+  // Code January 2025 (1.97)
+  // - https://code.visualstudio.com/updates/v1_97#_agentic-codebase-search-preview
+  "github.copilot.chat.edits.codesearch.enabled": true,
+  // Enable Reusable Prompts (Experimental), introduced in VS
+  // Code January 2025 (1.97)
+  // https://code.visualstudio.com/updates/v1_97#_reusable-prompts-experimental
+  "chat.promptFiles": true
 }
