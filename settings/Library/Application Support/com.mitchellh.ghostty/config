@@ -7,7 +7,9 @@ keybind = cmd+option+right=next_tab
 # https://github.com/ghostty-org/ghostty/discussions/3836#discussioncomment-11688264
 cursor-style = block
 cursor-style-blink = false
-shell-integration-features = no-cursor
+# Disable Ghostty built-in cursor and tab title shell integration
+# https://ghostty.org/docs/config/reference#shell-integration-features
+shell-integration-features = no-cursor,no-title
 
 # Disable ligatures
 # https://ghostty.org/docs/config/reference#font-feature
@@ -20,3 +22,7 @@ macos-titlebar-style = tabs
 # Always save window state (position, size, tabs, etc)
 # https://ghostty.org/docs/config/reference#window-save-state
 window-save-state = always
+
+# Workaround for missing "Find" functionality
+# https://github.com/ghostty-org/ghostty/issues/189#issuecomment-2564719973
+keybind = super+f=write_screen_file:open
