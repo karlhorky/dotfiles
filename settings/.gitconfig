@@ -13,8 +13,16 @@
 	# https://sabbour.me/setting-up-signed-git-commits-on-macos/
 	# https://gist.github.com/karlhorky/65e73461225a7f7e6877589c9b10faaa
 	signingkey = XXXXXXX
+[init]
+	# Set default branch to `main`
+	defaultBranch = main
 [push]
 	default = simple
+[fetch]
+	# Before fetching, remove remote-tracking branches that no longer exist
+	prune = true
+	# Before fetching, remove tags that no longer exist
+	pruneTags = true
 [core]
 	editor = /opt/homebrew/bin/vim
 	pager = diff-so-fancy | less --tabs=2 -RFX
@@ -26,5 +34,16 @@
 	gpgsign = true
 [gpg]
   program = gpg
+[branch]
+	# Sort branches by committer date (most recent first)
+	sort = -committerdate
+[tag]
+	# Sort tags by version number (most recent first)
+	sort = version:refname
+[diff]
+	# Improve diff readability
+	algorithm = histogram
+	# Show different colors for moved lines
+	colorMoved = plain
 [diff-so-fancy]
 	first-run = false
