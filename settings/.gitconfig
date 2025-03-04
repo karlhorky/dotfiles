@@ -31,7 +31,7 @@
 	# diffFilter = diff-so-fancy --patch-mode | less --tabs=2 -RFX
 	diffFilter = diff-highlight
 [commit]
-	gpgsign = true
+	gpgSign = true
 [gpg]
   program = gpg
 [branch]
@@ -43,7 +43,8 @@
 [diff]
 	# Improve diff readability
 	algorithm = histogram
-	# Show different colors for moved lines
-	colorMoved = plain
+	# Disabled because moved lines are more confusing in diff
+	# # Show different colors for moved lines
+	# colorMoved = plain
 [diff-so-fancy]
 	first-run = false
