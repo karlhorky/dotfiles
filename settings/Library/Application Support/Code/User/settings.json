@@ -312,11 +312,14 @@
   // - https://code.visualstudio.com/updates/v1_97#_copilot-next-edit-suggestions-preview
   "github.copilot.nextEditSuggestions.enabled": true,
   // Enable Agentic codebase search (Preview), introduced in VS
-  // Code January 2025 (1.97)
+  // Code January 2025 (1.97) and renamed in VS Code February
+  // 2025 (1.98)
   // - https://code.visualstudio.com/updates/v1_97#_agentic-codebase-search-preview
-  "github.copilot.chat.edits.codesearch.enabled": true,
+  // - https://code.visualstudio.com/updates/v1_98#_more-advanced-codebase-search-in-copilot-chat
+  "github.copilot.chat.codesearch.enabled": true,
   // Enable Reusable Prompts (Experimental), introduced in VS
   // Code January 2025 (1.97)
   // https://code.visualstudio.com/updates/v1_97#_reusable-prompts-experimental
-  "chat.promptFiles": true
+  "chat.promptFiles": true,
+  "github.copilot.selectedCompletionModel": "gpt-4o-copilot"
 }
