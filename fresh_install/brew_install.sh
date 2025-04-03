@@ -34,6 +34,10 @@ main() {
     # https://stackoverflow.com/a/71308346/1268612
     "postgresql"
     "less"
+
+    # diff-pdf is a tool for visually comparing two PDFs
+    # https://github.com/vslavik/diff-pdf
+    "diff-pdf"
   )
 
   for i in ${!formulae[*]}; do
