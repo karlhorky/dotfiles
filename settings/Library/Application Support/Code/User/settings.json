@@ -329,5 +329,11 @@
   // Enable Copilot Chat Agent Mode Thinking Tool, introduced
   // in VS Code March 2025 (1.99)
   // - https://code.visualstudio.com/updates/v1_99#_thinking-tool-experimental
-  "github.copilot.chat.agent.thinkingTool": true
+  "github.copilot.chat.agent.thinkingTool": true,
+  // Enable Native IntelliSense in integrated terminal,
+  // introduced in VS Code July 2024 (1.92) and enabled for zsh
+  // in VS Code November 2024 (1.96)
+  // - https://code.visualstudio.com/updates/v1_92#_vs-codenative-intellisense-for-powershell
+  // - https://code.visualstudio.com/updates/v1_96#_terminal-completions-for-more-shells
+  "terminal.integrated.suggest.enabled": true
 }
