@@ -322,8 +322,12 @@
   // https://code.visualstudio.com/updates/v1_97#_reusable-prompts-experimental
   "chat.promptFiles": true,
   "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
-  // Enable VS Code Copilot Chat Agent Mode, enabled in VS Code
-  // Stable in VS Code March 2025 (1.99)
+  // Enable Copilot Chat Agent Mode, enabled in VS Code Stable
+  // in VS Code March 2025 (1.99)
   // - https://code.visualstudio.com/updates/v1_99#_agent-mode-is-available-in-vs-code-stable
-  "chat.agent.enabled": true
+  "chat.agent.enabled": true,
+  // Enable Copilot Chat Agent Mode Thinking Tool, introduced
+  // in VS Code March 2025 (1.99)
+  // - https://code.visualstudio.com/updates/v1_99#_thinking-tool-experimental
+  "github.copilot.chat.agent.thinkingTool": true
 }
