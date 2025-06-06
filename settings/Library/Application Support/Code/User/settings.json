@@ -82,7 +82,7 @@
   // "source.fixAll.format" ],
   "tsImportSorter.configuration.emptyLinesBetweenGroups": 0,
   "tsImportSorter.configuration.wrappingStyle": "prettier",
-  "tsImportSorter.configuration.groupRules": ["^node:", {}, "^[.]"],
+  "tsImportSorter.configuration.groupRules": ["^node:", {}, "^[.]", "^@/"],
   "breadcrumbs.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
@@ -164,7 +164,9 @@
   "typescript.preferences.quoteStyle": "single",
   "editor.lightbulb.enabled": "off",
   "files.associations": {
-    ".env": "plaintext"
+    ".env": "ini",
+    ".env.*": "ini",
+    "*.css": "tailwindcss"
   },
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
