@@ -126,8 +126,8 @@ github.com##:not(:matches-path(/notifications)) #AppHeader-notifications-button:
 substack.com##.intro-popup
 substack.com##html,body:style(overflow: auto !important;)
 substack.com##.has-intro-popup.show-intro-popup #main:not(:has(.intro-popup)):style(visibility: visible !important;)
-substack.com##[class*=SubscribePrompt-module__subscribeDialog]
-substack.com##[class*=SubscribePrompt-module__background]
+substack.com##[role=dialog][class*=subscribeDialog-]
+substack.com##[role=dialog][class*=subscribeDialog-] [class*=background-]
 www.fullstackeconomics.com##.intro-popup
 www.fullstackeconomics.com##html,body:style(overflow: auto !important;)
 www.fullstackeconomics.com##.has-intro-popup.show-intro-popup #main:not(:has(.intro-popup)):style(visibility: visible !important;)
