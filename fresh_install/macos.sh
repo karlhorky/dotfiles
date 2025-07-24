@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
 info "Configuring macOS System settings..."
-info "Manual step: macOS: System Preferences > Accessibility > Display > Reduce Motion"
+
+info "Manual step: macOS: System Settings > Accessibility > Display > Reduce Motion"
+
+# For adding special characters (eg. š via option-v + s)
+info "Manual step: macOS: System Settings > Keyboard > Input Sources > Edit > Remove 'ABC' and add 'ABC Extended'"
+
+# ============================
 
 # Also look at this for more tips:
 # https://git.herrbischoff.com/awesome-macos-command-line/about/
