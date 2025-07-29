@@ -6,6 +6,9 @@ info "Manual step: macOS: System Settings > Accessibility > Display > Reduce Mot
 
 # For adding special characters (eg. š via option-v + s)
 info "Manual step: macOS: System Settings > Keyboard > Input Sources > Edit > Remove 'ABC' and add 'ABC Extended'"
+# To avoid macOS hijacking the ctrl-space keyboard shortcut for things like VS Code
+# - https://stackoverflow.com/a/76235512/1268612
+info "Manual step: macOS: System Settings > Keyboard > Keyboard Shortcuts... > Input Sources > Uncheck 'Select the previous input source' and 'Select next source in Input menu'"
 
 # ============================
 
