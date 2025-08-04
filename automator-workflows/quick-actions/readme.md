@@ -1,16 +1,24 @@
-# Services Workflows
+# Quick Actions
 
 ## Installation
 
 Install prerequisites:
 
 ```bash
-# ImageOptim
+# ffmpeg, for any video Quick Actions
+# https://formulae.brew.sh/formula/ffmpeg
+brew install ffmpeg
+
+# ImageOptim, for any "ImageOptim" Quick Actions
 # https://formulae.brew.sh/cask/imageoptim
 brew install --cask imageoptim
 ```
 
-Copy the folders above to `~/Library/Services/` to have them appear in the right-click "Quick Actions" submenu.
+Install and set up [the Refined GitHub browser extension](https://github.com/refined-github/refined-github).
+
+In [the `automator-workflows/quick-actions` folder on GitHub](https://github.com/karlhorky/dotfiles/tree/main/automator-workflows/quick-actions), click on the three dots menu at the top right and select "Download directory":
+
+Open the `.workflow` files to install them in `~/Library/Services/`, which will make them appear in the right-click "Quick Actions" submenu.
 
 ## ImageOptim
 
