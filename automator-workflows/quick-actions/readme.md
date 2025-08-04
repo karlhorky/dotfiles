@@ -9,6 +9,14 @@ Install prerequisites:
 # https://formulae.brew.sh/formula/ffmpeg
 brew install ffmpeg
 
+# avif, for any avif Quick Actions
+# https://formulae.brew.sh/formula/libavif
+brew install libavif
+
+# webp, for any webp Quick Actions
+# https://formulae.brew.sh/formula/webp
+brew install webp
+
 # ImageOptim, for any "ImageOptim" Quick Actions
 # https://formulae.brew.sh/cask/imageoptim
 brew install --cask imageoptim
