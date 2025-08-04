@@ -111,6 +111,8 @@ main() {
   # https://github.com/TermiT/Flycut/pull/117
   # Until that PR is merged, use the fork: https://github.com/unkhz/Flycut/releases/tag/1.8.3
   # execute "brew install --cask flycut" "brew install --cask flycut"
+  # Install Raycast - launcher and emoji picker
+  execute "brew install --cask raycast" "brew install --cask raycast"
   # Install KeepingYouAwake - Prevent your Mac from sleeping
   execute "brew install --cask keepingyouawake" "brew install --cask keepingyouawake"
   # Install ngrok: Secure introspectable tunnels to localhost
