@@ -18,7 +18,7 @@ Install and set up [the Refined GitHub browser extension](https://github.com/ref
 
 In [the `automator-workflows/quick-actions` folder on GitHub](https://github.com/karlhorky/dotfiles/tree/main/automator-workflows/quick-actions), click on the three dots menu at the top right and select "Download directory":
 
-<img width="2878" height="906" alt="Screenshot 2025-08-04 at 12 19 55" src="https://github.com/user-attachments/assets/c2523420-3913-44a9-84fc-1be62c5d71eb" />
+<img width="2878" height="906" alt="Screenshot of GitHub at the folder, showing an open three dots menu and a highlighted 'Download directory' option in the menu" src="https://github.com/user-attachments/assets/c2523420-3913-44a9-84fc-1be62c5d71eb" />
 
 Open the `.workflow` files to install them in `~/Library/Services/`, which will make them appear in the right-click "Quick Actions" submenu.
 
