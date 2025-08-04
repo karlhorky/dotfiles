@@ -2,9 +2,15 @@
 
 ## Installation
 
-Install ImageOptim (`brew install --cask imageoptim`).
+Install prerequisites:
 
-Copy the folders above to `~/Library/Services/` to have them appear under right-click "Quick Actions" menu.
+```bash
+# ImageOptim
+# https://formulae.brew.sh/cask/imageoptim
+brew install --cask imageoptim
+```
+
+Copy the folders above to `~/Library/Services/` to have them appear in the right-click "Quick Actions" submenu.
 
 ## ImageOptim
 
