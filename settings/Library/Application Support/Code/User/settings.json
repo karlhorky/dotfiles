@@ -155,18 +155,26 @@
   "terminal.integrated.stickyScroll.enabled": true,
   "editor.stickyScroll.enabled": true,
   "workbench.tree.enableStickyScroll": true,
+  "eslint.runtime": "node",
   // "stylelint.configOverrides": { "ignoreFiles": [ // All
   //   normal .cjs files "**/*.cjs", // .cjs files starting with
   //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
-  "eslint.runtime": "node",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "scss",
+    "postcss",
+    "tailwindcss",
+    "javascript",
+    "typescriptreact"
+  ],
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.lightbulb.enabled": "off",
   "files.associations": {
     ".env": "ini",
-    ".env.*": "ini",
-    "*.css": "tailwindcss"
+    ".env.*": "ini"
   },
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
