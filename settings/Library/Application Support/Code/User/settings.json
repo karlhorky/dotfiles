@@ -159,15 +159,7 @@
   // "stylelint.configOverrides": { "ignoreFiles": [ // All
   //   normal .cjs files "**/*.cjs", // .cjs files starting with
   //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
-  "stylelint.validate": [
-    "css",
-    "less",
-    "scss",
-    "postcss",
-    "tailwindcss",
-    "javascript",
-    "typescriptreact"
-  ],
+  "stylelint.validate": ["css", "less", "scss", "postcss", "tailwindcss"],
   "redhat.telemetry.enabled": false,
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
