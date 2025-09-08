@@ -330,5 +330,9 @@
   // (1.100)
   // - https://code.visualstudio.com/updates/v1_100#_inline-chat-v2-preview
   "inlineChat.enableV2": true,
-  "inlineChat.hideOnRequest": true
+  "inlineChat.hideOnRequest": true,
+  // Enable Copilot Agent Mode Task Lists (Experimental),
+  // introduced in VS Code July 2025 (1.103)
+  // - https://code.visualstudio.com/updates/v1_103#_track-progress-with-task-lists-experimental
+  "chat.todoListTool.enabled": true
 }
