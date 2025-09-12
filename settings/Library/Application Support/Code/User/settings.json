@@ -334,5 +334,13 @@
   // Enable Copilot Agent Mode Task Lists (Experimental),
   // introduced in VS Code July 2025 (1.103)
   // - https://code.visualstudio.com/updates/v1_103#_track-progress-with-task-lists-experimental
-  "chat.todoListTool.enabled": true
+  "chat.todoListTool.enabled": true,
+  // Enable experimental Chat Sessions view, introduced in VS
+  // Code August 2025 (1.104)
+  // - https://code.visualstudio.com/updates/v1_104#_chat-sessions-view
+  "chat.agentSessionsViewLocation": "view",
+  // Hide editor tab scrollbar, introduced in VS Code August 2025
+  // (1.104)
+  // - https://code.visualstudio.com/updates/v1_104#_editor-tab-bar-scrollbar-visibility
+  "workbench.editor.titleScrollbarVisibility": "hidden"
 }
