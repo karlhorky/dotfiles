@@ -152,7 +152,6 @@
   "extensions.ignoreRecommendations": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.scrollback": 100000,
-  "terminal.integrated.stickyScroll.enabled": true,
   "editor.stickyScroll.enabled": true,
   "workbench.tree.enableStickyScroll": true,
   "eslint.runtime": "node",
