@@ -100,9 +100,14 @@ main() {
   # # This sets the number of fingers to 2 (currently disabled because of mis-clicks)
   # defaults write com.rouge41.middleClick fingers 2
   execute "brew install --cask menumeters" "brew install --cask menumeters"
-  # Install Disk Inventory X (disk space usage utility)
-  execute "brew install --cask disk-inventory-x" "brew install --cask disk-inventory-x"
-  
+
+  # Disabled because Disk Inventory X is deprecated and
+  # Grand Perspective is a better alternative
+  # # Install Disk Inventory X (disk space usage utility)
+  # execute "brew install --cask disk-inventory-x" "brew install --cask disk-inventory-x"
+  # Install Grand Perspective (disk space usage utility)
+  execute "brew install --cask grandperspective" "brew install --cask grandperspective"
+
   # Install Yippy clipboard manager
   execute "brew install --cask yippy" "brew install --cask yippy"
   # DO NOT USE (use Yippy instead - see above) Install Maccy clipboard manager
@@ -112,14 +117,14 @@ main() {
   # https://github.com/TermiT/Flycut/pull/117
   # Until that PR is merged, use the fork: https://github.com/unkhz/Flycut/releases/tag/1.8.3
   # execute "brew install --cask flycut" "brew install --cask flycut"
-  
+
   # Install Raycast - launcher and emoji picker
   # TODO: Consider switching to Emoji Ninja once it's on Homebrew
   # - https://github.com/mikkelam/Emoji-Ninja/issues/1#issuecomment-3149671996
   execute "brew install --cask raycast" "brew install --cask raycast"
   info "Raycast Settings -> General -> Set Raycast Hotkey to ctrl-option-space"
   info "Raycast Settings -> Extensions -> Select 'Search Emoji & Symbols' -> Set hotkey to option-space"
-  
+
   # Install KeepingYouAwake - Prevent your Mac from sleeping
   execute "brew install --cask keepingyouawake" "brew install --cask keepingyouawake"
   # Install ngrok: Secure introspectable tunnels to localhost
