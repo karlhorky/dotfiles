@@ -344,5 +344,15 @@
   // Hide editor tab scrollbar, introduced in VS Code August 2025
   // (1.104)
   // - https://code.visualstudio.com/updates/v1_104#_editor-tab-bar-scrollbar-visibility
-  "workbench.editor.titleScrollbarVisibility": "hidden"
+  "workbench.editor.titleScrollbarVisibility": "hidden",
+  "githubPullRequests.terminalLinksHandler": "github",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  }
 }
