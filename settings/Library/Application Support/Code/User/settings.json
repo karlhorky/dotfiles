@@ -354,5 +354,9 @@
   },
   "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  },
+  // Show recent chat sessions in Copilot Chat empty state,
+  // introduced in VS Code September 2025 (1.105)
+  // - https://code.visualstudio.com/updates/v1_105#_show-recent-chat-sessions-experimental
+  "chat.emptyState.history.enabled": true
 }
