@@ -362,5 +362,9 @@
   // Disallow whitespace-only next edit suggestions, introduced
   // in VS Code September 2025 (1.105)
   // - https://code.visualstudio.com/updates/v1_105#_disallow-whitespaceonly-next-edit-suggestions
-  "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false
+  "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+  // Increase max requests for Agent Mode, introduced in VS Code
+  // January 2025 (1.97)
+  // - https://code.visualstudio.com/updates/v1_97#_agent-mode-experimental
+  "chat.agent.maxRequests": 80
 }
