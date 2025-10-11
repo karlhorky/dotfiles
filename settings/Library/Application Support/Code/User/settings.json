@@ -449,5 +449,17 @@
   // Increase max requests for Agent Mode, introduced in VS Code
   // January 2025 (1.97)
   // - https://code.visualstudio.com/updates/v1_97#_agent-mode-experimental
-  "chat.agent.maxRequests": 80
+  "chat.agent.maxRequests": 80,
+  // Disable Comments view auto-opening on file with comments,
+  // introduced in VS Code March 2022 (1.66)
+  // - https://code.visualstudio.com/updates/v1_66#_comments-view-discoverability
+  "comments.openView": "never",
+  // Collapse all comments threads by default in the Comments,
+  // introduced in VS Code August 2021 (1.60)
+  // - https://code.visualstudio.com/updates/v1_60#_github-pull-requests-and-issues
+  "githubPullRequests.commentExpandState": "collapseAll",
+  // Disable comments from GitHub Pull Requests extension,
+  // introduced in VS Code November 2022 (1.74)
+  // - https://code.visualstudio.com/updates/v1_74#_commentsvisible
+  "comments.visible": false
 }
