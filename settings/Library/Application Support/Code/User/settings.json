@@ -336,7 +336,10 @@
   // Enable Copilot Agent Mode Task Lists (Experimental),
   // introduced in VS Code July 2025 (1.103)
   // - https://code.visualstudio.com/updates/v1_103#_track-progress-with-task-lists-experimental
-  "chat.todoListTool.enabled": true,
+  "chat.agent.todoList": {
+    "enabled": true,
+    "position": "default"
+  },
   // Enable experimental Chat Sessions view, introduced in VS
   // Code August 2025 (1.104)
   // - https://code.visualstudio.com/updates/v1_104#_chat-sessions-view
@@ -390,6 +393,8 @@
     "/^find\\b.*-(delete|exec|execdir|fprint|fprintf|fls|ok|okdir)\\b/": false,
     "grep": true,
     "/^grep\\b.*-(f|P)\\b/": false,
+    "rg": true,
+    "/^rg\\b.*-(f|P)\\b/": false,
     "sort": true,
     "/^sort\\b.*-(o|S)\\b/": false,
     "tree": true,
@@ -436,7 +441,19 @@
     "xargs": false,
     "eval": false,
     "Invoke-Expression": false,
-    "iex": false
+    "iex": false,
+    "pnpm learnfe build": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "pnpm learn exec playwright test": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "pnpm ls": {
+      "approve": true,
+      "matchCommandLine": true
+    }
   },
   // Show recent chat sessions in Copilot Chat empty state,
   // introduced in VS Code September 2025 (1.105)
@@ -461,5 +478,27 @@
   // Disable comments from GitHub Pull Requests extension,
   // introduced in VS Code November 2022 (1.74)
   // - https://code.visualstudio.com/updates/v1_74#_commentsvisible
-  "comments.visible": false
+  "comments.visible": false,
+  // 30s shell environment timeout to avoid timeout during VS
+  // Code update, which can lead to ESLint ENOENT errors such as:
+  // ```
+  // Starting the server failed. Launching server using runtime node failed. Error: spawn node ENOENT
+  //
+  // ESLint client: couldn't create connection to server. Launching server using runtime node failed. Error: spawn node ENOENT
+  //
+  // Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+  // ```
+  //
+  // ESLint Output logs show:
+  // ```
+  // 2025-10-16 11:48:25.322 [info] ESLint server is starting.
+  // 2025-10-16 11:48:25.322 [info] ESLint server stopped.
+  // 2025-10-16 11:48:25.322 [error] ESLint client: couldn't create connection to server.
+  // Launching server using runtime node failed. Error: spawn node ENOENT
+  // 2025-10-16 11:48:25.322 [error] Starting the server failed.
+  // Launching server using runtime node failed. Error: spawn node ENOENT
+  // 2025-10-16 11:48:25.322 [info] PATH environment variable is: /usr/bin:/bin:/usr/sbin:/sbin
+  // ```
+  // - https://github.com/microsoft/vscode-eslint/issues/1754#issuecomment-3410201863
+  "application.shellEnvironmentResolutionTimeout": 30
 }
