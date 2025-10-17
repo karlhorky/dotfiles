@@ -178,3 +178,53 @@ HISTFILE="$HOME/.zsh_history"
 
 alias pnpmpatch="pnpm patch --edit-dir ./node_modules/.pnpm-patch"
 alias pnpmpatch-commit="pnpm patch-commit ./node_modules/.pnpm-patch && rm -r ./node_modules/.pnpm-patch"
+
+# pnpm
+export PNPM_HOME="/Users/k/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# Leverage Node.js permissions to limit access of untrusted
+# packages with npx
+# - https://github.com/RafaelGSS/dotfiles/commit/77eb3990e8c9e6a80d7d69101130e0fab08669bd
+# - https://twitter.com/karlhorky/status/1978758516299993524
+alias npx-safe='function _npx_safe() {
+  local node_opts="--permission --allow-fs-read=$(npm prefix -g) --allow-fs-read=$(npm config get cache)"
+  local package=""
+  local package_args=()
+  while [[ $# -gt 0 ]]; do
+    if [[ "$1" == --* ]]; then
+      # Anything starting with `--` goes into node_opts
+      node_opts+=" $1"
+    else
+      # The first non-`--` argument is the package; the rest are package args
+      if [[ -z "$package" ]]; then
+        package="$1"
+      else
+        package_args+=("$1")
+      fi
+    fi
+    shift
+  done
+  echo "============================="
+  echo "         npx-safe Log        "
+  echo "============================="
+  echo "Node.js options:"
+  echo "  $node_opts"
+  echo
+  echo "Package:"
+  echo "  $package"
+  echo
+  if [[ ${#package_args[@]} -gt 0 ]]; then
+    echo "Arguments:"
+    for arg in "${package_args[@]}"; do
+      echo "  $arg"
+    done
+    echo
+  fi
+  echo "============================="
+  npx --node-options="$node_opts" "$package" "${package_args[@]}"
+}; _npx_safe'
