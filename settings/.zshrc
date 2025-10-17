@@ -2,10 +2,12 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # nvm config
-# Until tsm suports Node 17.0.1 https://github.com/lukeed/tsm/issues/13
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 # [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# fnm
+# eval "$(fnm env --use-on-cd --shell zsh)"
 
 # Use the Homebrew version of Ruby, to avoid problems
 # with the default macOS version
@@ -119,30 +121,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Set window title to same as tab title (for Hyper.app terminal tabs).
-# Disabled because of setting the tab title above using precmd and preexec
-# functions
-# export ZSH_THEME_TERM_TITLE_IDLE="%18<..<%~%<<"
-
-# echo -ne "\e]1;$PWD\a" && clear
-
-# Add path to Yarn global binaries
-if [ -x "$(command -v yarn)" ]; then export PATH="$PATH:`yarn global bin`"; fi
-
-# OPAM configuration
-#. /Users/k/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-#[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-#[[ -f /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/k/.config/yarn/global/node_modules/tabtab/.completions/sls.zsh
-
-# Add all untracked files and enter patch mode
-# Ref: https://github.com/robbyrussell/oh-my-zsh/pull/6901
-alias ganpa='git add --intent-to-add . && git add --patch'
-
 # Enable emacs mode for bindkey
 bindkey -e
 
@@ -151,11 +129,11 @@ bindkey '\e\e[D' backward-word # Skip one word backwards (alt-left arrow)
 bindkey '\e\e[C' forward-word # Skip one word forwards (alt-right arrow)
 
 # Move cursor to start and end of line with command + arrows
-# doesn't work, don't know why
-#bindkey '\e\e[E' beginning-of-line
-#bindkey '\e\e[F' end-of-line
+bindkey '\e\e[E' beginning-of-line
+bindkey '\e\e[F' end-of-line
+
 # Location of PostgreSQL database
-export PGDATA=/opt/homebrew/var/postgresql@14
+export PGDATA=/opt/homebrew/var/postgresql@17
 
 # Use less as pager for psql, fixing headers and scrolling long lines
 # https://github.com/karlhorky/dotfiles/commit/8a9930db640b3d4192cc68e4e675abbc03e00c36
