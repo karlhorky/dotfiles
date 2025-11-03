@@ -67,6 +67,9 @@ main() {
   # such as utmstrip.user.js and javascript-errors-notifier/
   # TODO: Make list of used extensions here
 
+  # For Chrome, set the following settings manually:
+  # 1. Go to New Tab -> Three dots menu -> More Tools -> Customize Chrome -> Uncheck "Show footer on New Tab page"
+
   # Google Chrome Canary
   execute "brew install --cask google-chrome-canary" "brew install --cask google-chrome-canary"
   # Google Chrome Canary
