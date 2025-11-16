@@ -320,13 +320,6 @@
   // - https://code.visualstudio.com/updates/v1_99#_thinking-tool-experimental
   "github.copilot.chat.agent.thinkingTool": true,
   "terminal.integrated.tabs.enabled": false,
-  // Disable Native IntelliSense in integrated terminal,
-  // introduced in VS Code July 2024 (1.92) and enabled for zsh
-  // in VS Code November 2024 (1.96)
-  // - https://code.visualstudio.com/updates/v1_92#_vs-codenative-intellisense-for-powershell
-  // - https://code.visualstudio.com/updates/v1_96#_terminal-completions-for-more-shells
-  // "terminal.integrated.suggest.enabled": true
-  //
   // Enable Inline chat V2 (Preview) and lightweight
   // hide-on-request UX, both introduced in VS Code April 2025
   // (1.100)
@@ -500,5 +493,28 @@
   // 2025-10-16 11:48:25.322 [info] PATH environment variable is: /usr/bin:/bin:/usr/sbin:/sbin
   // ```
   // - https://github.com/microsoft/vscode-eslint/issues/1754#issuecomment-3410201863
-  "application.shellEnvironmentResolutionTimeout": 30
+  "application.shellEnvironmentResolutionTimeout": 30,
+  // Enable Native IntelliSense in integrated terminal,
+  // introduced in VS Code July 2024 (1.92) and enabled for zsh
+  // in VS Code November 2024 (1.96)
+  // - https://code.visualstudio.com/updates/v1_92#_vs-codenative-intellisense-for-powershell
+  // - https://code.visualstudio.com/updates/v1_96#_terminal-completions-for-more-shells
+  "terminal.integrated.suggest.enabled": true,
+  // Disable quick suggestions in integrated terminal to reduce
+  // UI noise, setting introduced in VS Code February 2025 (1.98)
+  // - https://code.visualstudio.com/updates/v1_98#_configurable-quick-suggestions
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "off",
+    "arguments": "off",
+    "unknown": "off"
+  },
+  // TODO: Remove this workaround when recovery release is
+  // released
+  //
+  // Temporarily work around bug in VS Code 1.106.0
+  // - https://github.com/microsoft/vscode/issues/277387#issuecomment-3533942841
+  "terminal.integrated.suggest.providers": {
+    "lsp": true,
+    "vscode.terminal-suggest": true
+  }
 }
