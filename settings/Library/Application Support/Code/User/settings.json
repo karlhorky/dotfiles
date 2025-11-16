@@ -163,10 +163,6 @@
   "javascript.preferences.quoteStyle": "single",
   "typescript.preferences.quoteStyle": "single",
   "editor.lightbulb.enabled": "off",
-  "files.associations": {
-    ".env": "ini",
-    ".env.*": "ini"
-  },
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
   "prettier.trailingComma": "all",
