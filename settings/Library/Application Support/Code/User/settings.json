@@ -516,5 +516,9 @@
   "terminal.integrated.suggest.providers": {
     "lsp": true,
     "vscode.terminal-suggest": true
-  }
+  },
+  // Insert a trailing space after accepting a terminal
+  // suggestion, introduced in VS Code October 2025 (1.106)
+  // - https://code.visualstudio.com/updates/v1_106#:~:text=(New!),completions%20after%20accepting.
+  "terminal.integrated.suggest.insertTrailingSpace": true
 }
