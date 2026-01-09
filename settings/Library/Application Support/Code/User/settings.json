@@ -515,5 +515,9 @@
   // Enable using Agent Skills, introduced in VS Code December
   // 2025 (1.108)
   // - https://code.visualstudio.com/updates/v1_108#_agent-skills-experimental
-  "chat.useAgentSkills": true
+  "chat.useAgentSkills": true,
+  // Ignore whitespace changes in Git blame, introduced in VS
+  // Code December 2025 (1.108)
+  // - https://code.visualstudio.com/updates/v1_108#_git-blame-information-settings
+  "git.blame.ignoreWhitespace": true
 }
