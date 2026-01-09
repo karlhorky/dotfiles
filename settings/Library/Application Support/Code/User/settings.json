@@ -507,5 +507,13 @@
   // Insert a trailing space after accepting a terminal
   // suggestion, introduced in VS Code October 2025 (1.106)
   // - https://code.visualstudio.com/updates/v1_106#:~:text=(New!),completions%20after%20accepting.
-  "terminal.integrated.suggest.insertTrailingSpace": true
+  "terminal.integrated.suggest.insertTrailingSpace": true,
+  "githubPullRequests.pullBranch": "never",
+  "files.associations": {
+    "rc": "ini"
+  },
+  // Enable using Agent Skills, introduced in VS Code December
+  // 2025 (1.108)
+  // - https://code.visualstudio.com/updates/v1_108#_agent-skills-experimental
+  "chat.useAgentSkills": true
 }
