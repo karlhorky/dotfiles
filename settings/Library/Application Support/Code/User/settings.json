@@ -496,14 +496,10 @@
   // - https://code.visualstudio.com/updates/v1_92#_vs-codenative-intellisense-for-powershell
   // - https://code.visualstudio.com/updates/v1_96#_terminal-completions-for-more-shells
   "terminal.integrated.suggest.enabled": true,
-  // Disable quick suggestions in integrated terminal to reduce
-  // UI noise, setting introduced in VS Code February 2025 (1.98)
-  // - https://code.visualstudio.com/updates/v1_98#_configurable-quick-suggestions
-  "terminal.integrated.suggest.quickSuggestions": {
-    "commands": "off",
-    "arguments": "off",
-    "unknown": "off"
-  },
+  // Always select the first terminal suggestion, introduced in
+  // VS Code June 2025 (1.102)
+  // - https://code.visualstudio.com/updates/v1_102#_selection-mode
+  "terminal.integrated.suggest.selectionMode": "always",
   // Insert a trailing space after accepting a terminal
   // suggestion, introduced in VS Code October 2025 (1.106)
   // - https://code.visualstudio.com/updates/v1_106#:~:text=(New!),completions%20after%20accepting.
