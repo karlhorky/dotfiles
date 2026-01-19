@@ -27,6 +27,10 @@ sudo defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # float 0 doesn't work
 sudo defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 
+# Disable "Click wallpaper to reveal desktop" (macOS Sonoma+)
+defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
+killall WindowManager
+
 # Finder: disable window animations and Get Info animations
 sudo defaults write com.apple.finder DisableAllAnimations -bool true
 
