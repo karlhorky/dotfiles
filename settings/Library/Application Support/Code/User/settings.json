@@ -12,7 +12,7 @@
     "statusBar.background": "#303030",
     "statusBar.noFolderBackground": "#222225",
     "statusBar.debuggingBackground": "#511f1f",
-    "editor.lineHighlightBackground": "#2f2f2f"
+    "editor.lineHighlightBackground": "#2f2f2f",
     // Use no-unused-vars from ESLint instead (baseConfig below)
     // "editorUnnecessaryCode.border": "#ff0000"
   },
@@ -42,10 +42,10 @@
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
-    "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace": false,
   },
   "[plaintext]": {
-    "files.trimTrailingWhitespace": false
+    "files.trimTrailingWhitespace": false,
   },
   // "[html]": { "editor.defaultFormatter":
   //   "esbenp.prettier-vscode" }, "[javascript]": {
@@ -62,7 +62,7 @@
   "editor.codeActionsOnSave": {
     // Sort package.json keys with
     // - https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json
-    "source.sortPackageJson": "always"
+    "source.sortPackageJson": "always",
   },
 
   // Commented out because JS/TS Import/Export Sorter can sort
@@ -125,7 +125,7 @@
     "typescript",
     "javascript",
     "typescriptreact",
-    "javascriptreact"
+    "javascriptreact",
   ],
   "template-string-converter.addBracketsToProps": true,
   "template-string-converter.autoRemoveTemplateString": true,
@@ -143,7 +143,7 @@
     "typescript": true,
     "typescriptreact": true,
     "mdx": true,
-    "sql": true
+    "sql": true,
   },
   "editor.wordBasedSuggestions": "off",
   "editor.snippetSuggestions": "none",
@@ -170,7 +170,7 @@
   "[yaml]": {
     // Disable CodeLens "GitHub Workflow - YAML Schema for GitHub
     // Workflow (github-workflow.json)" in YAML files
-    "editor.codeLens": false
+    "editor.codeLens": false,
   },
   "editor.linkedEditing": true,
   "workbench.editor.empty.hint": "hidden",
@@ -186,7 +186,7 @@
   "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
   "[ignore]": {
-    "rewrap.onSave": false
+    "rewrap.onSave": false,
   },
   "workbench.editor.tabActionCloseVisibility": false,
   // Prefer jumping to source instead of TS types
@@ -199,7 +199,7 @@
     "hackathons",
     "katas",
     "Vercel",
-    "wireframes"
+    "wireframes",
   ],
   "cSpell.enabledLanguageIds": [
     "asciidoc",
@@ -235,7 +235,7 @@
     "typescriptreact",
     "yaml",
     "yml",
-    "mdx"
+    "mdx",
   ],
   "github.copilot.advanced": {},
   "cssVariables.languages": [
@@ -257,7 +257,7 @@
     // "typescript",
     // "typescriptreact",
     // ```
-    "source.css.styled"
+    "source.css.styled",
   ],
   // Enable feature "Custom labels for open editors" for VS Code
   // 1.88+ to allow customizing tab labels to avoid the problem
@@ -266,7 +266,7 @@
   "workbench.editor.customLabels.patterns": {
     "**/index.*": "${dirname}/${filename}.${extname}",
     "**/page.tsx": "${dirname}/${filename}.${extname}",
-    "**/route.ts": "${dirname}/${filename}.${extname}"
+    "**/route.ts": "${dirname}/${filename}.${extname}",
   },
   "totalTypeScript.hideAllTips": true,
   // Disable opening a file dragged and dropped into the explorer
@@ -282,7 +282,7 @@
   "mdx.validate.validateFileLinks": "error",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "terminal.integrated.allowedLinkSchemes": [
     "file",
@@ -290,7 +290,7 @@
     "https",
     "mailto",
     "vscode",
-    "vscode-insiders"
+    "vscode-insiders",
   ],
   // Enable Copilot Next Edit Suggestions, introduced in VS Code
   // January 2025 (1.97)
@@ -327,7 +327,7 @@
   // - https://code.visualstudio.com/updates/v1_103#_track-progress-with-task-lists-experimental
   "chat.agent.todoList": {
     "enabled": true,
-    "position": "default"
+    "position": "default",
   },
   // Enable experimental Chat Sessions view, introduced in VS
   // Code August 2025 (1.104)
@@ -342,10 +342,10 @@
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "chat.tools.terminal.autoApprove": {
     "cd": true,
@@ -390,15 +390,15 @@
     "/^tree\\b.*-o\\b/": false,
     "/\\(.+\\)/": {
       "approve": false,
-      "matchCommandLine": true
+      "matchCommandLine": true,
     },
     "/\\{.+\\}/": {
       "approve": false,
-      "matchCommandLine": true
+      "matchCommandLine": true,
     },
     "/`.+`/": {
       "approve": false,
-      "matchCommandLine": true
+      "matchCommandLine": true,
     },
     "rm": false,
     "rmdir": false,
@@ -433,16 +433,16 @@
     "iex": false,
     "pnpm learnfe build": {
       "approve": true,
-      "matchCommandLine": true
+      "matchCommandLine": true,
     },
     "pnpm learn exec playwright test": {
       "approve": true,
-      "matchCommandLine": true
+      "matchCommandLine": true,
     },
     "pnpm ls": {
       "approve": true,
-      "matchCommandLine": true
-    }
+      "matchCommandLine": true,
+    },
   },
   // Show recent chat sessions in Copilot Chat empty state,
   // introduced in VS Code September 2025 (1.105)
@@ -506,7 +506,7 @@
   "terminal.integrated.suggest.insertTrailingSpace": true,
   "githubPullRequests.pullBranch": "never",
   "files.associations": {
-    "rc": "ini"
+    "rc": "ini",
   },
   // Enable using Agent Skills, introduced in VS Code December
   // 2025 (1.108)
