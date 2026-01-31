@@ -43,6 +43,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
+    "rewrap.onSave": false,
   },
   "[plaintext]": {
     "files.trimTrailingWhitespace": false,
@@ -186,6 +187,9 @@
   "rewrap.wrappingColumn": 65,
   "rewrap.onSave": true,
   "[ignore]": {
+    "rewrap.onSave": false,
+  },
+  "[mdx]": {
     "rewrap.onSave": false,
   },
   "workbench.editor.tabActionCloseVisibility": false,
