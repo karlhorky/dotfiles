@@ -435,4 +435,8 @@
   // 2026 (1.109)
   // - https://code.visualstudio.com/updates/v1_109#_terminal-sandboxing-experimental
   "chat.tools.terminal.sandbox.enabled": true,
+  // Enable Integrated Browser (Preview), introduced in VS Code
+  // January 2026 (1.109)
+  // https://code.visualstudio.com/updates/v1_109#_integrated-browser-preview
+  "simpleBrowser.useIntegratedBrowser": true,
 }
