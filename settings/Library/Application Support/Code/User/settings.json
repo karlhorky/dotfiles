@@ -524,4 +524,12 @@
   // double-click
   // - https://code.visualstudio.com/updates/v1_80#_disable-maximizing-editor-groups-on-tab-double-click
   "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  // Enable new experimental dark theme, introduced in VS Code
+  // January 2026 (1.109)
+  // - https://code.visualstudio.com/updates/v1_109#_tell-us-what-you-think-about-our-new-themes-experimental
+  "workbench.colorTheme": "Experimental Dark",
+  // Enable terminal sandboxing, introduced in VS Code January
+  // 2026 (1.109)
+  // - https://code.visualstudio.com/updates/v1_109#_terminal-sandboxing-experimental
+  "chat.tools.terminal.sandbox.enabled": true,
 }
