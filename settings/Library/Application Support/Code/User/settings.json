@@ -435,6 +435,14 @@
   "chat.tools.terminal.sandbox.enabled": true,
   // Enable Integrated Browser (Preview), introduced in VS Code
   // January 2026 (1.109)
-  // https://code.visualstudio.com/updates/v1_109#_integrated-browser-preview
+  // - https://code.visualstudio.com/updates/v1_109#_integrated-browser-preview
   "simpleBrowser.useIntegratedBrowser": true,
+  // Hide secondary sidebar by default, overriding the default
+  // "defaultInWorkspace" behavior introduced in VS Code
+  // August 2025 (version 1.104)
+  // - https://code.visualstudio.com/updates/v1_104#_chat-view-default-visibility
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  // Disable transparency and blur
+  // - https://github.com/microsoft/vscode/issues/294977#issuecomment-3908307515
+  "workbench.reduceTransparency": "on",
 }
