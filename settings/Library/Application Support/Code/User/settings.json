@@ -35,7 +35,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.glyphMargin": false,
   "window.clickThroughInactive": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.editor.splitSizing": "distribute",
   // "vim.mouseSelectionGoesIntoVisualMode": false,
@@ -85,7 +85,6 @@
   "tsImportSorter.configuration.wrappingStyle": "prettier",
   "tsImportSorter.configuration.groupRules": ["^node:", {}, "^[.]", "^@/"],
   "breadcrumbs.enabled": false,
-  "typescript.updateImportsOnFileMove.enabled": "always",
   // "search.quickOpen.includeHistory": false
   "workbench.tree.renderIndentGuides": "none",
   // "javascript.implicitProjectConfig.checkJs": true
@@ -161,8 +160,7 @@
   //     a dot eg. .eslintrc.cjs "**/.*.cjs" ] },
   "stylelint.validate": ["css", "less", "scss", "postcss", "tailwindcss"],
   "redhat.telemetry.enabled": false,
-  "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single",
+  "js/ts.preferences.quoteStyle": "single",
   "editor.lightbulb.enabled": "off",
   "editor.guides.indentation": false,
   "files.insertFinalNewline": true,
