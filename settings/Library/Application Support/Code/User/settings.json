@@ -428,7 +428,7 @@
   // Enable new experimental dark theme, introduced in VS Code
   // January 2026 (1.109)
   // - https://code.visualstudio.com/updates/v1_109#_tell-us-what-you-think-about-our-new-themes-experimental
-  "workbench.colorTheme": "Experimental Dark",
+  "workbench.colorTheme": "VS Code Dark",
   // Enable terminal sandboxing, introduced in VS Code January
   // 2026 (1.109)
   // - https://code.visualstudio.com/updates/v1_109#_terminal-sandboxing-experimental
@@ -455,4 +455,8 @@
     "https://schemastore.azurewebsites.net/": true,
     "https://www.schemastore.org/": true,
   },
+  // Disable modal editor, introduced in VS Code February 2026
+  // (1.110)
+  // - https://code.visualstudio.com/updates/v1_110#_modal-editors-experimental
+  "workbench.editor.useModal": "off",
 }
