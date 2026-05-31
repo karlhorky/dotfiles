@@ -459,4 +459,7 @@
   // (1.110)
   // - https://code.visualstudio.com/updates/v1_110#_modal-editors-experimental
   "workbench.editor.useModal": "off",
+  // Reverse `true` default experiment for opening localhost links in the default browser, introduced in VS Code 1.114
+  // - https://github.com/microsoft/vscode/pull/304224#issuecomment-4586776671
+  "workbench.browser.openLocalhostLinks": false
 }
