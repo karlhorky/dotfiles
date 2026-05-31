@@ -438,8 +438,8 @@
   // - https://code.visualstudio.com/updates/v1_109#_integrated-browser-preview
   "simpleBrowser.useIntegratedBrowser": true,
   // Hide secondary sidebar by default, overriding the default
-  // "defaultInWorkspace" behavior introduced in VS Code
-  // August 2025 (version 1.104)
+  // "defaultInWorkspace" behavior introduced in VS Code August
+  // 2025 (version 1.104)
   // - https://code.visualstudio.com/updates/v1_104#_chat-view-default-visibility
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   // Disable transparency and blur
@@ -459,7 +459,8 @@
   // (1.110)
   // - https://code.visualstudio.com/updates/v1_110#_modal-editors-experimental
   "workbench.editor.useModal": "off",
-  // Reverse `true` default experiment for opening localhost links in the default browser, introduced in VS Code 1.114
+  // Reverse `true` default experiment for opening localhost
+  // links in the default browser, introduced in VS Code 1.114
   // - https://github.com/microsoft/vscode/pull/304224#issuecomment-4586776671
   "workbench.browser.openLocalhostLinks": false
 }
