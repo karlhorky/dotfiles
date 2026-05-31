@@ -428,7 +428,7 @@
   // Enable new experimental dark theme, introduced in VS Code
   // January 2026 (1.109)
   // - https://code.visualstudio.com/updates/v1_109#_tell-us-what-you-think-about-our-new-themes-experimental
-  "workbench.colorTheme": "VS Code Dark",
+  "workbench.colorTheme": "Dark 2026",
   // Enable terminal sandboxing, introduced in VS Code January
   // 2026 (1.109)
   // - https://code.visualstudio.com/updates/v1_109#_terminal-sandboxing-experimental
