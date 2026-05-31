@@ -1,156 +1,162 @@
 [
-  // Place your key bindings in this file to overwrite the defaults
+  // Place your key bindings in this file to overwrite the
+  // defaults
   {
     "key": "shift+cmd+k",
     "command": "-editor.action.deleteLines",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
   },
   {
     "key": "ctrl+cmd+r",
-    "command": "workbench.files.action.showActiveFileInExplorer"
+    "command": "workbench.files.action.showActiveFileInExplorer",
   },
   {
     "key": "shift+cmd+w",
-    "command": "workbench.action.closeEditorsInGroup"
+    "command": "workbench.action.closeEditorsInGroup",
   },
   {
     "key": "cmd+k w",
-    "command": "-workbench.action.closeEditorsInGroup"
+    "command": "-workbench.action.closeEditorsInGroup",
   },
   {
     "key": "cmd+c",
     "command": "editor.action.clipboardCopyAction",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "cmd+c",
     "command": "-editor.action.clipboardCopyAction",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "cmd+left",
     "command": "cursorHome",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "cmd+left",
     "command": "-cursorHome",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "cmd+right",
     "command": "cursorEnd",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "cmd+right",
     "command": "-cursorEnd",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "escape",
     "command": "closeFindWidget",
-    "when": "editorFocus && findWidgetVisible"
+    "when": "editorFocus && findWidgetVisible",
   },
   {
     "key": "alt+cmd+-",
-    "command": "workbench.action.decreaseViewSize"
+    "command": "workbench.action.decreaseViewSize",
   },
   {
     "key": "alt+cmd+=",
-    "command": "workbench.action.increaseViewSize"
+    "command": "workbench.action.increaseViewSize",
   },
   {
     "key": "cmd+w",
     "command": "-workbench.action.closeGroup",
-    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+    "when": "activeEditorGroupEmpty && multipleEditorGroups",
   },
   {
     "key": "alt+cmd+1",
-    "command": "workbench.action.editorLayoutSingle"
+    "command": "workbench.action.editorLayoutSingle",
   },
   {
     "key": "alt+cmd+2",
-    "command": "workbench.action.editorLayoutTwoColumns"
+    "command": "workbench.action.editorLayoutTwoColumns",
   },
   {
     "key": "alt+cmd+3",
-    "command": "workbench.action.editorLayoutThreeColumns"
+    "command": "workbench.action.editorLayoutThreeColumns",
   },
   {
     "key": "up",
     "command": "cursorUp",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible",
   },
   {
     "key": "down",
     "command": "cursorDown",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible",
   },
   {
     "key": "k",
     "command": "cursorUp",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl &&!suggestWidgetMultipleSuggestions && !suggestWidgetVisible",
   },
   {
     "key": "j",
     "command": "cursorDown",
-    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    "when": "editorTextFocus && amVim.mode == 'NORMAL' && !inDebugRepl && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible",
   },
   {
     "key": "cmd+0",
-    "command": "workbench.action.zoomReset"
+    "command": "workbench.action.zoomReset",
   },
   {
     "key": "cmd+numpad0",
-    "command": "-workbench.action.zoomReset"
+    "command": "-workbench.action.zoomReset",
   },
   {
     "key": "alt+z",
-    "command": "-editor.action.toggleWordWrap"
+    "command": "-editor.action.toggleWordWrap",
   },
   {
     "key": "cmd+shift+d",
-    "command": "workbench.action.replaceInFiles"
+    "command": "workbench.action.replaceInFiles",
   },
   {
     "key": "shift+cmd+r",
     "command": "editor.action.rename",
-    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
   },
   {
     "key": "f2",
     "command": "-editor.action.rename",
-    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
   },
   {
     "key": "tab",
     "command": "-acceptSelectedSuggestion",
-    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus",
   },
   {
     "key": "tab",
     "command": "hideSuggestWidget",
-    "when": "suggestWidgetVisible && textInputFocus"
+    "when": "suggestWidgetVisible && textInputFocus",
   },
   {
     "key": "cmd+\\",
     "command": "-workbench.action.terminal.split",
-    "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile",
   },
   {
     "key": "cmd+\\",
     "command": "-workbench.action.terminal.splitInstance",
-    "when": "terminalProcessSupported && terminalTabsFocus"
+    "when": "terminalProcessSupported && terminalTabsFocus",
   },
   {
     "key": "cmd+\\",
-    "command": "-workbench.action.splitEditor"
-  }
-  // Disable find keyboard shortcut in File Explorer
-  // , {
-  //   "key": "cmd+f", // "ctrl+f" on Windows/Linux
-  //   "command": "-list.find",
-  //   "when": "listFocus && listSupportsFind"
-  // }
+    "command": "-workbench.action.splitEditor",
+  },
+  // Disable "Automatic symbol references" on paste from VS Code
+  // 1.112
+  // - https://code.visualstudio.com/updates/v1_112#_automatic-symbol-references
+  {
+    "key": "cmd+v",
+    "command": "editor.action.pasteAsText",
+    "when": "inChatInput",
+  },
+  // Disable find keyboard shortcut in File Explorer , { "key":
+  // "cmd+f", // "ctrl+f" on Windows/Linux "command":
+  //   "-list.find", "when": "listFocus && listSupportsFind" }
 ]
