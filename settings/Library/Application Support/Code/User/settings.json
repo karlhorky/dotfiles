@@ -463,8 +463,8 @@
   // links in the default browser, introduced in VS Code 1.114
   // - https://github.com/microsoft/vscode/pull/304224#issuecomment-4586776671
   "workbench.browser.openLocalhostLinks": false,
-  // Disable automatic extension updates due to supply chain
-  // attacks
-  // - https://github.com/microsoft/vscode/issues/316867#issuecomment-4512139472
-  "extensions.autoUpdate": false,
+  // Delay extension auto-updates for 7 days due to supply chain
+  // attacks, introduced in VS Code 1.125
+  // - https://code.visualstudio.com/updates/v1_125#_configurable-extension-auto-update-delay
+  "extensions.autoUpdateDelay": 168,
 }
