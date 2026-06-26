@@ -1,0 +1,17 @@
+{
+  "env": {
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "model": "opus",
+  "includeCoAuthoredBy": false,
+  "prefersReducedMotion": true,
+  "axScreenReader": true,
+  "spinnerTipsEnabled": false,
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": ["Working"]
+  },
+  "permissions": {
+    "deny": ["AskUserQuestion"]
+  }
+}

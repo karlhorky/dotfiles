@@ -26,3 +26,7 @@ window-save-state = always
 # Workaround for missing "Find" functionality
 # https://github.com/ghostty-org/ghostty/issues/189#issuecomment-2564719973
 # keybind = super+f=write_screen_file:open
+
+# Disable progress animations (especially for Claude Code)
+# https://ghostty.org/docs/config/reference#progress-style
+progress-style = false
