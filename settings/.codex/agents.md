@@ -24,6 +24,12 @@
     - do not collect media in a separate screenshots section
     - do not name screenshot files in prose when the media itself should appear there
 
+# Terminal
+
+- security: prefer short singular shell commands, so users can allowlist narrow command prefixes in settings
+  - eg. prefer running `pwd` with a `workdir` over `cd <dir> && <very long command>`
+  - this helps users keep approval prompts enabled instead of relying on broad bypass modes like `--dangerously-skip-permissions` or `--yolo`
+
 # Writing Prose
 
 - keep writing terse
@@ -56,6 +62,9 @@
     - example 2
       - bad: `Expand Fusion additional-candidate predicate for null assessments` (names a side effect, not the human why)
       - good: `Invert Fusion additional-candidate predicate for readability` (what + how + human why)
+    - example 3
+      - bad: `Make Flex cohort appointments content-only and dateless` (misses campus + why)
+      - good: `Prep Flex cohort creation by dropping sync-format appts, dates, campus` (what + how + why)
   - use imperative wording (`Add`, `Link`), avoid present-tense (`Adds`, `Links`)
   - avoid vague subjects like `Refine`, `Update file`, `Misc fixes`
     - subjects must name the concrete changed object and action
