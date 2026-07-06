@@ -39,6 +39,7 @@
 - write like a spec document or documentation
   - include technical nouns, verbs, names (eg. symbol names)
   - aim for correctness and precision
+  - but DO NOT make it long or include a lot of jargon
 - avoid vague AI slop pseudo-technical jargon or colloquialisms like:
   - `data`
   - `wire up`
