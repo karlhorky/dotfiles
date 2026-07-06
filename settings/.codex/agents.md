@@ -36,12 +36,17 @@
 - do not bury the lede: lead with the main point, problem, decision, or user-visible outcome before setup or history
 - avoid fluff or filler words that add no value
 - prefer simple English when possible
-- avoid vague AI slop pseudo-technical jargon like:
+- write like a spec document or documentation
+  - include technical nouns, verbs, names (eg. symbol names)
+  - aim for correctness and precision
+- avoid vague AI slop pseudo-technical jargon or colloquialisms like:
   - `data`
   - `wire up`
   - `wiring`
   - `make it click`
   - `fan out`
+  - `gives` instead of technical language like `returns`, `queries`, `computes`, `renders`, etc
+  - `carries` instead of technical language like `contains`, `includes`, `stores`, `references`
 - substitutions
   - database: `rows` -> `records`
   - semicolons -> hyphens, parentheses, commas, or periods
