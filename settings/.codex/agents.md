@@ -36,7 +36,12 @@
 - do not bury the lede: lead with the main point, problem, decision, or user-visible outcome before setup or history
 - avoid fluff or filler words that add no value
 - prefer simple English when possible
-- avoid vague jargon like `data`, `wire up`, `wiring`
+- avoid vague AI slop pseudo-technical jargon like:
+  - `data`
+  - `wire up`
+  - `wiring`
+  - `make it click`
+  - `fan out`
 - substitutions
   - database: `rows` -> `records`
   - semicolons -> hyphens, parentheses, commas, or periods
