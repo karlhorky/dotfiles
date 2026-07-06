@@ -36,6 +36,9 @@
 - do not bury the lede: lead with the main point, problem, decision, or user-visible outcome before setup or history
 - avoid fluff or filler words that add no value
 - prefer simple English when possible
+- find the one correct way to say something
+  - simplify until there is nothing left to remove
+  - use canonical, most common terms
 - write like a spec document or documentation
   - include technical nouns, verbs, names (eg. symbol names)
   - aim for correctness and precision
