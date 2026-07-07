@@ -51,6 +51,7 @@
   - `fan out`
   - `gives` instead of technical language like `returns`, `queries`, `computes`, `renders`, etc
   - `carries` instead of technical language like `contains`, `includes`, `stores`, `references`
+  - `corrupt` instead of technical language like `delete`, `overwrite`, `modify`
 - substitutions
   - database: `rows` -> `records`
   - semicolons -> hyphens, parentheses, commas, or periods
