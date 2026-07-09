@@ -11,19 +11,6 @@
 
   - replace exact, unique text only
 
-- PR descriptions
-  - start with problem, then solution
-  - do not use `## Summary`
-  - do not add empty or near-empty `## Testing` sections
-  - after the prose, add checked checkboxes for completed changes
-  - checkbox items must describe positive completed changes only
-  - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
-  - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
-  - do not add checkbox items for things kept unchanged or not done
-  - place screenshots, videos, and other media in the next paragraph after the prose they support, usually after a colon
-    - do not collect media in a separate screenshots section
-    - do not name screenshot files in prose when the media itself should appear there
-
 # Terminal
 
 - security: prefer short singular shell commands, so users can allowlist narrow command prefixes in settings
@@ -110,8 +97,20 @@
          - eg. upstream ecosystem/tooling behavior change
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
-    - for upstream docs/source claims, use commit-pinned GitHub permalinks with line anchors
-      - prefer `?plain=1#Lx` or `?plain=1#Lx-Ly` for Markdown or MDX
+  - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
+    - prefer `?plain=1#Lx` or `?plain=1#Lx-Ly` for Markdown or MDX
+  - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
+    - do not collect media in a separate screenshots section
+    - do not insert media or code permalinks without prose explicitly referring to it
+- PR descriptions
+  - start with problem, then solution
+  - do not use `## Summary`
+  - do not add empty or near-empty `## Testing` sections
+  - after the prose, add checked checkboxes for completed changes
+  - checkbox items must describe positive completed changes only
+  - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
+  - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
+  - do not add checkbox items for things kept unchanged or not done
 
 # Code style
 
