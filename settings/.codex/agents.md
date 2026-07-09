@@ -102,6 +102,8 @@
   - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
     - do not collect media in a separate screenshots section
     - do not insert media or code permalinks without prose explicitly referring to it
+    - code and media should mostly refer to existing code and the problem, not the solution - the solution can be viewed in the PR diff
+      - exception: "After" screenshots, videos, etc which are not directly observable from the code
 - PR descriptions
   - start with problem, then solution
   - do not use `## Summary`
