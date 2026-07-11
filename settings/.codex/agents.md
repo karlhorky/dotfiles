@@ -121,7 +121,13 @@
 - prefer the Principle of Least Surprise over cleverness when choosing value shapes, ids, naming, and control flow
 - prefer simplicity and transparent program flow over abstraction and indirection
 - prefer inline values over single-use variables unless a local is needed for narrowing or clarity
-- avoid speculative fallbacks, defensive guards, and dead code paths for cases not present in the current data
+- avoid silent errors and dead code paths by starting with simpler, even "naive" approaches and preferring loud failures to partial success, skipped records, best-effort behavior, and defensive code patterns with `?.` and similar
+  - prefer loud failures: when a required record, field, invariant, or side effect is missing, let the operation fail or throw a clear error instead of filtering records, skipping work, returning partial results, or silently continuing
+  - review the loud failure and fix the code minimally to handle the proven case
+  - caveat: avoid crashes and data loss in user-facing production code paths - still fail loudly for the user (and log the error details) but do not crash the client or server or lose data
+- mostly functional programming over object-oriented programming
+- imports with fully-specified `.ts` or `.tsx` extensions, `node:` prefixes
+- refer to existing code and files similar to what you're writing, use a style consistent with the project
 
 # Interacting with user
 
