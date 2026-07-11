@@ -116,11 +116,36 @@
 
 # Code style
 
-- preserve existing code comments unless they are wrong or the user asks to change them
-- keep diffs minimal and preserve existing naming and formatting unless the change requires otherwise
+- never remove, shorten, or relocate existing code comments - preserve exact wording and placement to keep diffs small and avoid back-and-forth fixes
+  - exceptions: a comment is no longer accurate, the user explicitly asks for a change to the comment, a linter/formatter fails without adjusting the comment
+- avoid periods in comments unless they contain multiple sentences, and avoid multiple sentences when possible
+- when using an empty `catch` block, add a comment in the form `// Swallow error <error description>`
+- TS
+  - `function` keyword instead of `const` arrow functions (exception: inline handlers)
+  - imports with fully-specified `.ts` or `.tsx` extensions, `node:` prefixes
+  - prefer `type` over `interface`
+- [repo-wide function naming conventions](./readme.md#naming-conventions)
+- SQL-in-TS:
+  - use Postgres.js, not ORM
+  - use type-safe queries with template literals
+  - instead of building up queries in TypeScript with mapping to `sql` tagged template literals (aka SQL fragments), prefer performing the same logic via SQL
+- SQL:
+  - prefer explicit joins for direct table relationships instead of:
+    - implicit joins (relationship predicates mixed with filter predicates in `WHERE`)
+    - subqueries (extra nesting)
+    - CTEs (indirection, possible planner complexity)
+  - don't use abbreviated aliases like `cohorts_curricula_appointments AS cca`
+  - avoid SQL `DEFAULT` values, write values explicitly in app code or seeds
+- avoid unnecessary identifiers eg. single-use variables
+  - prefer inline values unless a local is needed for TypeScript narrowing (eg. `const form = props.form`)
+- keep diffs minimal: only change the lines required for the fix and preserve existing naming/formatting unless the change itself demands otherwise
+- aim to keep related data and actions together in the code, when it doesn't make it excessively complex
+- simplicity and transparency of values and program flow over abstraction and multiple levels of indirection
 - prefer the Principle of Least Surprise over cleverness when choosing value shapes, ids, naming, and control flow
-- prefer simplicity and transparent program flow over abstraction and indirection
-- prefer inline values over single-use variables unless a local is needed for narrowing or clarity
+- match existing implementations in the project before introducing new helpers or abstractions
+  - eg. when a transform only has one observed structure, implement exactly that structure and let unexpected shapes fail loudly so they can be fixed explicitly later
+- avoid speculative fallbacks, ternaries or defensive guards for cases not present in the current data
+  - eg. prefer the direct, readable solution even if it assumes a single happy path and leads to failures. we want to encounter and fix these failures, rather than silently handling them inappropriately
 - avoid silent errors and dead code paths by starting with simpler, even "naive" approaches and preferring loud failures to partial success, skipped records, best-effort behavior, and defensive code patterns with `?.` and similar
   - prefer loud failures: when a required record, field, invariant, or side effect is missing, let the operation fail or throw a clear error instead of filtering records, skipping work, returning partial results, or silently continuing
   - review the loud failure and fix the code minimally to handle the proven case
