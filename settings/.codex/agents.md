@@ -98,7 +98,7 @@
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
   - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
-    - prefer `?plain=1#Lx` or `?plain=1#Lx-Ly` for Markdown or MDX
+    - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
   - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
     - do not collect media in a separate screenshots section
     - do not insert media or code permalinks without prose explicitly referring to it
