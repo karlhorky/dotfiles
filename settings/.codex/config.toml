@@ -1,0 +1,11 @@
+model = "gpt-5.5"
+personality = "pragmatic"
+model_verbosity = "low"
+model_reasoning_effort = "high"
+
+[mcp_servers.playwright]
+command = "pnpx"
+args = [
+  "--config.dlx-cache-max-age=10080",
+  "@playwright/mcp@latest",
+]
