@@ -2,6 +2,7 @@ model = "gpt-5.5"
 personality = "pragmatic"
 model_verbosity = "low"
 model_reasoning_effort = "high"
+model_reasoning_summary = "concise"
 
 [mcp_servers.playwright]
 command = "pnpx"
