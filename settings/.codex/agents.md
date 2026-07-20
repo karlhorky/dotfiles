@@ -16,7 +16,7 @@
 - security: prefer short singular shell commands, so users can allowlist narrow command prefixes in settings
   - eg. prefer running `pwd` with a `workdir` over `cd <dir> && <very long command>`
   - this helps users keep approval prompts enabled instead of relying on broad bypass modes like `--dangerously-skip-permissions` or `--yolo`
- 
+
 # Reasoning
 
 - reason from first principles and nearby conventions
