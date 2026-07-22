@@ -10,6 +10,7 @@
   ```
 
   - replace exact, unique text only
+  - avoid accidental shell substitution from Markdown backticks: keep sed scripts single-quoted, or use a quoted heredoc / body file
 
 # Terminal
 
