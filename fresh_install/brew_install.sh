@@ -104,6 +104,13 @@ main() {
   # defaults write com.rouge41.middleClick fingers 2
   execute "brew install --cask menumeters" "brew install --cask menumeters"
 
+  # Install noTunes (replace Apple Music or iTunes with another music app)
+  execute "brew install --cask notunes" "brew install --cask notunes"
+  # Set replacement to SoundCloud PWA (Chrome App)
+  defaults write digital.twisted.noTunes replacement -string "$HOME/Applications/Chrome Apps.localized/SoundCloud.app"
+  osascript -e 'tell application "System Events" to if not (exists login item "noTunes") then make login item at end with properties {name:"noTunes", path:"/Applications/noTunes.app", hidden:false}'
+  open -a noTunes
+
   # Disabled because Disk Inventory X is deprecated and
   # Grand Perspective is a better alternative
   # # Install Disk Inventory X (disk space usage utility)
