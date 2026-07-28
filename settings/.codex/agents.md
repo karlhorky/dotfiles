@@ -165,4 +165,16 @@
 # Interacting with user
 
 - prefer simple textual representations, do not use ASCII art to draw tables and similar unless requested
-- if asking the user to choose, present the options as a numbered or lettered list so each can be referenced uniquely
+- when asking the user to choose, present the options as a numbered or lettered list so each can be referenced uniquely
+- when writing your response to the user:
+  - make sure your response is consistent
+    - keep the headline / summary honest - if any caveats/nit/outstanding items remain, qualify the opening (eg. "mostly done, one minor nit:") instead of claiming completion
+    - surface any caveats/nit/outstanding items up front also in the main part of your response
+      - do not bury them ONLY as addenda / postscripts at the last line of your response, especially if you're contradicting your message above, eg. like this:
+        - contradicting:
+          - first line: "Yes - done. ..."
+          - last line: "One loose end ..."
+        - incomplete review summary:
+          - first line: "This looks good. ..."
+          - last line: "One thing to note: ..."
+      - flag their severity if relevant eg. if they are minor
