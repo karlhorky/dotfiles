@@ -2,14 +2,7 @@
   "env": {
     "DISABLE_AUTOUPDATER": "1"
   },
-  "model": "opus",
   "includeCoAuthoredBy": false,
-  "prefersReducedMotion": true,
-  "spinnerTipsEnabled": false,
-  "spinnerVerbs": {
-    "mode": "replace",
-    "verbs": ["Working"]
-  },
   "permissions": {
     "allow": [
       "Bash(git status:*)",
@@ -39,6 +32,17 @@
       "Bash(file:*)",
       "Bash(grep:*)"
     ],
-    "deny": ["AskUserQuestion"]
-  }
+    "deny": [
+      "AskUserQuestion"
+    ]
+  },
+  "model": "opus",
+  "spinnerTipsEnabled": false,
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Working"
+    ]
+  },
+  "prefersReducedMotion": true
 }
