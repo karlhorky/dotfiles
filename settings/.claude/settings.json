@@ -8,7 +8,7 @@
     "failIfUnavailable": true,
     "allowUnsandboxedCommands": false,
     "filesystem": {
-      "denyRead": ["~/.ssh", "~/.config/gh", "~/.cloudflared", "~/.aws"],
+      "denyRead": ["~/.ssh", "~/.config/gh"],
       "allowRead": ["."]
     },
     "network": {
