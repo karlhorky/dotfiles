@@ -3,6 +3,23 @@
     "DISABLE_AUTOUPDATER": "1"
   },
   "includeCoAuthoredBy": false,
+  "sandbox": {
+    "enabled": true,
+    "failIfUnavailable": true,
+    "allowUnsandboxedCommands": false,
+    "filesystem": {
+      "denyRead": ["~/.ssh", "~/.config/gh", "~/.cloudflared", "~/.aws"],
+      "allowRead": ["."]
+    },
+    "network": {
+      "allowedDomains": [
+        "github.com",
+        "*.github.com",
+        "registry.npmjs.org",
+        "api.anthropic.com"
+      ]
+    }
+  },
   "permissions": {
     "allow": [
       "Bash(git status:*)",
@@ -33,16 +50,18 @@
       "Bash(grep:*)"
     ],
     "deny": [
-      "AskUserQuestion"
+      "AskUserQuestion",
+      "Read(~/.ssh/**)",
+      "Read(**/.env)",
+      "Bash(curl *)",
+      "Bash(ssh *)"
     ]
   },
   "model": "opus",
   "spinnerTipsEnabled": false,
   "spinnerVerbs": {
     "mode": "replace",
-    "verbs": [
-      "Working"
-    ]
+    "verbs": ["Working"]
   },
   "prefersReducedMotion": true
 }
