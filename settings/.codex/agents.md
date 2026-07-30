@@ -1,6 +1,15 @@
 # GitHub
 
 - use `gh` CLI for GitHub interactions, always elevated
+- opening PRs
+  - always make user review title and description before starting work
+    - as usual: create a branch
+    - create an empty commit with a title with the prefix `Add initial empty commit`
+    - as usual: push the branch to GitHub
+    - propose 3 possible PR titles along with 1 possible PR description, following your PR title and description rules
+    - ask the user for approval
+    - after any iteration and approval, create a PR with the approved title and description
+    - once you're ready to commit the first time, amend the empty commit and force push
 - strongly prefer editing PR descriptions from the current GitHub body, to avoid overwriting manual edits:
 
   ```bash
