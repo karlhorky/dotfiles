@@ -158,6 +158,10 @@
 - keep diffs minimal: only change the lines required for the fix and preserve existing naming/formatting unless the change itself demands otherwise
 - aim to keep related data and actions together in the code, when it doesn't make it excessively complex
 - simplicity and transparency of values and program flow over abstraction and multiple levels of indirection
+- naming
+  - avoid inventing project-specific DSLs, aliases, or terminology when the underlying languages (eg. HTML, TS, SQL, etc), frameworks, protocols, external APIs or existing project-specific DSLs already name the concept
+    - eg. instead align application APIs and props with underlying data (entities, values, elements, external names)
+      - eg. expose `className`, HTML attributes, and Google/GitHub/Mailchimp/etc. field names
 - prefer the Principle of Least Surprise over cleverness when choosing value shapes, ids, naming, and control flow
 - match existing implementations in the project before introducing new helpers or abstractions
   - eg. when a transform only has one observed structure, implement exactly that structure and let unexpected shapes fail loudly so they can be fixed explicitly later
