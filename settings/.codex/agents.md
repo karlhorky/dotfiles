@@ -1,3 +1,10 @@
+# Codex Harness
+
+- if you use the Codex harness, remember the following
+  - sandbox
+    - commands requiring network access will require elevation
+      - do not run them non-elevated
+
 # GitHub
 
 - use `gh` CLI for GitHub interactions, always elevated
