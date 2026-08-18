@@ -2,7 +2,7 @@
 
 - if you use the Codex harness, remember the following
   - sandbox
-    - commands requiring network access will require elevation
+    - commands require elevation when they access remote + local network destinations or modify `.git`
       - do not run them non-elevated
 
 # GitHub
