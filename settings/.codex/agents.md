@@ -5,6 +5,13 @@
     - commands require elevation when they access remote + local network destinations or modify `.git`
       - do not run them non-elevated
 
+# Git
+
+- for now (as of Aug 2026), avoid Git worktrees for larger repositories with lots of dependencies or heavy build requirements
+  - to avoid disk space issues and long waiting times for builds
+  - revisit when we can reduce the heavy requirements in future with things like:
+    - the pnpm Global Virtual Store https://pnpm.io/global-virtual-store https://pnpm.io/git-worktrees
+
 # GitHub
 
 - use `gh` CLI for GitHub interactions, always elevated
