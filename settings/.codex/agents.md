@@ -46,7 +46,14 @@
 - reason from first principles and nearby conventions
 - ground your assertions in empirical proof
 - if you cannot find existing proof, create minimal artifacts (eg. scripts) which can create this proof
-- avoid rhetoric in your reasoning
+- avoid rhetoric in your reasoning: report like a lab notebook, not an argument
+  - show the command / code and its output for every factual claim
+  - tables or other illustrative instruments which summarize data are nice, but they never replace the data behind them - show both the summary and the cited data
+  - when you haven't verified something, mention:
+    - you haven't verified yet
+    - you're guessing / inferring
+    - the next steps for verifying
+  - drop persuasive language in headlines and body text: `Verdict:`, `Why X is wrong`, conclusions with no accompanying data
 
 # Writing Prose
 
