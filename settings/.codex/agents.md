@@ -105,7 +105,15 @@
     - example 3
       - bad: `Make Flex cohort appointments content-only and dateless` (misses campus + why)
       - good: `Prep Flex cohort creation by dropping sync-format appts, dates, campus` (what + how + why)
-  - use imperative wording (`Add`, `Link`), avoid present-tense (`Adds`, `Links`)
+  - use imperative verbs (`Add`, `Link`), avoid present-tense verbs (`Adds`, `Links`)
+  - action verbs preferences
+    - `Fix` for problem resolutions
+    - `Move` / `Rename` for location / name changes
+    - `Switch from ... to ...` for refactoring or replacement
+    - `Revert` / `Restore` for restoring previous state
+    - example 1
+      - bad: `Use enrollments fixture shape for consistency with other specs` (hides the revert)
+      - good: `Revert enrollments fixture shape for consistency with other specs`
   - avoid vague subjects like `Refine`, `Update file`, `Misc fixes`
     - subjects must name the concrete changed object and action
     - eg. `Clarify commit subject rule, mention dist only for dist-only commits`
