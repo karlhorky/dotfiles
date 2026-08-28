@@ -38,7 +38,12 @@
 # Terminal
 
 - security: prefer short singular shell commands, so users can allowlist narrow command prefixes in settings
-  - eg. prefer running `pwd` with a `workdir` over `cd <dir> && <very long command>`
+  - example 1
+    - bad: `cd <dir> && <command>`
+    - good: run the command with a `workdir`
+  - example 2
+    - bad: `git -C <path> status`
+    - good: `git status`
   - this helps users keep approval prompts enabled instead of relying on broad bypass modes like `--dangerously-skip-permissions` or `--yolo`
 
 # Reasoning
@@ -118,9 +123,10 @@
     - subjects must name the concrete changed object and action
     - eg. `Clarify commit subject rule, mention dist only for dist-only commits`
     - derive object nouns from changed paths, added code, edited headings/section labels
-      - eg. `app.config.ts`, `nodeLinker: hoisted`, `--single-quote`
-      - eg. to refer to sections of a document
-        - `<section> section of <lecture slug> lecture notes`
+      - example 1
+        - `app.config.ts`, `nodeLinker: hoisted`, `--single-quote`
+      - example 2
+        - to refer to sections of a document: `<section> section of <lecture slug> lecture notes`
     - use explicit qualifiers, avoid vague qualifier placement
       - example 1
         - bad: `Clarify graphql lecture notes and GitHub profile code examples`
