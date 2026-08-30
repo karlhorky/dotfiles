@@ -132,7 +132,7 @@
         - bad: `Clarify graphql lecture notes and GitHub profile code examples`
         - good: `Clarify GitHub profile section of graphql lecture notes`
   - describe all completed changes exhaustively
-  - avoid mentioning logical "housekeeping" or "cleanup" or "build" extension activities (eg. generating `dist` files, bumping all sibling ids) in commit subjects
+  - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
   - prefer the shortest concrete object-action subject first
   - use only the commit subject in 99% of cases, avoid using commit message body
     - the 1% case is when we should link to other things or explain a complicated error case deeply
@@ -161,10 +161,10 @@
   - do not use `## Summary`
   - do not add empty or near-empty `## Testing` sections
   - after the prose, add checked checkboxes for completed changes
-  - checkbox items must describe positive completed changes only
-  - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
-  - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
-  - do not add checkbox items for things kept unchanged or not done
+    - checkbox items must describe positive completed changes only, not things kept unchanged or not done
+    - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
+    - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
+    - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
 
 # Code style
 
