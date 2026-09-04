@@ -467,5 +467,8 @@
   // attacks, introduced in VS Code 1.125
   // - https://code.visualstudio.com/updates/v1_125#_configurable-extension-auto-update-delay
   "extensions.autoUpdateDelay": 168,
+  // Enable compact layout density for the editor window,
+  // introduced in VS Code 1.136
+  // - https://code.visualstudio.com/updates/v1_136#_layout-density-for-the-editor-window-experimental
   "window.density.layout": "compact",
 }
