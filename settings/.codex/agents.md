@@ -121,6 +121,14 @@
         - example 1
           - bad: `Clarify graphql lecture notes and GitHub profile code examples`
           - good: `Clarify GitHub profile section of graphql lecture notes`
+    - prefer the shortest concrete object-action subject first
+    - use only the commit subject in 99% of cases, avoid using commit message body
+      - the 1% case is when we should link to other things or explain a complicated error case deeply
+    - keep commit message subject lines to max 72 characters
+    - if a clear exhaustive subject exceeds 72 chars, split the work into multiple commits
+    - exception to canonical filename/entity-name rules above
+      - if the subject would exceed 72 chars, fall back to abbreviated, short names
+        - eg. `TS exercise` instead of `typescript-fundamentals-exercises`
   - include what changed + how it changed + why (the why is something you often forget, remember that it is about the original motivation, background and human aspect)
     - example 1
       - bad: `Restore Fall cohort fixtures in Fusion byline assertions` (only what + where)
@@ -133,14 +141,6 @@
       - good: `Prep Flex cohort creation by dropping sync-format appts, dates, campus` (what + how + why)
   - describe all completed changes exhaustively
   - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
-  - prefer the shortest concrete object-action subject first
-  - use only the commit subject in 99% of cases, avoid using commit message body
-    - the 1% case is when we should link to other things or explain a complicated error case deeply
-  - keep commit message subject lines to max 72 characters
-  - if a clear exhaustive subject exceeds 72 chars, split the work into multiple commits
-  - exception to canonical filename/entity-name rules above
-    - if the subject would exceed 72 chars, fall back to abbreviated, short names
-      - eg. `TS exercise` instead of `typescript-fundamentals-exercises`
 - issue descriptions, issue comments, PR descriptions, PR comments
   - include concise background and history when documenting follow-up work
     - order context by the most relevant recent outcome or cause first, then older background, then solution
