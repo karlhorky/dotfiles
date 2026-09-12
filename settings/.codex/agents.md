@@ -140,6 +140,13 @@
       - bad: `Make Flex cohort appointments content-only and dateless` (misses campus + why)
       - good: `Prep Flex cohort creation by dropping sync-format appts, dates, campus` (what + how + why)
   - describe all completed changes exhaustively
+  - when describing completed changes, omit anything kept unchanged or not done
+    - example 1
+      - bad: `Switch generated slugs to lowercase. Keep page titles unchanged.`
+      - good: `Switch generated slugs to lowercase.`
+    - exceptions
+      - exception 1: mention something kept unchanged or not done when it would be easy to assume it changed or was done, and explain why:
+        - `Switch generated slugs to lowercase. Keep existing URLs unchanged to avoid breaking inbound links.`
   - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
 - issue descriptions, issue comments, PR descriptions, PR comments
   - include concise background and history when documenting follow-up work
@@ -161,6 +168,7 @@
   - do not use `## Summary`
   - do not add empty or near-empty `## Testing`
   - PR descriptions problem-solution section format:
+
     ```
     <problem paragraph>
     <optional code block and/or media>
@@ -171,8 +179,9 @@
     - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
     - the 1st problem-solution section should cover the main problem
     - any following problem-solution sections should cover additional problems - the problem para should start with a prefix like "Also, "
+
   - after the prose, add checked checkboxes for completed changes
-    - checkbox items must describe positive completed changes only, not things kept unchanged or not done
+    - checkbox items must follow the rules above for describing completed changes
     - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
     - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
     - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
