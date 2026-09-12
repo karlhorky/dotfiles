@@ -149,6 +149,17 @@
          - eg. upstream ecosystem/tooling behavior change
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
+  - PR descriptions problem-solution section format:
+    ```
+    <problem paragraph>
+    <optional code block and/or media>
+    <solution paragraph, starting with imperative present-tense verb, describing a change that was made in the PR>
+    <optional code block and/or media>
+    ```
+
+    - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
+    - the 1st problem-solution section should cover the main problem
+    - any following problem-solution sections should cover additional problems - the problem para should start with a prefix like "Also, "
   - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
     - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
   - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
