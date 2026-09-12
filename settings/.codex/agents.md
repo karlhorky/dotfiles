@@ -149,6 +149,17 @@
          - eg. upstream ecosystem/tooling behavior change
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
+  - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
+    - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
+  - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
+    - do not collect media in a separate screenshots section
+    - do not insert media or code permalinks without prose explicitly referring to it
+    - code and media should mostly refer to existing code and the problem, not the solution - the solution can be viewed in the PR diff
+      - exception: "After" screenshots, videos, etc which are not directly observable from the code
+- PR descriptions
+  - start with problem, then solution
+  - do not use `## Summary`
+  - do not add empty or near-empty `## Testing`
   - PR descriptions problem-solution section format:
     ```
     <problem paragraph>
@@ -160,17 +171,6 @@
     - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
     - the 1st problem-solution section should cover the main problem
     - any following problem-solution sections should cover additional problems - the problem para should start with a prefix like "Also, "
-  - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
-    - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
-  - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
-    - do not collect media in a separate screenshots section
-    - do not insert media or code permalinks without prose explicitly referring to it
-    - code and media should mostly refer to existing code and the problem, not the solution - the solution can be viewed in the PR diff
-      - exception: "After" screenshots, videos, etc which are not directly observable from the code
-- PR descriptions
-  - start with problem, then solution
-  - do not use `## Summary`
-  - do not add empty or near-empty `## Testing` sections
   - after the prose, add checked checkboxes for completed changes
     - checkbox items must describe positive completed changes only, not things kept unchanged or not done
     - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
