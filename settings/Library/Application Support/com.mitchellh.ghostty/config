@@ -1,3 +1,7 @@
+# Fix Ghostty tabs on macOS 27
+# https://github.com/ghostty-org/ghostty/issues/13070#issuecomment-5676627801
+auto-update-channel = tip
+
 # Use cmd+option+left/right to switch between terminal tabs
 # https://ghostty.org/docs/config/keybind/reference#previous_tab
 keybind = cmd+option+left=previous_tab
