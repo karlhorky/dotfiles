@@ -176,9 +176,6 @@ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 # https://github.com/microsoft/vscode/issues/168396#issuecomment-1343000046
 HISTFILE="$HOME/.zsh_history"
 
-alias pnpmpatch="pnpm patch --edit-dir ./node_modules/.pnpm-patch"
-alias pnpmpatch-commit="pnpm patch-commit ./node_modules/.pnpm-patch && rm -r ./node_modules/.pnpm-patch"
-
 # pnpm
 export PNPM_HOME="/Users/k/Library/pnpm"
 case ":$PATH:" in
