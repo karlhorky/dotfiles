@@ -132,7 +132,7 @@
          - eg. upstream ecosystem/tooling behavior change
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
-  - to refer to code, use commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
+  - to refer to code, use full-SHA commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
     - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
   - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
     - do not collect media in a separate screenshots section
@@ -157,7 +157,26 @@
     - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
     - the 1st problem-solution section should cover the main problem
     - any following problem-solution sections should cover additional problems - the problem para should start with a prefix like "Also, "
+    - code blocks should be explanatory (incl. context eg. the command run) and not only include the error message
+      - example 1
+        - bad:
+          ```bash
+          1 version does not meet the minimumReleaseAge constraint:
+            eslint-plugin-upleveled@3.0.0
+          Add to minimumReleaseAgeExclude in pnpm-workspace.yaml and proceed with the install? (y/N)
+          ```
+          - good:
+          ```bash
+          $ mkdir a && cd a
 
+          $ pnpm init <output if relevant>
+
+          $ pnpm add --save-dev eslint-config-upleveled@latest
+          Progress: resolved 0, reused 243, downloaded 1, added 0
+          1 version does not meet the minimumReleaseAge constraint:
+            eslint-plugin-upleveled@3.0.0
+          Add to minimumReleaseAgeExclude in pnpm-workspace.yaml and proceed with the install? (y/N)
+          ```
   - after the prose, add checked checkboxes for completed changes
     - checkbox items must follow the rules above for describing completed changes
     - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
