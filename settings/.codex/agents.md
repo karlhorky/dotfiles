@@ -139,6 +139,8 @@
     - do not insert media or code permalinks without prose explicitly referring to it
     - code and media should mostly refer to existing code and the problem, not the solution - the solution can be viewed in the PR diff
       - exception: "After" screenshots, videos, etc which are not directly observable from the code
+- PR titles
+  - max length 62 characters
 - PR descriptions
   - start with problem, then solution
   - do not use `## Summary`
