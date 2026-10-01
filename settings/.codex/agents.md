@@ -16,35 +16,11 @@
 
 - use `gh` CLI for GitHub interactions, always elevated
 - opening PRs
-  - always make user review title and description before starting work
-    - as usual: create a branch
-    - create an empty commit with a title with the prefix `Add initial empty commit`
-    - as usual: push the branch to GitHub
-    - propose 3 possible PR titles along with 1 possible PR description, following your PR title and description rules
-    - ask the user for approval
-    - after any iteration and approval, create a PR with the approved title and description
-    - once you're ready to commit the first time, amend the empty commit and force push
-- strongly prefer editing PR descriptions from the current GitHub body, to avoid overwriting manual edits:
-
-  ```bash
-  gh pr view "$PR_NUMBER" --json body --jq '.body' |
-    sed 's/<exact old text>/<exact new text>/' |
-    gh pr edit "$PR_NUMBER" --body-file -
-  ```
-
-  - replace exact, unique text only
-  - avoid accidental shell substitution from Markdown backticks: keep sed scripts single-quoted, or use a quoted heredoc / body file
-
-# Terminal
-
-- security: prefer short singular shell commands, so users can allowlist narrow command prefixes in settings
-  - example 1
-    - bad: `cd <dir> && <command>`
-    - good: run the command with a `workdir`
-  - example 2
-    - bad: `git -C <path> status`
-    - good: `git status`
-  - this helps users keep approval prompts enabled instead of relying on broad bypass modes like `--dangerously-skip-permissions` or `--yolo`
+  - always make user review title alternatives after you've opened PR
+    - come up with 3 possible PR titles and choose one
+    - open the PR with your chosen title and a description, following your PR title and description rules
+    - tell the user about the 3 possible PR titles and offer to change to an alternative
+- avoid overwriting manual user / agent edits in title or PR description
 
 # Reasoning
 
