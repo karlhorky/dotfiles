@@ -284,7 +284,7 @@
   "mdx.validate.validateFileLinks": "error",
   "workbench.editorAssociations": {
     "*.copilotmd": "vscode.markdown.preview.editor",
-    "*.svg": "default",
+    "*.{svg}": "svgPreviewer.customEditor",
   },
   "terminal.integrated.allowedLinkSchemes": [
     "file",
@@ -471,4 +471,8 @@
   // introduced in VS Code 1.136
   // - https://code.visualstudio.com/updates/v1_136#_layout-density-for-the-editor-window-experimental
   "window.density.layout": "compact",
+  // Disable frosted glass effect in modern UI, introduced in
+  // VS Code 1.141
+  // - https://code.visualstudio.com/updates/v1_141#_frosted-glass-overlays-and-menus
+  "workbench.modernUIFrostedGlass": false,
 }
