@@ -158,6 +158,8 @@
     - the 1st problem-solution section should cover the main problem
     - any following problem-solution sections should cover additional problems - the problem para should start with a prefix like "Also, "
     - code blocks should be explanatory (incl. context eg. the command run) and not only include the error message
+      - prefer complete passages without omissions to preserve context
+      - if lines are omitted, mark each omission with `...`
       - example 1
         - bad:
           ```bash
