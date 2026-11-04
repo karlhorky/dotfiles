@@ -45,6 +45,7 @@
 - find the one correct way to say something
   - simplify until there is nothing left to remove
   - use canonical, most common terms
+  - do not use casual terms unless we already use them
 - write like a spec document or documentation
   - include technical nouns, verbs, names (eg. symbol names)
   - aim for correctness and precision
