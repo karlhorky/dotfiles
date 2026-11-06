@@ -1,7 +1,7 @@
-model = "gpt-5.5"
+model = "gpt-6.1-sol"
 personality = "pragmatic"
 model_verbosity = "low"
-model_reasoning_effort = "high"
+model_reasoning_effort = "low"
 model_reasoning_summary = "concise"
 
 [mcp_servers.playwright]
