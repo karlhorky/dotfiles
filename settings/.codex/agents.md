@@ -163,12 +163,15 @@
       - if lines are omitted, mark each omission with `...`
       - example 1
         - bad:
+
           ```bash
           1 version does not meet the minimumReleaseAge constraint:
             eslint-plugin-upleveled@3.0.0
           Add to minimumReleaseAgeExclude in pnpm-workspace.yaml and proceed with the install? (y/N)
           ```
+
           - good:
+
           ```bash
           $ mkdir a && cd a
 
@@ -180,6 +183,7 @@
             eslint-plugin-upleveled@3.0.0
           Add to minimumReleaseAgeExclude in pnpm-workspace.yaml and proceed with the install? (y/N)
           ```
+
   - after the prose, add checked checkboxes for completed changes
     - checkbox items must follow the rules above for describing completed changes
     - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
@@ -236,9 +240,10 @@
 - when asking the user to choose, present the options as a numbered or lettered list so each can be referenced uniquely
 - when writing your response to the user:
   - make sure your response is consistent
-    - keep the headline / summary honest - if any caveats/nit/outstanding items remain, qualify the opening (eg. "mostly done, one minor nit:") instead of claiming completion
-    - surface any caveats/nit/outstanding items up front also in the main part of your response
-      - do not bury them ONLY as addenda / postscripts at the last line of your response, especially if you're contradicting your message above, eg. like this:
+    - keep the headline / summary honest - if any remaining work (user actions, unverified claims, re-checks, open questions, nits) remains, qualify the opening (eg. "mostly done, one re-check left:") instead of claiming completion
+    - list remaining work up front, before what was done
+      - after a change, include every earlier check it invalidates as a re-check
+      - do not bury them as addenda / postscripts at the last line of your response, especially if you're contradicting your message above, eg. these are antipatterns:
         - contradicting:
           - first line: "Yes - done. ..."
           - last line: "One loose end ..."
