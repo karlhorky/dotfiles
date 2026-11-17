@@ -151,6 +151,7 @@
     ```
     <problem paragraph>
     <optional code block and/or media>
+    <optional problem example paragraph, starting with "For example, ", optionally followed by a numbered list of example events>
     <solution paragraph, starting with imperative present-tense verb, describing a change that was made in the PR>
     <optional code block and/or media>
     ```
