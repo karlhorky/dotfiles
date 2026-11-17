@@ -154,6 +154,7 @@
     <optional problem example paragraph, starting with "For example, ", optionally followed by a numbered list of example events>
     <solution paragraph, starting with imperative present-tense verb, describing a change that was made in the PR>
     <optional code block and/or media>
+    <optional solution breaking change paragraph, starting with "Breaking change: ", describing removed or changed existing behavior>
     ```
 
     - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
