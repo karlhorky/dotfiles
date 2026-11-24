@@ -46,10 +46,13 @@
   - simplify until there is nothing left to remove
   - use canonical, most common terms
   - do not use casual terms unless we already use them
+  - use parallel structure for parallel content: same structure, identical wording for identical meaning, differ only where the meaning differs - after a change, check siblings
 - write like a spec document or documentation
   - include technical nouns, verbs, names (eg. symbol names)
   - aim for correctness and precision
   - but DO NOT make it long or include a lot of jargon
+  - prefer code over prose when code expresses it (eg. `CONTEXT = 'deploy-preview'`, not `CONTEXT to 'deploy-preview'`)
+- ONLY CLAUDE MODELS: for any writing (code comments, commit messages, PR / issue text), draft 5 variations, review all adversarially against these rules, pick the best
 - avoid vague AI slop pseudo-technical jargon or colloquialisms like:
   - `data`
   - `wire up`
@@ -191,6 +194,25 @@
     - omit routine validation (eg. testing, linting, type checking, builds) and derived changes (eg. generated `dist` files, synchronized sibling IDs), unless unusual or central to the change
     - keep checkbox items sentence-cased with uppercase starting letters (`- [x] Add ...`, not `- [x] add ...`)
     - checkbox items must be actionable: decide the action now instead of writing placeholders like `Consider ...`
+- examples of bad and good prose
+  - example 1: parallel structure and identical wording in code comments
+    - bad:
+      ```ts
+      // Allow Playwright to assert calls to stubbed gtag, lintrk and
+      // fbq, and skip calls in deploy previews (see isDeployPreview)
+      ...
+      // Prevent GA4 and Meta Pixel from tracking deploy preview
+      // page views in production tracking accounts
+      ```
+    - good:
+      ```ts
+      // gtag, lintrk and fbq calls:
+      // 1. Playwright: Allow tests to assert tracking calls to the stubs
+      // 2. Deploy Previews: Prevent tracking in production tracking accounts
+      ...
+      // gtag, lintrk and fbq scripts:
+      // 1. Deploy Previews: Prevent tracking in production tracking accounts
+      ```
 
 # Code style
 
