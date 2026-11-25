@@ -158,6 +158,8 @@
     <solution paragraph, starting with imperative present-tense verb, describing a change that was made in the PR>
     <optional code block and/or media>
     <optional solution breaking change paragraph, starting with "Breaking change: ", describing removed or changed existing behavior>
+    <optional solution alternatives paragraph, starting with "Alternatives considered:", followed by a numbered list of alternatives, each with a "Downside: " sub-bullet per reason it was not chosen>
+    <optional solution limitations paragraph, starting with "Limitations:", followed by a numbered list of known problems not fixed in the PR>
     ```
 
     - both the problem and solution paragraphs end with a `:` if they have the optional code block and/or media below
