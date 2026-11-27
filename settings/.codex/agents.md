@@ -136,13 +136,15 @@
          - eg. upstream ecosystem/tooling behavior change
       3. solution
     - include concrete references (commit / PR / issue permalinks) for provenance
-  - to refer to code, use full-SHA commit-pinned permalinks with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier)
-    - use `?plain=1#Lx` or `?plain=1#Lx-Ly` only for Markdown or MDX files
   - place screenshots, videos, code permalinks and other media in the next paragraph after the prose they support, usually after a colon
-    - do not collect media in a separate screenshots section
-    - do not insert media or code permalinks without prose explicitly referring to it
+    - do not collect media or code permalinks in a separate section
+    - the preceding prose must explicitly refer to the media or code permalink
+    - to refer to code, put a bare full-SHA commit-pinned permalink with line anchors (eg. GitHub permalinks use `#Lx-Ly` fragment identifier) on its own line so GitHub renders a code preview
+      - use `?plain=1#Lx` or `?plain=1#Lx-Ly` for Markdown or MDX files
     - code and media should mostly refer to existing code and the problem, not the solution - the solution can be viewed in the PR diff
       - exception: "After" screenshots, videos, etc which are not directly observable from the code
+  - place all other links inline in the relevant sentence, working them naturally into the prose
+    - do not collect links in a separate links area (eg. an area at the end of a paragraph)
 - PR titles
   - max length 62 characters
 - PR descriptions
